@@ -1,3 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "https://cd2022.freethoughtlebanon.net"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Celebrating Dissent 2022"
+theme = "dissent"
+
+[params]
+    copyrightHtml = 'Copyright &#xA9; 2022 Freethought Lebanon. All Rights Reserved.'
