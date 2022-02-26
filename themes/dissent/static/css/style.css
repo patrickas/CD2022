@@ -19,7 +19,37 @@ a, a:visited, a:hover, a:hover {
     overflow: clip;
 }
 
-.menu-container {
+.line {
+    position: relative;
+    display: block;
+    width: 20%;
+    margin: 40px auto 0 auto;
+    border-top: 2px solid #5a3d99;
+}
+
+button {
+    height: 36px;
+    padding: 5px 35px;
+    border-radius: 10px;
+    background-color: #5a3d99;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.section-container {
+    width: 50%;
+    margin: 40px auto 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    color: #5a3d99;
+}
+
+.menu-aligner .menu-container {
     position: absolute;
     display: inline-block;
     top: 0;
@@ -72,7 +102,7 @@ a, a:visited, a:hover, a:hover {
     position: relative;
     display: block;
     width: 670px;
-    margin: 20px auto 0 auto;
+    margin: 40px auto 0 auto;
 }
 
 .features-banner-container .feature-banner {
@@ -84,9 +114,60 @@ a, a:visited, a:hover, a:hover {
 
 .features-banner-container .feature-banner .number {
     height: 42px;
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 600;
     color: #5a3d99;
 }
 
 .features-banner-container .feature-banner .description {}
+
+.short-about-section-container {}
+
+.short-about-section-container .title {
+}
+
+.short-about-section-container .text {
+    margin-bottom: 26px;
+}
+
+.featured-speakers-container {}
+
+.featured-speakers-container .title {}
+
+.featured-speakers-container .list {
+    margin-bottom: 40px;
+}
+
+.featured-speakers-container .list .featured-banner {
+    display: inline-block;
+    width: 120px;
+    height: 210px;
+    vertical-align: top;
+    margin: 40px 60px 0 60px;
+    color: #ffffff;
+}
+.featured-speakers-container .list .featured-banner .locator {
+    position: absolute;
+}
+
+.featured-speakers-container .list .featured-banner img {
+    z-index: -1;
+}
+
+.featured-speakers-container .list .featured-banner .featured-description {
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    background: RGBA(90, 61, 153, 0.6);
+    height: 50px;
+    padding: 4px 0 0 0;
+}
+
+.featured-speakers-container .list .featured-banner .featured-description .name {
+    font-size: 12px;
+}
+
+.featured-speakers-container .list .featured-banner .featured-description .text {
+    font-size: 8px;
+}
+
