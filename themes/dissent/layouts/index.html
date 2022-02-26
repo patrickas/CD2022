@@ -3,16 +3,7 @@
 <head>{{ partial "head.html" . }}</head>
 
 <body>
-{{ .Resources }}
-
-{{- $image := resources.Get "background.jpg" -}}
-
-    <div class="background-picture-container">
-<!--        <img src="/background.jpg" />-->
-    </div>
-
     <header>{{ partial "header.html" . }}</header>
-
 
     {{ .Content }}
 

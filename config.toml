@@ -3,5 +3,12 @@ languageCode = "en-us"
 title = "Celebrating Dissent 2022"
 theme = "dissent"
 
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+
+
 [params]
     copyrightHtml = 'Copyright &#xA9; 2022 Freethought Lebanon. All Rights Reserved.'
