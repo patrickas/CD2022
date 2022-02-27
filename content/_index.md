@@ -5,7 +5,7 @@ date: 2022-02-23T19:51:48+01:00
 draft: false
 ---
 
-<div class="background-picture-container">
+<div id="main_image_container" class="background-picture-container">
     <img src="CD2022_site_landing.jpg" alt="Background image depicting the event" title="Background Image" />
 </div>
 

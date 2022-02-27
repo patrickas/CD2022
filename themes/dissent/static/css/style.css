@@ -15,7 +15,7 @@ a, a:visited, a:hover, a:hover {
     top: 0;
     width: 100%;
     height: 80%;
-    z-index: -1;
+    z-index: 1;
     overflow: clip;
 }
 
@@ -49,16 +49,39 @@ button {
     color: #5a3d99;
 }
 
-.menu-aligner .menu-container {
+.menu-row-background {
+    position: fixed;
+    width: 100%;
+    text-align: right;
+    z-index: 1;
+}
+
+.menu-row-background img {
+    position: relative;
+    /*display: none;*/
+    width: 100%;
+    height: 60px;
+    /*opacity: 0;*/
+    transition: all 0.5s linear;
+}
+
+.menu-row {
+    position: fixed;
+    width: 100%;
+    text-align: right;
+    z-index: 2;
+}
+
+.menu-row .menu-container {
     position: absolute;
     display: inline-block;
     top: 0;
     right: 0;
-    margin: 0 60px 0 0;
+    margin: 30px 60px 0 0;
     color: #ffffff;
 }
 
-.menu-container .menu-item {
+.menu-row .menu-container .menu-item {
     position: relative;
     display: inline-block;
     height: 24px;
@@ -68,7 +91,7 @@ button {
     border-bottom: solid 2px;
 }
 
-.menu-container .menu-item:hover {
+.menu-row .menu-container .menu-item:hover {
     color: #ffe600;
 }
 
@@ -78,6 +101,7 @@ button {
     left: 0;
     margin: 32% auto auto 12%;
     color: #ffffff;
+    z-index: 1;
 }
 
 .announcement-container .main {
@@ -95,7 +119,7 @@ button {
     margin: 4% auto auto 12%;
     font-size: 30px;
     color: #ffe600;
-
+    z-index: 1;
 }
 
 .features-banner-container {
