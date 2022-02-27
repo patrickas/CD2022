@@ -15,7 +15,7 @@ draft: false
 </div>
 
 <div class="counter-container">
-    <span id="counter">178</span> DAYS LEFT!
+    <span id="days_counter">&nbsp;&nbsp;</span> DAYS LEFT!
 </div>
 
 <div class="features-banner-container">
