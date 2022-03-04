@@ -131,6 +131,7 @@ button {
     display: block;
     width: 670px;
     margin: 40px auto 0 auto;
+    text-align: center;
 }
 
 .features-banner-container .feature-banner {
