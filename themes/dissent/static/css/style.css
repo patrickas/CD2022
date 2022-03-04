@@ -3,6 +3,7 @@ body {
     width: 100vw;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 a, a:visited, a:hover, a:hover {
@@ -200,3 +201,39 @@ button {
     font-size: 8px;
 }
 
+.expect-container {
+    position: relative;
+    height: 100vh;
+    min-height: 90%;
+    margin: 40px auto 0 auto;
+    z-index: 0;
+    overflow: clip;
+}
+
+.expect-container img {
+    position: absolute;
+    min-width: 100%;
+    height: 100%;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+}
+
+.expect-container .text-container {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    border-radius: 21px;
+    padding: 30px 30px;
+    z-index: 2;
+    background-color: RGBA(255, 255, 255, 0.75);
+}
+
+.expect-container .title {
+    font-size: 32px;
+    color: #5a3d99;
+}
+
+.expect-container .body {}

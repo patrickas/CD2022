@@ -94,3 +94,33 @@ draft: false
     </div>
     <div class="button"><button onclick="">COMPLETE SPEAKERS LINEUP</button></div>
 </div>
+
+<div class="expect-container">
+    <img src="CD2022_Apply_background.jpg" alt="Background for the last slide of the main page" title="Background Image" />
+    <div class="text-container">
+        <div class="title">What to expect?</div>    
+        <div class="body">
+            <p>
+                <strong>Discussion panels:</strong> freedom of thought, freedom of speech,<br />
+                secularism, women’s rights, etc.
+            </p>
+            <p>
+                <strong>Performance art shows:</strong> dance, singing, poetry, etc.
+            </p>
+            <p>
+                <strong>Visual arts exhibitions:</strong> photography, sculpture, etc.
+            </p>
+            <p>
+                <strong>Freethought Champions Awards</strong>
+            </p>
+            <p>
+                <strong>Networking booths</strong> for attending organizations
+            </p>
+            <p>
+                And much more!
+            </p>
+            <div class="button"><button onclick="">APPLY TO ATTEND</button></div>
+        </div>
+    </div>
+</div>
+
