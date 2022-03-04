@@ -12,11 +12,13 @@ draft: false
 <div class="announcement-container">
     <div class="main">AUGUST 20-21, 2022<br />COLOGNE GERMANY</div>
     <div class="details">#CELEBRATING_DISSENT_2022<br />#CD22</div>
-</div>
 
 <div class="counter-container">
     <span id="days_counter">&nbsp;&nbsp;</span> DAYS LEFT!
 </div>
+</div>
+
+
 
 <div class="features-banner-container">
     <div class="feature-banner">
