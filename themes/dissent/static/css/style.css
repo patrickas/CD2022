@@ -223,17 +223,21 @@ button {
 
 .expect-container .text-container {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 10%;
     border-radius: 21px;
-    padding: 30px 30px;
+    padding: 50px 50px 40px 50px;
     z-index: 2;
     background-color: RGBA(255, 255, 255, 0.75);
 }
 
-.expect-container .title {
+.expect-container .text-container .title {
     font-size: 32px;
     color: #5a3d99;
 }
 
-.expect-container .body {}
+.expect-container .text-container .body {}
+
+.expect-container .text-container .body .button {
+    margin-top: 40px;
+}
