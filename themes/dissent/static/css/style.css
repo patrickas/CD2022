@@ -1,9 +1,30 @@
+@font-face {
+    font-family: "LatoRegular";
+    src: url("/fonts/Lato-Regular.ttf")  format("truetype")
+}
+
+@font-face {
+    font-family: "LatoLight";
+    src: url("/fonts/Lato-Light.ttf")  format("truetype")
+}
+
+@font-face {
+    font-family: "GothamBold";
+    src: url("/fonts/Gotham-Bold.otf")  format("opentype")
+}
+
+@font-face {
+    font-family: "GothamBlack";
+    src: url("/fonts/Gotham-Black.otf")  format("opentype")
+}
+
 body {
     height: 100vh;
     width: 100vw;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: LatoRegular, serif;
 }
 
 a, a:visited, a:hover, a:hover {
@@ -41,6 +62,7 @@ button {
     font-size: 12px;
     font-weight: bold;
     cursor: pointer;
+    font-family: GothamBold, serif;
 }
 
 .section-container {
@@ -52,6 +74,7 @@ button {
 .section-title {
     font-size: 32px;
     color: #5a3d99;
+    font-family: GothamBold, serif;
 }
 
 .menu-row-background {
@@ -127,6 +150,10 @@ button {
     z-index: 1;
 }
 
+.counter-container #days_counter {
+    font-family: LatoLight, serif;
+}
+
 .features-banner-container {
     position: relative;
     display: block;
@@ -174,6 +201,7 @@ button {
     height: 210px;
     vertical-align: top;
     margin: 40px 60px 0 60px;
+    font-family: GothamBlack, serif;
     color: #ffffff;
 }
 .featured-speakers-container .list .featured-banner .locator {
@@ -191,13 +219,17 @@ button {
     background: RGBA(90, 61, 153, 0.6);
     height: 50px;
     padding: 4px 0 0 0;
+    text-align: left;
 }
 
 .featured-speakers-container .list .featured-banner .featured-description .name {
+    padding: 0 0 0 6px;
     font-size: 12px;
 }
 
 .featured-speakers-container .list .featured-banner .featured-description .text {
+    padding: 0 0 0 6px;
+    font-family: LatoRegular, serif;
     font-size: 8px;
 }
 
@@ -225,13 +257,14 @@ button {
     position: absolute;
     top: 20%;
     left: 10%;
-    border-radius: 21px;
+    /*border-radius: 21px;*/
     padding: 50px 50px 40px 50px;
     z-index: 2;
     background-color: RGBA(255, 255, 255, 0.75);
 }
 
 .expect-container .text-container .title {
+    font-family: GothamBold, serif;
     font-size: 32px;
     color: #5a3d99;
 }
