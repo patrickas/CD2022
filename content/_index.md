@@ -10,7 +10,7 @@ draft: false
 </div>
 
 <div class="announcement-container">
-    <div class="main">AUGUST 20-21, 2022<br />COLOGNE GERMANY</div>
+    <div class="main">AUGUST 20-21, 2022<br />COLOGNE, GERMANY</div>
     <div class="details">#CELEBRATING_DISSENT_2022<br />#CD22</div>
 
 <div class="counter-container">
@@ -118,7 +118,7 @@ draft: false
             <p>
                 <strong>Networking booths</strong> for attending organizations
             </p>
-            <p>
+            <p class="much-more">
                 And much more!
             </p>
             <div class="button"><button onclick="">APPLY TO ATTEND</button></div>
