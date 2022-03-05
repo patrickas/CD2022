@@ -15,4 +15,19 @@ document.addEventListener("DOMContentLoaded", function(){
     //         menuBackground.style.display = "none";
     //     }
     // });
+
+    document.getElementById("hamburger_menu_button").addEventListener("click", toggleMenuVisibility);
+
 });
+
+function toggleMenuVisibility () {
+    toggleVisibility(document.getElementById("hamburger_menu_window"));
+}
+
+function toggleVisibility (element) {
+    if (element.style.display === "") {
+        element.style.display = "block";
+    } else {
+        element.style.display = "";
+    }
+}

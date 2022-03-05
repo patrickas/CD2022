@@ -76,8 +76,13 @@ button {
     font-family: GothamBold, serif;
 }
 
+.hamburger-menu {
+    display: none;
+}
+
 .menu-row-background {
     position: fixed;
+    display: block;
     width: 100%;
     text-align: right;
     z-index: 1;
@@ -94,6 +99,7 @@ button {
 
 .menu-row {
     position: fixed;
+    display: block;
     width: 100%;
     text-align: right;
     z-index: 2;
@@ -136,6 +142,7 @@ button {
 }
 
 .announcement-container .details {
+    margin-top: 10px;
     opacity: 0.6;
 }
 
@@ -195,9 +202,10 @@ button {
 }
 
 .featured-speakers-container .list .featured-banner {
+    position: relative;
     display: inline-block;
-    width: 120px;
-    height: 210px;
+    width: 180px;
+    height: 315px;
     vertical-align: top;
     margin: 40px 60px 0 60px;
     font-family: GothamBlack, serif;
@@ -205,15 +213,17 @@ button {
 }
 .featured-speakers-container .list .featured-banner .locator {
     position: absolute;
+    height: 100%;
 }
 
 .featured-speakers-container .list .featured-banner img {
+    height: 100%;
     z-index: -1;
 }
 
 .featured-speakers-container .list .featured-banner .featured-description {
     position: absolute;
-    bottom: 4px;
+    bottom: 0;
     width: 100%;
     background: RGBA(90, 61, 153, 0.6);
     height: 50px;
@@ -223,13 +233,13 @@ button {
 
 .featured-speakers-container .list .featured-banner .featured-description .name {
     padding: 0 0 0 6px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .featured-speakers-container .list .featured-banner .featured-description .text {
-    padding: 0 0 0 6px;
+    padding: 2px 0 0 6px;
     font-family: LatoRegular, serif;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .expect-container {
@@ -254,7 +264,7 @@ button {
 
 .expect-container .text-container {
     position: absolute;
-    top: 20%;
+    top: 18%;
     left: 10%;
     /*border-radius: 21px;*/
     padding: 50px 50px 40px 50px;
