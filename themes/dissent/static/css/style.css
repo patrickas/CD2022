@@ -135,6 +135,18 @@ button {
     border-bottom: solid 2px;
 }
 
+.menu-row .submenus-container {}
+
+.menu-row .submenus-container .submenu {
+    position: absolute;
+    display: none;
+    padding: 8px 10px;
+    text-align: left;
+    background-color: RGBA(255, 255, 255, 0.8);
+}
+
+.menu-row .submenus-container .submenu .submenu-item {}
+
 .announcement-container {
     position: absolute;
     top: -5%;
