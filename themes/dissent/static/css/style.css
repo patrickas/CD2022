@@ -316,13 +316,13 @@ button {
 
 
 /* fixes for wide screens */
-body , header { max-width: 1500px;margin-right:auto;margin-left:auto;}
+body , header { max-width: 1880px;margin-right:auto;margin-left:auto;}
 .menu-row-background { display:none;}
 .menu-row { position:relative;}
 .menu-row .menu-container {margin-right:0;}
 .menu-row .submenus-container .submenu { margin-left:-90px;}
 .announcement-container {bottom: 5%;}
-.background-picture-container {background-image: url('/CD2022_site_landing.jpg');width: 100%;height: 30vh;min-height:600px;background-attachment: initial;background-size: cover;min-width: 1060px;}
+.background-picture-container {background-image: url('/CD2022_site_landing.jpg');width: 100%;height: 30vh;min-height:600px;background-attachment: initial;background-size: cover;min-width: 1060px;background-position-y: 32%;}
 .counter-container {margin-top:10px; }
 
 
