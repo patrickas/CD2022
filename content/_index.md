@@ -6,17 +6,16 @@ draft: false
 ---
 
 <div id="main_image_container" class="background-picture-container">
-    <img src="CD2022_site_landing.jpg" alt="Background image depicting the event" title="Background Image" />
-</div>
 
 <div class="announcement-container">
     <div class="main">AUGUST 20-21, 2022<br />COLOGNE, GERMANY</div>
     <div class="details">#CELEBRATING_DISSENT_2022<br />#CD22</div>
+    <div class="counter-container">
+        <span id="days_counter">&nbsp;&nbsp;</span> DAYS LEFT!
+    </div>
+</div>
+</div>
 
-<div class="counter-container">
-    <span id="days_counter">&nbsp;&nbsp;</span> DAYS LEFT!
-</div>
-</div>
 
 
 
