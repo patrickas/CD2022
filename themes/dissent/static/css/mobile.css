@@ -73,6 +73,13 @@
     min-height: unset;
 }
 
+.about-header-container .text-container {
+    top: 5%;
+}
+
+.contained-backgrounded-text {
+    min-height: 84px;
+}
 
 
 /* buttons easily clickable on mobile*/
