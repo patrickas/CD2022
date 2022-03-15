@@ -223,7 +223,7 @@ button {
     margin-bottom: 40px;
 }
 
-.featured-speakers-container .list .featured-banner {
+.featured-banner {
     position: relative;
     display: inline-block;
     width: 180px;
@@ -233,17 +233,17 @@ button {
     font-family: GothamBlack, serif;
     color: #ffffff;
 }
-.featured-speakers-container .list .featured-banner .locator {
+.featured-banner .locator {
     position: absolute;
     height: 100%;
 }
 
-.featured-speakers-container .list .featured-banner img {
+.featured-banner img {
     height: 100%;
     z-index: -1;
 }
 
-.featured-speakers-container .list .featured-banner .featured-description {
+.featured-banner .featured-description {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -253,12 +253,12 @@ button {
     text-align: left;
 }
 
-.featured-speakers-container .list .featured-banner .featured-description .name {
+.featured-banner .featured-description .name {
     padding: 0 0 0 6px;
     font-size: 16px;
 }
 
-.featured-speakers-container .list .featured-banner .featured-description .text {
+.featured-banner .featured-description .text {
     padding: 2px 0 0 6px;
     font-family: LatoRegular, serif;
     font-size: 10px;
@@ -442,4 +442,30 @@ body , header { max-width: 1880px;margin-right:auto;margin-left:auto;}
 
 
 /* soft shadows */
-.featured-speakers-container .list .featured-banner .locator { box-shadow: 5px 5px 5px lightgrey;} 
+.featured-banner .locator { box-shadow: 5px 5px 5px lightgrey;} 
+
+
+.program .featured-banner { cursor:pointer; }
+.popup { position:fixed; display:none; z-index:998; top:0; left:0; width:100%;  height:100%; background-color:#000c;}
+.popup > div {
+	position:fixed;
+    top:25vh; left:25vw;
+    width:50%;  height:50%;
+	z-index:999;
+	background-color:#fff;
+	padding:2vh 2vw 2vh 2vw;
+	border:1px solid grey;
+	border-radius:0.4em;
+	text-align:left;
+}
+.popup img { float:left; margin-right:1em; margin-bottom:1em; }
+.popup .featured-description { font-size:larger; margin-bottom:1em;}
+.popup .featured-description .name { font-weight:bolder; }
+.close {
+	display:block; float:right;
+}
+
+
+.content-Program {
+	padding-top:50px;
+}
