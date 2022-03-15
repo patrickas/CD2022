@@ -86,54 +86,35 @@ button {
     display: none;
 }
 
-.menu-row-background {
-    position: fixed;
-    display: block;
-    width: 100%;
-    text-align: right;
-    z-index: 1;
-}
-
-.menu-row-background img {
-    position: relative;
-    /*display: none;*/
-    width: 100%;
-    height: 90px;
-    /*opacity: 0;*/
-    transition: all 0.5s linear;
-}
-
 .menu-row {
-    position: fixed;
+	position:relative;
+	height:0;
     display: block;
     width: 100%;
     text-align: right;
     z-index: 2;
+	background:red;
 }
 
 .menu-row .menu-container {
-    position: absolute;
     display: inline-block;
     top: 0;
     right: 0;
-    margin: 62px 60px 0 0;
+    margin: 0 0 0 0;
     color: #ffffff;
+	width: 100%;
 }
 
+
 .menu-row .menu-container .menu-item {
-    position: relative;
     display: inline-block;
     height: 24px;
     padding: 0 20px;
-    margin: 0;
+    margin: 0 0 0 -3px;
     cursor: pointer;
     border-bottom: solid 1px;
 }
 
-.menu-row .menu-container .menu-item:hover {
-    color: #ffe600;
-    border-bottom: solid 2px;
-}
 
 .menu-row .submenus-container {}
 
@@ -426,7 +407,6 @@ button {
 body , header { max-width: 1880px;margin-right:auto;margin-left:auto;}
 .menu-row-background { display:none;}
 .menu-row { position:relative;}
-.menu-row .menu-container {margin-right:0;}
 .menu-row .submenus-container .submenu { margin-left:-90px;}
 .announcement-container {bottom: 5%;}
 .background-picture-container {background-image: url('/CD2022_site_landing.jpg');width: 100%;height: 30vh;min-height:600px;background-attachment: initial;background-size: cover;min-width: 1060px;background-position-y: 45%;}
@@ -456,9 +436,7 @@ body , header { max-width: 1880px;margin-right:auto;margin-left:auto;}
 }
 
 
-.content-Program {
-	padding-top:150px;
-}
+.content {	padding-top:88px; }
 
 .content-Program .featured-speaker {
     width: 24vw;
@@ -466,6 +444,26 @@ body , header { max-width: 1880px;margin-right:auto;margin-left:auto;}
 	cursor:pointer;
 }
 
+.submenus-container {display:none}
+
 .content-Program .featured-speaker .locator { margin: 0 0  0  0; width:unset;}
 .content-Program .featured-speaker .locator img { width:25vw}
 .content-Program .featured-speaker .featured-description { margin-bottom:2.1em;}
+
+.menu-row .menu-container {  color:#5a3d99; height:25px;padding-top:63px;}
+.menu-row .menu-container .menu-item:hover {    color: #64326d;    border-bottom: solid 2px; }
+.menu-row .menu-container {background-image:url("/header_menu_background.png") }
+
+.page-Home .menu-row .menu-container { color:white; }
+.page-Home .menu-row .menu-container .menu-item:hover {    color: #ffe600;    border-bottom: solid 2px; }
+.page-Home .menu-row .menu-container {background-image:none; }
+
+.menu-item  {font-weight:normal;}
+.page-Home .menu-Home , .page-About .menu-About  , .page-Program .menu-Program  , .page-Attendance .menu-Attendance , .page-Contact .menu-Contact{font-weight:bold}
+.menu-row .menu-container .menu-item.menu-Contact{ margin-right:40px; }
+
+
+.content > .title { padding:60px 0 30px 60px; font-size:2em;font-weight:bold;color:white}
+.content-Program > .title { background:#5a3d99;}
+.content-Program .linup { text-align:center; margin: 40px 20% 40px 20%; }
+.content-Program .linup .title { font-size:2em;font-weight:bold; }
