@@ -316,6 +316,118 @@ button {
     margin-top: 40px;
 }
 
+.about-header-container {
+    position: relative;
+}
+
+.about-header-container img {
+    width: 100%;
+}
+
+.about-header-container .text-container {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    width: 30%;
+    padding: 40px 20px 40px 50px;
+    z-index: 2;
+    color: #ffffff;
+    background-color: RGBA(90, 61, 153, 0.75);
+}
+
+.fog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: RGBA(255, 255, 255, 0.4);
+}
+
+.picture-comments {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #cccccc;
+    text-align: right;
+}
+
+.subnotes {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.content-two-columns {
+    position: relative;
+    max-width: 2000px;
+    width: 75%;
+    margin: 40px auto 0 auto;
+}
+
+.content-two-columns .aligner {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content-two-columns .left {
+    display: inline-block;
+    width: 35%;
+    margin-right: 3%;
+    padding: 10px;
+    vertical-align: top;
+    left: -8%;
+    position: relative;
+}
+
+.content-two-columns .right {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+    left: -3%;
+    width: 35%;
+    position: relative;
+}
+
+.contained-text {
+    text-align: left;
+}
+
+.contained-backgrounded-text {
+    width: 100%;
+    padding: 16px 30px 16px 40px;
+    color: #ffffff;
+    background-color: #5a3d99;
+}
+
+.contained-image {
+    position: relative;
+    width: 100%;
+}
+
+.contact-right-image {
+    width: 250px;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #5a3d99;
+}
+
+.footer .links {
+    padding-top: 20px;
+}
+
+.footer .copyrights {
+    padding-top: 14px;
+    font-size: 12px;
+}
 
 /* fixes for wide screens */
 body , header { max-width: 1880px;margin-right:auto;margin-left:auto;}
