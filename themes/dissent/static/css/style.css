@@ -217,51 +217,44 @@ button {
 
 .featured-speakers-container {}
 
-.featured-speakers-container .title {}
-
-.featured-speakers-container .list {
-    margin-bottom: 40px;
+.featured-speakers-container .title { margin-bottom:1em;}
+.featured-speakers-container .list {  margin-bottom: 2em;
 }
 
-.featured-banner {
-    position: relative;
+.featured-speaker { 
     display: inline-block;
-    width: 180px;
-    height: 315px;
+    width: 24vw;
     vertical-align: top;
-    margin: 40px 60px 0 60px;
+	text-align:center;
+	margin-bottom:1em;
+}
+
+.featured-speaker .locator { box-shadow: 5px 5px 5px lightgrey; width:80%; margin:0 10% 0 10%;} 
+
+.featured-speaker img {
+    width: 100%;
+}
+
+.featured-speaker .featured-description { 
+	position:relative;
+    background: RGBA(90, 61, 153, 0.6);
+    text-align: left;
     font-family: GothamBlack, serif;
     color: #ffffff;
-}
-.featured-banner .locator {
-    position: absolute;
-    height: 100%;
-}
-
-.featured-banner img {
-    height: 100%;
-    z-index: -1;
+	margin: -7em 0 0 0;
+	width: 100%;
+    height: 4.2em;
 }
 
-.featured-banner .featured-description {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background: RGBA(90, 61, 153, 0.6);
-    height: 50px;
-    padding: 4px 0 0 0;
-    text-align: left;
+.featured-speaker .featured-description .name { 
+	padding-top:0.3em;
+	margin:0.5em 0.5em 0.3em 0.5em;
 }
 
-.featured-banner .featured-description .name {
-    padding: 0 0 0 6px;
-    font-size: 16px;
-}
-
-.featured-banner .featured-description .text {
-    padding: 2px 0 0 6px;
+.featured-speaker .featured-description .text {
+	margin:0 0.5em 0.5em 0.5em;
     font-family: LatoRegular, serif;
-    font-size: 10px;
+    font-size: 0.8em;
 }
 
 .expect-container {
@@ -441,11 +434,7 @@ body , header { max-width: 1880px;margin-right:auto;margin-left:auto;}
 
 
 
-/* soft shadows */
-.featured-banner .locator { box-shadow: 5px 5px 5px lightgrey;} 
 
-
-.program .featured-banner { cursor:pointer; }
 .popup { position:fixed; display:none; z-index:998; top:0; left:0; width:100%;  height:100%; background-color:#000c;}
 .popup > div {
 	position:fixed;
@@ -457,6 +446,7 @@ body , header { max-width: 1880px;margin-right:auto;margin-left:auto;}
 	border:1px solid grey;
 	border-radius:0.4em;
 	text-align:left;
+	overflow-y: auto;
 }
 .popup img { float:left; margin-right:1em; margin-bottom:1em; }
 .popup .featured-description { font-size:larger; margin-bottom:1em;}
@@ -467,5 +457,15 @@ body , header { max-width: 1880px;margin-right:auto;margin-left:auto;}
 
 
 .content-Program {
-	padding-top:50px;
+	padding-top:150px;
 }
+
+.content-Program .featured-speaker {
+    width: 24vw;
+	margin-bottom:0;
+	cursor:pointer;
+}
+
+.content-Program .featured-speaker .locator { margin: 0 0  0  0; width:unset;}
+.content-Program .featured-speaker .locator img { width:25vw}
+.content-Program .featured-speaker .featured-description { margin-bottom:2.1em;}

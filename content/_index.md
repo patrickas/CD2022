@@ -65,7 +65,7 @@ draft: false
 <div class="section-container featured-speakers-container">
     <div class="section-title title">Featured Speakers</div>
     <div class="list">
-        <div class="featured-banner">
+        <div class="featured-speaker">
             <div class="locator">
                 <img src="/program/speakers/CD2022_site_speakers_Maryam Namazie.jpg" />
                 <div class="featured-description">
@@ -74,7 +74,7 @@ draft: false
                 </div>
             </div>
         </div>
-        <div class="featured-banner">
+        <div class="featured-speaker">
             <div class="locator">
             <img src="/program/speakers/CD2022_site_speakers_Richard Dawkins.jpg" />
                 <div class="featured-description">
@@ -83,7 +83,16 @@ draft: false
                 </div>
             </div>
         </div>
-        <div class="featured-banner">
+        <div class="featured-speaker">
+            <div class="locator">
+                <img src="/program/speakers/CD2022_site_speakers_Bonya Ahmed.jpg" />
+                <div class="featured-description">
+                    <div class="name">Bonya Ahmed</div>
+                    <div class="text">SCHOLAR AND RESEARCHER</div>
+                </div>
+            </div>
+        </div>
+        <div class="featured-speaker">
             <div class="locator">
                 <img src="/program/speakers/CD2022_site_speakers_Bonya Ahmed.jpg" />
                 <div class="featured-description">
@@ -93,7 +102,7 @@ draft: false
             </div>
         </div>
     </div>
-    <div class="button"><button onclick="">COMPLETE SPEAKERS LINEUP</button></div>
+    <div class="button"><button><a href="/program">COMPLETE SPEAKERS LINEUP</a></button></div>
 </div>
 
 <div class="expect-container">

@@ -101,6 +101,8 @@
 .announcement-container .main {  font-size: 2em !important }
 
 
+.popup {font-size:3rem;}
+
 .popup > div{
 	top:3vh;
 	left:3vw;
@@ -109,9 +111,9 @@
 	padding:2vh 2vw 2vh 2vw;
 }
 
-.popup {font-size:3rem;}
 .popup img { width:33%; }
 .popup .featured-description { font-size:1em; }
+.featured-speaker { width: 48vw; }
 
 button {height:auto;font-size:0.8em;}
 
