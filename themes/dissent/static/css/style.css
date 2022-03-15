@@ -428,7 +428,7 @@ body , header { max-width: 1880px;margin-right:auto;margin-left:auto;}
 	text-align:left;
 	overflow-y: auto;
 }
-.popup img { float:left; margin-right:1em; margin-bottom:1em; }
+.popup img { float:left; margin-right:1em; margin-bottom:1em; max-height:200px;}
 .popup .featured-description { font-size:larger; margin-bottom:1em;}
 .popup .featured-description .name { font-weight:bolder; }
 .close {
