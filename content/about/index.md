@@ -5,6 +5,9 @@ draft: false
 layout: about
 ---
 
+<div class="title">About Celebrating Dissent 2022</div>
+
+
 <div class="about-header-container">
     <img src="CD2022_About1.jpg" />
     <div class="picture-comments">Photo by Jenny Wenhammar via humanisternasyd.wordpress.com</div>

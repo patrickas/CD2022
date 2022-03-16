@@ -4,7 +4,7 @@
 
 <body class="page-{{.Title}}">
     <header>{{ partial "header.html" . }}</header>
-	<div class="content content-Program">
+	<div class="content content-{{.Title}}">
     {{ .Content }}
 	</div>
     <footer>{{ partial "footer.html" . }}</footer>

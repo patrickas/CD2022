@@ -105,14 +105,12 @@ draft: false
     <div class="button"><button><a href="/program">COMPLETE SPEAKERS LINEUP</a></button></div>
 </div>
 
-<div class="expect-container">
-    <img src="CD2022_Apply_background.jpg" alt="Background for the last slide of the main page" title="Background Image" />
+<div class="expect-container ven-bg">
     <div class="text-container">
         <div class="title">What to expect?</div>    
         <div class="body">
             <p>
-                <strong>Discussion panels:</strong> freedom of thought, freedom of speech,<br />
-                secularism, women’s rights, etc.
+                <strong>Discussion panels:</strong> freedom of thought, freedom of speech, secularism, women’s rights, etc.
             </p>
             <p>
                 <strong>Performance art shows:</strong> dance, singing, poetry, etc.
