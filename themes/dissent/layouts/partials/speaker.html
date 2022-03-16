@@ -13,12 +13,12 @@
                 <div class="name">{{ .name }}</div>
                 <div class="text">{{ .title }}</div>
             </div>
-            <div>
-            <div class="social social-website"><a href="{{ .website }}">Website</a></div>
-            <div class="social social-youtube"><a href="{{ .youtube }}">YouTube</a></div>
-            <div class="social social-twitter"><a href="{{ .twitter }}">Twitter</a></div>
-            <div class="social social-facebook"><a href="{{ .facebook }}">Facebook</a></div>
-            <div class="social social-instagram"><a href="{{ .instagram }}">Instagram</a></div>
+            <div class="social-container">
+            {{ if .website }}<div class="social social-website"><a href="{{ .website }}"><img class="icon" src="/program/speakers/icon_website.png"></a></div>{{end}}
+            {{ if .youtube }}<div class="social social-youtube"><a href="{{ .youtube }}"><img class="icon" src="/program/speakers/icon_youtube.png"></a></div>{{end}}
+            {{ if .twitter }}<div class="social social-twitter"><a href="{{ .twitter }}"><img class="icon" src="/program/speakers/icon_twitter.png"></a></div>{{end}}
+            {{ if .facebook }}<div class="social social-facebook"><a href="{{ .facebook }}"><img class="icon" src="/program/speakers/icon_facebook.png"></a></div>{{end}}
+            {{ if .instagram }}<div class="social social-instagram"><a href="{{ .instagram }}"><img class="icon" src="/program/speakers/icon_instagram.png"></a></div>{{end}}
 			<br><br><br>
             {{ .bio }}
             </div>
