@@ -214,6 +214,8 @@ button {
 
 .featured-speaker img {
     width: 100%;
+	min-width:15vw;
+	min-height:10em;
 }
 
 .featured-speaker .featured-description { 
