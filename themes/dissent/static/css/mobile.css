@@ -5,7 +5,7 @@
 .hamburger-menu {
     display: block;
     position: fixed;
-    width: 80%;
+    width: 90%;
     z-index: 2;
     margin: 20px 0 0 0;
     text-align: right;
@@ -31,7 +31,7 @@
     padding: 15px 20px;
     text-align: left;
     font-size: 40px;
-    background-color: RGBA(255, 255, 255, 0.8);
+    background-color: RGBA(255, 255, 255, 0.9);
 }
 
 .hamburger-menu .menu-window .hamburger-menu-item {
@@ -117,5 +117,6 @@
 .popup .featured-description { font-size:1em; }
 
 button {height:auto;font-size:0.8em;}
+.content {	padding-top:0; }
 
 

@@ -94,10 +94,10 @@ draft: false
         </div>
         <div class="featured-speaker">
             <div class="locator">
-                <img src="/program/speakers/CD2022_site_speakers_Bonya Ahmed.jpg" />
+                <img src="/program/speakers/Speakers_SHEVCHENKO INNA.jpg" />
                 <div class="featured-description">
-                    <div class="name">Bonya Ahmed</div>
-                    <div class="text">SCHOLAR AND RESEARCHER</div>
+                    <div class="name">Inna Shevchenko</div>
+                    <div class="text">LEADER – FEMEN</div>
                 </div>
             </div>
         </div>
