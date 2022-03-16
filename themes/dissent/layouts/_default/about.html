@@ -6,6 +6,8 @@
     <header>{{ partial "header.html" . }}</header>
 	<div class="content content-{{.Title}}">
     {{ .Content }}
+	
+	{{ if or (eq .Title "About CD2022") (eq .Title "Contact")  }} {{ partial "hear_from_you" . }} {{ end }}
 	</div>
     <footer>{{ partial "footer.html" . }}</footer>
 </body>

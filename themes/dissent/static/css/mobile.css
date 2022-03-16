@@ -130,4 +130,5 @@ footer {font-size:1.5em;}
 
 .content > .title {position:fixed; top: 0; width:100vw;z-index:1}
 
-.cemb, .ftlb {	width: 60%; }
+.cemb, .ftlb {	width: 60%; margin-left:20%;}
+#contact_us_section .contained-text {text-align:center;}

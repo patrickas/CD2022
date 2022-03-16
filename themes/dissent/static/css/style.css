@@ -425,7 +425,7 @@ body , header { max-width: 1880px;margin-right:auto;margin-left:auto;}
 .visa-assistance .title {font-weight:bold;font-size:1.5em;color: #5a3d99;}
 a.barid {color: #5a3d99;}
 
-.bg-purple {width:100%; background-color: #5a3d99; padding:2em; margin-bottom:3em; color: white;}
+.bg-purple {width:100%; background-color: #5a3d99; padding:2em 0 2em 0; margin-bottom:3em; color: white;}
 .bg-purple .title {font-weight:bold;font-size:1.5em;margin-bottom:1em;color: white;}
 .bg-purple .barid {color:yellow;}
 
