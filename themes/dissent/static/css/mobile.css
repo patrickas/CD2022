@@ -124,3 +124,6 @@ button {height:auto;font-size:0.8em;}
 .content {	padding-top:0; }
 
 footer {font-size:1.5em;}
+.content-two-columns .left , .content-two-columns .right { display:block; width:100%; font-size:1em; margin-bottom:3em;}
+.content-two-columns .contained-text { text-align:justify; }
+.content-two-columns button { font-size:2em; }

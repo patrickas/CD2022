@@ -8,10 +8,7 @@ layout: about
 <div class="title">About Celebrating Dissent 2022</div>
 
 
-<div class="about-header-container">
-    <img src="CD2022_About1.jpg" />
-    <div class="picture-comments">Photo by Jenny Wenhammar via humanisternasyd.wordpress.com</div>
-    <div class="fog"></div>
+<div class="ven-bg about-header-container">
     <div class="text-container">
         <p>
             <strong>Celebrating Dissent 2022</strong> is a two-day
@@ -27,6 +24,7 @@ layout: about
         </p>
     </div>
 </div>
+<div class="picture-comments">Photo by Jenny Wenhammar via humanisternasyd.wordpress.com</div>
 
 <!-- Background. -->
 <div id="background_section" class="content-two-columns">
@@ -73,11 +71,8 @@ layout: about
         <div class="right">
             <img src="CD2022_About2.jpg" class="contained-image" />
         </div>
-    </div>
-</div>
-
+	
 <div class="line"></div>
-
 <!-- Purpose of CD2022. -->
 <div id="purpose_section" class="section-container">
     <div class="section-title title">Purpose of CD2022</div>
@@ -94,7 +89,11 @@ layout: about
             The conference aims to achieve two goals:
         </p>
     </div>
+	
+	
 </div>
+
+
 
 <div class="content-two-columns">
     <div class="aligner">
@@ -276,8 +275,9 @@ layout: about
             <div class="contained-text">
                 <p>
                     Send us all your enquiries and suggestions:<br>
-                    <a href="mailto:cd2022@freethoughtlebanon.net">cd2022@freethoughtlebanon.net</a>
+                    <a class="barid" href="mailto:cd2022@freethoughtlebanon.net">cd2022@freethoughtlebanon.net</a>
                 </p>
+<!--
                 <p>
                     Subscribe to the newsletter to receive reminders,
                     highlights, and detailed information about
@@ -289,6 +289,7 @@ layout: about
                         <button onclick="document.getElementById('contact_form').submit();">SUBMIT</button>
                     </form>
                 </p>
+-->
             </div>
         </div>
         <div class="right">
