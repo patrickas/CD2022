@@ -266,36 +266,53 @@ layout: about
 <div class="line"></div>
 
 <!-- Hear from you / Contact us. -->
-<div id="contact_us_section" class="section-container">
+<div id="contact_us_section" class="section-container bg-purple">
     <div class="section-title title">We’d love to hear from you!</div>
-</div>
-<div class="content-two-columns">
-    <div class="aligner">
-        <div class="left">
-            <div class="contained-text">
-                <p>
-                    Send us all your enquiries and suggestions:<br>
-                    <a class="barid" href="mailto:cd2022@freethoughtlebanon.net">cd2022@freethoughtlebanon.net</a>
-                </p>
-<!--
-                <p>
-                    Subscribe to the newsletter to receive reminders,
-                    highlights, and detailed information about
-                    Celebrating Dissent 2022:
-                </p>
-                <p>
-                    <form id="contact_form" method="post" action="">
-                        <input type="text" placeholder="Your email" />
-                        <button onclick="document.getElementById('contact_form').submit();">SUBMIT</button>
-                    </form>
-                </p>
--->
-            </div>
-        </div>
-        <div class="right">
-            <img src="CD2022_About4.jpg" class="contained-image contact-right-image" />
-            <img src="CD2022_About5.png" class="contained-image contact-right-image" />
-        </div>
-    </div>
-</div>
+	<div class="content-two-columns">
+		<div class="aligner">
+			<div class="left">
+				<div class="contained-text">
+					<p>
+						Send us all your enquiries and suggestions:<br>
+						<a class="barid" href="mailto:cd2022@freethoughtlebanon.net">cd2022@freethoughtlebanon.net</a>
+					</p>
+	<!--
+					<p>
+						Subscribe to the newsletter to receive reminders,
+						highlights, and detailed information about
+						Celebrating Dissent 2022:
+					</p>
+					<p>
+						<form id="contact_form" method="post" action="">
+							<input type="text" placeholder="Your email" />
+							<button onclick="document.getElementById('contact_form').submit();">SUBMIT</button>
+						</form>
+					</p>
+	-->
+				</div>
+			</div>
+			<div class="right">
+				<div class="cemb">
+					<img src="CD2022_About4.jpg" class="contained-image contact-right-image" />
+					<div class="social-container">
+						<div class="social social-website"><a href=""><img class="icon" src="/program/speakers/icon_website_white.png"></a></div>
+						<div class="social social-youtube"><a href=""><img class="icon" src="/program/speakers/icon_youtube_white.png"></a></div>
+						<div class="social social-twitter"><a href=""><img class="icon" src="/program/speakers/icon_twitter_white.png"></a></div>
+						<div class="social social-facebook"><a href=""><img class="icon" src="/program/speakers/icon_facebook_white.png"></a></div>
+					</div>
+				</div>
+				<div class="ftlb">
+					<img src="CD2022_About5.png" class="contained-image contact-right-image" />
+					<div class="social-container">
+						<div class="social social-website"><a href=""><img class="icon" src="/program/speakers/icon_website_white.png"></a></div>
+						<div class="social social-youtube"><a href=""><img class="icon" src="/program/speakers/icon_youtube_white.png"></a></div>
+						<div class="social social-facebook"><a href=""><img class="icon" src="/program/speakers/icon_facebook_white.png"></a></div>
+						<div class="social social-instagram"><a href=""><img class="icon" src="/program/speakers/icon_instagram_white.png"></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
 </div>

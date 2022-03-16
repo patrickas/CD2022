@@ -426,7 +426,14 @@ body , header { max-width: 1880px;margin-right:auto;margin-left:auto;}
 a.barid {color: #5a3d99;}
 
 .bg-purple {width:100%; background-color: #5a3d99; padding:2em; margin-bottom:3em; color: white;}
-.bg-purple .title {font-weight:bold;font-size:1.5em;margin-bottom:1em;}
+.bg-purple .title {font-weight:bold;font-size:1.5em;margin-bottom:1em;color: white;}
+.bg-purple .barid {color:yellow;}
 
-.popup .social .icon { width:1.5em;}
+.social .icon { width:1.5em;}
+
 #purpose_section { max-width:60%}
+
+.ftlb > img {background-color:white} 
+.ftlb > img , .cemb > img {display:inline-block;margin-left:20%;float:left;}
+
+.cemb , .ftlb { height:180px;}
