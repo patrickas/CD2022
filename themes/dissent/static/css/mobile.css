@@ -13,9 +13,10 @@
 
 .hamburger-menu .hamburger-menu-button {
     position: absolute;
-    display: initial;
+    /* display: initial; */
     width: 10%;
     cursor: pointer;
+	right:1%;
 }
 
 .hamburger-menu img {
@@ -69,7 +70,7 @@
 }
 
 .ven-bg {
-    height: 50%;
+    /* height: 50%; */
     min-height: unset;
 }
 
@@ -84,7 +85,7 @@
 
 /* buttons easily clickable on mobile*/
 .button button {width:auto; height:2em;font-size:2em;} 
-.features-banner-container .feature-banner .description {font-weight:bold;}
+.features-banner-container .feature-banner .description {font-weight:bold;font-size:larger;}
 
 /* Bigger speakers on mobile*/
 .featured-speaker .featured-description {height: 6em; margin-top: -9em;}

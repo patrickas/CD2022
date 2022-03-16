@@ -196,7 +196,7 @@ button {
     margin: 0 auto 26px auto;
 }
 
-.featured-speakers-container {}
+.featured-speakers-container {margin-bottom:2em;}
 
 .featured-speakers-container .title { margin-bottom:1em;}
 .featured-speakers-container .list {  margin-bottom: 2em;
@@ -448,7 +448,7 @@ body , header { max-width: 1880px;margin-right:auto;margin-left:auto;}
 
 
 .content > .title { padding:60px 0 30px 60px; font-size:2em;font-weight:bold;color:white}
-.content > .title { background:#5a3d99;}
+.content > .title { background:url("/cd2022_page_title_bg.jpg");background-size: cover;background-position-y: center;}
 .content-Program .linup { text-align:center; margin: 40px 20% 40px 20%; }
 .content-Program .linup .title { font-size:2em;font-weight:bold; }
 
