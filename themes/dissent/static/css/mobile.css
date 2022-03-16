@@ -86,12 +86,14 @@
 .button button {width:auto; height:2em;font-size:2em;} 
 
 /* Bigger speakers on mobile*/
-.featured-speakers-container .list .featured-banner {margin:0 5px 25px  5px ; width:30%;padding:0;height: 400px;}
-.featured-speakers-container .list .featured-banner img {margin:0;width:30vw;height:auto;}
-.featured-speakers-container .list .featured-banner .locator {height:auto;}
-.featured-speakers-container .list .featured-banner .featured-description .name {font-size:1.7em}
-.featured-speakers-container .list .featured-banner .featured-description .text {font-size:1em}
-.featured-speakers-container .list .featured-banner .featured-description {height: 5em; }
+.featured-speaker .featured-description {height: 6em; margin-top: -9em;}
+
+.featured-speaker  .featured-description .name {font-size:1.7em}
+.featured-speaker  .featured-description .text {font-size:1.2em}
+.featured-speaker , .content-Program .featured-speaker { width: 49vw; }
+.content-Program .featured-speaker .locator img { width:50vw}
+
+.page-Home .featured-speaker .locator { margin-bottom:2em;}
 
 
 .expect-container .text-container .body p {font-size:1.7em}
@@ -113,7 +115,6 @@
 
 .popup img { width:33%; }
 .popup .featured-description { font-size:1em; }
-.featured-speaker { width: 48vw; }
 
 button {height:auto;font-size:0.8em;}
 

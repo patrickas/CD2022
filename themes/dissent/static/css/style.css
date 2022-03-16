@@ -443,11 +443,11 @@ body , header { max-width: 1880px;margin-right:auto;margin-left:auto;}
 	margin-bottom:0;
 	cursor:pointer;
 }
+.content-Program .featured-speaker .locator img { width:25vw}
 
 .submenus-container {display:none}
 
 .content-Program .featured-speaker .locator { margin: 0 0  0  0; width:unset;}
-.content-Program .featured-speaker .locator img { width:25vw}
 .content-Program .featured-speaker .featured-description { margin-bottom:2.1em;}
 
 .menu-row .menu-container {  color:#5a3d99; height:25px;padding-top:63px;}
