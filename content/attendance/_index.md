@@ -13,7 +13,7 @@ layout: about
         <div class="body">
             <p>
                 <strong>Celebrating Dissent 2022</strong> will take place<br />
-                place on <strong>August 20-21, 2022,</strong> <br />
+                on <strong>August 20-21, 2022,</strong> <br />
 				in <strong>Cologne, Germany.</strong><br />
             </p>
         </div>
