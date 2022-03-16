@@ -117,7 +117,7 @@
 	padding:2vh 2vw 2vh 2vw;
 }
 
-.popup img { width:33%; }
+.popup img { width:25vw; max-height:unset; }
 .popup .featured-description { font-size:1em; }
 
 button {height:auto;font-size:0.8em;}
