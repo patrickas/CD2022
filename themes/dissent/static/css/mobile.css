@@ -97,7 +97,7 @@
 .page-Home .featured-speaker .locator { margin-bottom:2em;}
 
 
-.ven-bg .text-container { width:90%;}
+.ven-bg .text-container { width:90%; max-width: unset;}
 .ven-bg .text-container .body p {font-size:1.7em}
 .visa-assistance {width:90%}
 
