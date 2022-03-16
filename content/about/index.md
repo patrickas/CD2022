@@ -298,3 +298,4 @@ layout: about
         </div>
     </div>
 </div>
+</div>
