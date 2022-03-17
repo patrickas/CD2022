@@ -65,7 +65,7 @@ draft: false
 <div class="section-container featured-speakers-container">
     <div class="section-title title">Featured Speakers</div>
     <div class="list">
-        <div class="featured-banner">
+        <div class="featured-speaker">
             <div class="locator">
                 <img src="/program/speakers/CD2022_site_speakers_Maryam Namazie.jpg" />
                 <div class="featured-description">
@@ -74,7 +74,7 @@ draft: false
                 </div>
             </div>
         </div>
-        <div class="featured-banner">
+        <div class="featured-speaker">
             <div class="locator">
             <img src="/program/speakers/CD2022_site_speakers_Richard Dawkins.jpg" />
                 <div class="featured-description">
@@ -83,7 +83,7 @@ draft: false
                 </div>
             </div>
         </div>
-        <div class="featured-banner">
+        <div class="featured-speaker">
             <div class="locator">
                 <img src="/program/speakers/CD2022_site_speakers_Bonya Ahmed.jpg" />
                 <div class="featured-description">
@@ -92,18 +92,25 @@ draft: false
                 </div>
             </div>
         </div>
+        <div class="featured-speaker">
+            <div class="locator">
+                <img src="/program/speakers/Speakers_SHEVCHENKO INNA.jpg" />
+                <div class="featured-description">
+                    <div class="name">Inna Shevchenko</div>
+                    <div class="text">LEADER – FEMEN</div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="button"><button onclick="">COMPLETE SPEAKERS LINEUP</button></div>
+    <div class="button"><button><a href="/program">COMPLETE SPEAKERS LINEUP</a></button></div>
 </div>
 
-<div class="expect-container">
-    <img src="CD2022_Apply_background.jpg" alt="Background for the last slide of the main page" title="Background Image" />
+<div class="expect-container ven-bg">
     <div class="text-container">
         <div class="title">What to expect?</div>    
         <div class="body">
             <p>
-                <strong>Discussion panels:</strong> freedom of thought, freedom of speech,<br />
-                secularism, women’s rights, etc.
+                <strong>Discussion panels:</strong> freedom of thought, freedom of speech, secularism, women’s rights, etc.
             </p>
             <p>
                 <strong>Performance art shows:</strong> dance, singing, poetry, etc.
