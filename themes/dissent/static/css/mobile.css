@@ -18,7 +18,11 @@
 .ven-bg {
     /* height: 50%; */
     min-height: unset;
+	padding-left:5%; padding-right:5%;
 }
+.ven-bg .text-container { width:90%; max-width: unset;}
+.ven-bg .text-container .body p {font-size:1.7em}
+
 
 .about-header-container .text-container {
     top: 5%;
@@ -44,8 +48,6 @@
 .page-Home .featured-speaker .locator { margin-bottom:2em;}
 
 
-.ven-bg .text-container { width:90%; max-width: unset;}
-.ven-bg .text-container .body p {font-size:1.7em}
 .visa-assistance {width:90%}
 
 .background-picture-container {max-height:100%; height: 33vh;} /* for landscape*/
@@ -79,3 +81,4 @@ footer {font-size:1.5em;}
 
 .cemb, .ftlb {	width: 60%; margin-left:20%;}
 #contact_us_section .contained-text {text-align:center;}
+.footer .links a {    display:inline-block; margin: 0 0.1em 0 0.1em; }
