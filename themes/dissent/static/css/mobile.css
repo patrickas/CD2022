@@ -82,3 +82,5 @@ footer {font-size:1.5em;}
 .cemb, .ftlb {	width: 60%; margin-left:20%;}
 #contact_us_section .contained-text {text-align:center;}
 .footer .links a {    display:inline-block; margin: 0 0.1em 0 0.1em; }
+
+.short-about-section-container .text, #purpose_section {	max-width: 35em; }
