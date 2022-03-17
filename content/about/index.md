@@ -2,7 +2,7 @@
 title: "About CD2022"
 date: 2022-02-23T22:54:47+01:00
 draft: false
-layout: about
+layout: page
 ---
 
 <div class="title">About Celebrating Dissent 2022</div>
