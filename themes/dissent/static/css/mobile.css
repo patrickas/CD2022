@@ -75,7 +75,7 @@ footer {font-size:1.5em;}
 .content-two-columns .contained-text { text-align:justify; }
 .content-two-columns button { font-size:2em; }
 
-.content > .title {position:fixed; top: 0; width:100vw;z-index:1}
+.content > .title {position:fixed; top: 0; width:100vw;z-index:1 ; font-size: 3em;}
 
 .cemb, .ftlb {	width: 60%; margin-left:20%;}
 #contact_us_section .contained-text {text-align:center;}
