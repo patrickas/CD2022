@@ -212,6 +212,8 @@ button {
 
 .featured-speaker .locator { box-shadow: 5px 5px 5px lightgrey; width:80%; margin:0 10% 0 10%;} 
 
+.page-Home .featured-speaker .locator > img {width: 100%;}
+
 .featured-speaker > img {
     width: 100%;
 	min-width:15vw;
