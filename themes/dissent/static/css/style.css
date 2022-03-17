@@ -190,7 +190,6 @@ button {
 }
 
 .short-about-section-container .text {
-    max-width: 400px;
     margin: 0 auto 26px auto;
 }
 
@@ -444,7 +443,7 @@ a.barid {color: #5a3d99;}
 
 .social .icon { width:1.3em;}
 
-#purpose_section { max-width: 400px;}
+.short-about-section-container .text , #purpose_section { max-width: 25em;}
 
 .ftlb > img {background-color:white} 
 .ftlb > img , .cemb > img {display:inline-block;margin-left:20%;float:left;}
