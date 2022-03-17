@@ -88,7 +88,7 @@
 .features-banner-container .feature-banner .description {font-weight:bold;font-size:larger;}
 
 /* Bigger speakers on mobile*/
-.featured-speaker .featured-description {height: 6em; margin-top: -9em;}
+.featured-speaker .featured-description {min-height: 6em; margin-top: -9em;}
 
 .featured-speaker  .featured-description .name {font-size:1.7em}
 .featured-speaker  .featured-description .text {font-size:1.2em}
