@@ -81,6 +81,7 @@ label:focus {
   z-index:3
 }
 .hmenu label.hmenu-toggle {
+  transition:all 0.3s ease-in-out;
   position: absolute;
   right: -4em;
   width: 4em;
@@ -91,7 +92,7 @@ label:focus {
   text-indent: -9999px;
   background: #fff0 url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50%/4em 4em no-repeat;
 }
-.hmenu-checkbox:checked + .hmenu label.hmenu-toggle { right:20em}
+.hmenu-checkbox:checked + .hmenu label.hmenu-toggle { right:20em; transition:all 0.3s ease-in-out;}
 
 .hmenu ul { list-style-type: none;   font-size:2.5em;}
 .hmenu ul li a, .hmenu ul li label {
