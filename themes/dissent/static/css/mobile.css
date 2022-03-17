@@ -4,62 +4,8 @@
 
 .hamburger-menu {
     display: block;
-    position: fixed;
-    width: 90%;
-    z-index: 2;
-    margin: 20px 0 0 0;
-    text-align: right;
 }
 
-.hamburger-menu .hamburger-menu-button {
-    position: absolute;
-    /* display: initial; */
-    width: 10%;
-    cursor: pointer;
-	right:1%;
-}
-
-.hamburger-menu img {
-    position: relative;
-    width: 100%;
-}
-
-.hamburger-menu .menu-window {
-    position: absolute;
-    display: none;
-    right: 0;
-    min-width: 340px;
-    padding: 15px 20px;
-    text-align: left;
-    font-size: 40px;
-    background-color: RGBA(255, 255, 255, 0.9);
-}
-
-.hamburger-menu .menu-window .hamburger-menu-item {
-    display: inherit;
-    padding: 16px 0;
-}
-
-.hamburger-menu .menu-window .hamburger-menu-item .title {
-    cursor: pointer;
-}
-
-.hamburger-menu .menu-window .hamburger-menu-item .hamburger-submenu {
-    /*display: none;*/
-    padding-left: 20px;
-}
-
-.hamburger-menu .menu-window .hamburger-menu-item .hamburger-submenu .hamburger-submenu-item {
-    margin: 4px 0;
-    cursor: pointer;
-}
-
-.mobile-submenu-open {
-    display: block;
-}
-.mobile-submenu-closed {
-    display: none;
-}
 
 .announcement-container {
     top: 0;

@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(){
     //     }
     // });
 
-    document.getElementById("hamburger_menu_button").addEventListener("click", toggleMenuVisibility);
+    //document.getElementById("hamburger_menu_button").addEventListener("click", toggleMenuVisibility);
 
     document.body.addEventListener("click", resetSubmenus);
     // document.body.addEventListener("click", resetMobileSubmenus);
