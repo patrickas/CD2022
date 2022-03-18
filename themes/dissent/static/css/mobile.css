@@ -38,12 +38,13 @@
 .features-banner-container .feature-banner .description {font-weight:bold;font-size:larger;}
 
 /* Bigger speakers on mobile*/
-.featured-speaker .featured-description {min-height: 6em; margin-top: -9em;}
+.featured-speaker .featured-description {width:100% ;padding-bottom:0.5em;	height: 7em;	margin: -8.4em 0 0 0;}
+	
 
 .featured-speaker  .featured-description .name {font-size:1.7em}
 .featured-speaker  .featured-description .text {font-size:1.2em}
-.featured-speaker , .content-Program .featured-speaker { width: 49vw; }
-.content-Program .featured-speaker .locator img { width:50vw}
+.featured-speaker , .content-Program .featured-speaker { width: 49vw; position: relative;}
+.content-Program .featured-speaker .locator { width:50vw}
 
 .page-Home .featured-speaker .locator { margin-bottom:2em;}
 
@@ -56,7 +57,8 @@
 
 
 .popup {font-size:3rem;}
-
+.popup .speaker-img-container {height:auto;}
+.popup  button.close { right: -15px;top: -15px; }
 .popup > div{
 	top:3vh;
 	left:3vw;
@@ -64,8 +66,9 @@
 	height:80%;
 	padding:2vh 2vw 2vh 2vw;
 }
+.popup .bio {	position:absolute ;bottom:0.5em;left: 0.5em;right:0.5em;top:9em;overflow-y: auto; }
 
-.popup img { width:25vw; max-height:unset; }
+.popup img.speaker-img { width:25vw; max-height:unset; }
 .popup .featured-description { font-size:1em; }
 
 button {height:auto;font-size:0.8em;}
@@ -79,8 +82,17 @@ footer {font-size:1.5em;}
 
 .content > .title {position:fixed; top: 0; width:100vw;z-index:1 ; font-size: 3em;}
 
-.cemb, .ftlb {	width: 60%; margin-left:20%;}
-#contact_us_section .contained-text {text-align:center;}
+.cemb, .ftlb {	width: 60%; margin-left:20%; }
 .footer .links a {    display:inline-block; margin: 0 0.1em 0 0.1em; }
 
-.short-about-section-container .text, #purpose_section {	max-width: 35em; }
+#purpose_section {	max-width: 35em; }
+.short-about-section-container .text {	max-width: 45em; }
+.section-title.title { padding-left:0; width: 90%;  margin: 0 auto 0 auto;}
+.page-Home .section-title.title { margin-bottom:1em;}
+
+#contact_us_section .section-title.title { width: 100%; }
+.contact-right-image {    width: 300px;}
+.ftlb { height:200px;}
+#contact_us_section .social-container {width:50px;vertical-align: top;float:right;}
+.ftlb > img , .cemb > img {margin-left:0;}
+#contact_us_section .social .icon { width:2.2em}

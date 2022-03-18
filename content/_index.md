@@ -105,30 +105,3 @@ draft: false
     <div class="button"><button><a href="/program">COMPLETE SPEAKERS LINEUP</a></button></div>
 </div>
 
-<div class="expect-container ven-bg">
-    <div class="text-container">
-        <div class="title">What to expect?</div>    
-        <div class="body">
-            <p>
-                <strong>Discussion panels:</strong> Islam and religion, blasphemy and free speech, hijab and women's rights, etc.
-            </p>
-            <p>
-                <strong>Performance art shows:</strong> Dance, singing, poetry, etc.
-            </p>
-            <p>
-                <strong>Visual arts exhibitions:</strong> Photography, art installations, etc.
-            </p>
-            <p>
-                <strong>Freethought Champions Awards</strong>
-            </p>
-            <p>
-                <strong>Networking booths</strong> for attending organizations
-            </p>
-            <p class="much-more">
-                And much more!
-            </p>
-            <div class="button"><button onclick="">APPLY TO ATTEND</button></div>
-        </div>
-    </div>
-</div>
-

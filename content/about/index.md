@@ -75,7 +75,7 @@ layout: page
 <div class="line"></div>
 <!-- Purpose of CD2022. -->
 <div id="purpose_section" class="section-container">
-    <div class="section-title title">Purpose of CD2022</div>
+    <div class="section-title title-centered">Purpose of CD2022</div>
     <div class="text">
         <p>
             Celebrating Dissent 2022 aims to bring ex-Muslim activists together
@@ -139,13 +139,12 @@ layout: page
 <!-- Organizers -->
 <div id="organizers_section" class="section-container">
     <div class="section-title title">Organizers</div>
-</div>
 
 <div class="content-two-columns">
     <div class="aligner">
         <div class="left">
             <div class="contained-text">
-                <p><strong>Freethought Lebanon</strong></p>
+                <p><span class="organizer-title">Freethought Lebanon</span></p>
                 <p>
                     Freethought Lebanon is an initiative
                     that seeks to empower freethinkers,
@@ -172,7 +171,7 @@ layout: page
             </div>
         </div>
         <div class="right">
-            <img src="CD2022_About5.png" class="contained-image" />
+            <img src="CD2022_About5.png" class="organizer-logo contained-image" />
             <button onclick="location.href='https://www.freethoughtlebanon.net'">VISIT WEBSITE</button>
         </div>
     </div>
@@ -182,7 +181,7 @@ layout: page
     <div class="aligner">
         <div class="left">
             <div class="contained-text">
-                <p><strong>Council of Ex-Muslims of Britain</strong></p>
+                <p><span class="organizer-title">Council of Ex-Muslims of Britain</span></p>
                 <p>
                 Council of Ex-Muslims of Britain
                 was established in June 2007 to
@@ -208,10 +207,11 @@ layout: page
             </div>
         </div>
         <div class="right">
-            <img src="CD2022_About4.jpg" class="contained-image" />
+            <img src="CD2022_About4.jpg" class="organizer-logo contained-image" />
             <button onclick="location.href='https://www.ex-muslim.org.uk'">VISIT WEBSITE</button>
         </div>
     </div>
+</div>
 </div>
 
 <div class="line"></div>
