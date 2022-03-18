@@ -384,21 +384,22 @@ body , header { max-width: 1920px;margin-right:auto;margin-left:auto;}
 .popup .bio {	position:absolute ;bottom:5px;;left:200px;top:130px;overflow-y: auto; }
 
 .popup .speaker-img-container {float:left; height:100%;}
-.popup img { margin-right:1em; margin-bottom:1em; max-height:200px;}
+.popup img.speaker-img { margin-right:1em; margin-bottom:1em; max-height:200px;}
 .popup .social img.icon { width: 1.3em; margin-right:0.5em;}
 .popup .social-container {margin-bottom:2em;}
 .popup .social-container .social {display:inline-block;}
 .popup .featured-description { font-size:larger; margin-bottom:1em;}
 .popup .featured-description .name  , .popup .featured-description .text { font-weight:bolder; }
-button.close {	}
 button.close {
 	display:block; float:right; font-size:2em;line-height:1em;
-	
     padding: 0; width:1em;
-    border-radius: 10px;
     background-color: white;
     color: lightgrey;
+	position: relative;
+	right: -20px;
+	top: -10px;
 }
+button.close img {	 width:80% ; filter: opacity(25%); }
 
 
 

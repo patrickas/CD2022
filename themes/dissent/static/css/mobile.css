@@ -58,6 +58,7 @@
 
 .popup {font-size:3rem;}
 .popup .speaker-img-container {height:auto;}
+.popup  button.close { right: -15px;top: -15px; }
 .popup > div{
 	top:3vh;
 	left:3vw;
@@ -67,7 +68,7 @@
 }
 .popup .bio {	position:absolute ;bottom:5px;;left:5px;right:5px;top:400px;;overflow-y: auto; }
 
-.popup img { width:25vw; max-height:unset; }
+.popup img.speaker-img { width:25vw; max-height:unset; }
 .popup .featured-description { font-size:1em; }
 
 button {height:auto;font-size:0.8em;}
