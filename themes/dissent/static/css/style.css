@@ -385,6 +385,7 @@ body , header { max-width: 1920px;margin-right:auto;margin-left:auto;}
 
 .popup .speaker-img-container {float:left; height:100%;}
 .popup img { margin-right:1em; margin-bottom:1em; max-height:200px;}
+.popup .social img.icon { width: 1.3em; margin-right:0.5em;}
 .popup .social-container {margin-bottom:2em;}
 .popup .social-container .social {display:inline-block;}
 .popup .featured-description { font-size:larger; margin-bottom:1em;}
@@ -454,7 +455,8 @@ a.barid {color: #5a3d99;}
 .bg-purple .title {font-weight:bold;font-size:1.5em;margin-bottom:1em;color: white;}
 .bg-purple .barid {color:yellow;}
 
-.social .icon { width:1.3em;}
+.social .icon { width: 1.3em;}
+
 
 .short-about-section-container .text , #purpose_section { max-width: 25em;}
 
