@@ -79,8 +79,14 @@ footer {font-size:1.5em;}
 
 .content > .title {position:fixed; top: 0; width:100vw;z-index:1 ; font-size: 3em;}
 
-.cemb, .ftlb {	width: 60%; margin-left:20%;}
-#contact_us_section .contained-text {text-align:center;}
+.cemb, .ftlb {	width: 60%; margin-left:20%; }
 .footer .links a {    display:inline-block; margin: 0 0.1em 0 0.1em; }
 
 .short-about-section-container .text, #purpose_section {	max-width: 35em; }
+.section-title.title { padding-left:0; text-align:left; width: 90%;  margin: 0 auto 0 auto;}
+#contact_us_section .section-title.title { width: 100%; }
+.contact-right-image {    width: 300px;}
+.ftlb { height:200px;}
+#contact_us_section .social-container {width:50px;vertical-align: top;float:right;}
+.ftlb > img , .cemb > img {margin-left:0;}
+#contact_us_section .social .icon { width:2.2em}

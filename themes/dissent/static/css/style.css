@@ -331,9 +331,6 @@ button {
     width: 100%;
 }
 
-.contact-right-image {
-    width: 250px;
-}
 
 .footer {
     /* position: relative; */
@@ -445,7 +442,16 @@ a.barid {color: #5a3d99;}
 
 .short-about-section-container .text , #purpose_section { max-width: 25em;}
 
-.ftlb > img {background-color:white} 
-.ftlb > img , .cemb > img {display:inline-block;margin-left:20%;float:left;}
+.ftlb > img , .cemb > img {display: inline-block;margin-left:20%;float:left;}
 
-.cemb , .ftlb { height:180px;}
+.cemb , .ftlb { height:130px;}
+
+.section-title.title { padding-left:7%; text-align:left;}
+.organizer-title {    font-family: LatoBlack, sans-serif; font-weight:bold; font-size:larger;}
+.contained-image.organizer-logo {margin-bottom:2em; width:60%; }
+#organizers_section .aligner .right {text-align:left;}
+#organizers_section .aligner .right button {margin-left:2em;}
+
+#contact_us_section .title {font-size:2em; padding-left:0;}
+#contact_us_section .contained-text p {line-height:1.5em;}
+.contact-right-image {    width: 200px;}
