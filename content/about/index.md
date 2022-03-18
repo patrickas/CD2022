@@ -32,9 +32,9 @@ layout: page
         <div class="left">
             <div class="contained-text">
                 <p>
-                    Organized by the “Council of Ex-Muslims of Britain”
-                    and “Freethought Lebanon”, with the support of “VHS
-                    Cologne”, this conference will gather nearly 50
+                    Organized by the “Freethought Lebanon” and 
+                    “Council of Ex-Muslims of Britain”, with the support of 
+                    “VHS Cologne”, this conference will gather nearly 50
                     speakers from 30 countries worldwide, to celebrate
                     freethought and dissent through talks, poetry, film,
                     music, and comedy.
@@ -145,42 +145,6 @@ layout: page
     <div class="aligner">
         <div class="left">
             <div class="contained-text">
-                <p><strong>Council of Ex-Muslims of Britain</strong></p>
-                <p>
-                Council of Ex-Muslims of Britain
-                was established in June 2007 to
-                break the taboo that comes with
-                leaving Islam, highlight the plight of
-                ex-Muslims, and challenge apostasy
-                and blasphemy laws. CEMB stands
-                against all forms of bigotry and
-                unequivocally defends reason,
-                freedom of conscience and
-                expression, rights and secularism.
-                </p>
-                <p>
-                Over the last 15 years, CEMB has
-                provided assistance to thousands of
-                ex-Muslims worldwide, created
-                support groups, solidarity actions
-                and educational materials, including
-                the film Women Leaving Islam and
-                the Woman’s Quran and helped
-                establish Ex-Muslims International.
-                </p>
-            </div>
-        </div>
-        <div class="right">
-            <img src="CD2022_About4.jpg" class="contained-image" />
-            <button onclick="location.href='https://www.ex-muslim.org.uk'">VISIT WEBSITE</button>
-        </div>
-    </div>
-</div>
-
-<div class="content-two-columns">
-    <div class="aligner">
-        <div class="left">
-            <div class="contained-text">
                 <p><strong>Freethought Lebanon</strong></p>
                 <p>
                     Freethought Lebanon is an initiative
@@ -210,6 +174,42 @@ layout: page
         <div class="right">
             <img src="CD2022_About5.png" class="contained-image" />
             <button onclick="location.href='https://www.freethoughtlebanon.net'">VISIT WEBSITE</button>
+        </div>
+    </div>
+</div>
+
+<div class="content-two-columns">
+    <div class="aligner">
+        <div class="left">
+            <div class="contained-text">
+                <p><strong>Council of Ex-Muslims of Britain</strong></p>
+                <p>
+                Council of Ex-Muslims of Britain
+                was established in June 2007 to
+                break the taboo that comes with
+                leaving Islam, highlight the plight of
+                ex-Muslims, and challenge apostasy
+                and blasphemy laws. CEMB stands
+                against all forms of bigotry and
+                unequivocally defends reason,
+                freedom of conscience and
+                expression, rights and secularism.
+                </p>
+                <p>
+                Over the last 15 years, CEMB has
+                provided assistance to thousands of
+                ex-Muslims worldwide, created
+                support groups, solidarity actions
+                and educational materials, including
+                the film Women Leaving Islam and
+                the Woman’s Quran and helped
+                establish Ex-Muslims International.
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <img src="CD2022_About4.jpg" class="contained-image" />
+            <button onclick="location.href='https://www.ex-muslim.org.uk'">VISIT WEBSITE</button>
         </div>
     </div>
 </div>

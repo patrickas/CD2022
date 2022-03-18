@@ -41,50 +41,87 @@
 </div>
 
 <div class="hamburger-menu">
-    <div id="hamburger_menu_button" class="hamburger-menu-button">
-        <img src="/hamburger_menu_icon.png" alt="Menu Button" title="Menu Button"/>
-    </div>
-    <div id="hamburger_menu_window" class="menu-window">
-        <div class="hamburger-menu-item" ><div class="title"><a href="/">Home</a></div></div>
-        <div class="hamburger-menu-item"><div class="title"><a href="/about">About CD2022</a></div>
-            <div id="hamburger_submenu_about" class="hamburger-submenu mobile-submenu-closed">
-                <div class="hamburger-submenu-item"><a href="/about#background_section">Background</a></div>
-                <div class="hamburger-submenu-item"><a href="/about#purpose_section">Purpose</a></div>
-                <div class="hamburger-submenu-item"><a href="/about#organizers_section">Organizers</a></div>
-                <div class="hamburger-submenu-item"><a href="/about#previous_editions_section">Previous Editions</a></div>
-                <div class="hamburger-submenu-item"><a href="/about#contact_us_section">Contact Us</a></div>
-            </div>
-        </div>
-
-        <div class="hamburger-menu-item" ><div class="title"><a href="/program">Program</a></div>
-            <div id="hamburger_submenu_program" class="hamburger-submenu mobile-submenu-closed">
-                <div class="hamburger_submenu-item">Speakers</div>
-                <div class="hamburger_submenu-item">Discussions</div>
-                <div class="hamburger_submenu-item">Art</div>
-                <div class="hamburger_submenu-item">Activities</div>
-                <div class="hamburger_submenu-item">Miscellaneous</div>
-            </div>
-        </div>
-
-        <div class="hamburger-menu-item"><div class="title"><a href="/attendance">Attendance</a></div>
-            <div id="hamburger_submenu_attendance" class="hamburger-submenu mobile-submenu-closed">
-                <div class="hamburger_submenu-item">Venue</div>
-                <div class="hamburger_submenu-item">Buy Tickets</div>
-                <div class="hamburger_submenu-item">Visa Assistance</div>
-            </div>
-        </div>
-
-        <div class="hamburger-menu-item" data-submenu="hamburger_submenu_sponsorship">
-            <div class="title">Sponsorship</div>
-            <div id="hamburger_submenu_sponsorship" class="hamburger-submenu mobile-submenu-closed">
-                <div class="hamburger_submenu-item">Sponsors</div>
-                <div class="hamburger_submenu-item">Become a Sponsor</div>
-                <div class="hamburger_submenu-item">Donate</div>
-            </div>
-        </div>
-
-        <div class="hamburger-menu-item"><div class="title"><a href="/contact">Contract</a></div></div>
-    </div>
+  <input type="checkbox" id="hmenu" name="hmenu" class="hmenu-checkbox">
+  <div class="hmenu">
+    <label class="hmenu-toggle" for="hmenu"><span>Toggle</span></label>
+    <ul>
+		<li><a class="menu-Home" href="/">Home</a></li>
+		<li><a class="menu-About" href="/about">About&nbsp;CD2022</a></li>
+		<li><a class="menu-Program" href="/program">Program</a></li>
+		<li><a class="menu-Attendance" href="/attendance">Attendance</a></li>
+		<li><a>Sponsorship</a></li>
+		<li><a class="menu-" href="/contact">Contact</a></li>
+    </ul>
+  </div>
 </div>
+<style>
+.hamburger-menu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
 
-</div>
+label {
+  cursor: pointer;
+}
+label:focus {
+  outline: none;
+}
+
+.hmenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fffe;
+  width: 25em;
+  height: 100%;
+  transform: translate3d(-25em, 0, 0);
+  transition: transform 0.35s;
+  z-index:3
+}
+.hmenu label.hmenu-toggle {
+  transition:all 0.3s ease-in-out;
+  position: absolute;
+  right: -4em;
+  width: 4em;
+  height: 4em;
+  line-height: 0px;
+  display: block;
+  padding: 0;
+  text-indent: -9999px;
+  background: #fff0 url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50%/4em 4em no-repeat;
+}
+.hmenu-checkbox:checked + .hmenu label.hmenu-toggle { right:20em; transition:all 0.3s ease-in-out;}
+
+.hmenu ul { list-style-type: none;   font-size:2.5em;}
+.hmenu ul li a, .hmenu ul li label {
+  display: block;
+  text-align: right;
+  padding: 0.5em 0.5em 0.5em 0;
+  line-height: 1.2em;
+  text-decoration: none;
+  color: #000;
+  border-bottom:1px solid grey;
+}
+.hmenu ul li a:hover, .hmenu ul li label:hover {
+  color: #666;
+}
+
+/* hide inputs */          
+.hmenu-checkbox {
+  display: none;
+}
+
+/* hide navigation icon for sublabels */    
+.hmenu .hmenu label.hmenu-toggle {
+  background: none;
+}
+
+/* fade in checked menu */    
+.hmenu-checkbox:checked + .hmenu {
+  transform: translate3d(0, 0, 0);
+}
+
+
+</style>

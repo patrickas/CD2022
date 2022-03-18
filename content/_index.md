@@ -67,7 +67,7 @@ draft: false
     <div class="list">
         <div class="featured-speaker">
             <div class="locator">
-                <img src="/program/speakers/CD2022_site_speakers_Maryam Namazie.jpg" />
+                <img src="/program/speakers/Speakers_NAMAZIE MARYAM.jpg" />
                 <div class="featured-description">
                     <div class="name">Maryam Namazie</div>
                     <div class="text">CO-FOUNDER OF THE<br />COUNCIL OF EX-MUSLIMS OF BRITAIN</div>
@@ -76,7 +76,7 @@ draft: false
         </div>
         <div class="featured-speaker">
             <div class="locator">
-            <img src="/program/speakers/CD2022_site_speakers_Richard Dawkins.jpg" />
+            <img src="/program/speakers/Speakers_DAWKINS RICHARD.jpg" />
                 <div class="featured-description">
                     <div class="name">Richard Dawkins</div>
                     <div class="text">EVOLUTIONARY BIOLOGIST<br />AND AUTHOR</div>
@@ -85,7 +85,7 @@ draft: false
         </div>
         <div class="featured-speaker">
             <div class="locator">
-                <img src="/program/speakers/CD2022_site_speakers_Bonya Ahmed.jpg" />
+                <img src="/program/speakers/Speakers_AHMED BONYA.jpg" />
                 <div class="featured-description">
                     <div class="name">Bonya Ahmed</div>
                     <div class="text">SCHOLAR AND RESEARCHER</div>
@@ -110,13 +110,13 @@ draft: false
         <div class="title">What to expect?</div>    
         <div class="body">
             <p>
-                <strong>Discussion panels:</strong> freedom of thought, freedom of speech, secularism, women’s rights, etc.
+                <strong>Discussion panels:</strong> Islam and religion, blasphemy and free speech, hijab and women's rights, etc.
             </p>
             <p>
-                <strong>Performance art shows:</strong> dance, singing, poetry, etc.
+                <strong>Performance art shows:</strong> Dance, singing, poetry, etc.
             </p>
             <p>
-                <strong>Visual arts exhibitions:</strong> photography, sculpture, etc.
+                <strong>Visual arts exhibitions:</strong> Photography, art installations, etc.
             </p>
             <p>
                 <strong>Freethought Champions Awards</strong>
