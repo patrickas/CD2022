@@ -33,7 +33,6 @@ layout: page
 		<p>
 		Please send us your enquiry at the following email addresses:<br>
 		<a class="barid" href="mailto:cd2022@freethoughtlebanon.net">cd2022@freethoughtlebanon.net</a><br>
-		<a class="barid" href="mailto:maryamnamazie@googlemail.com">maryamnamazie@googlemail.com</a><br>
 		</p>
 	</div>
 </div>
