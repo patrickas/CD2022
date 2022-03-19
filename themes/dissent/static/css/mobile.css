@@ -3,9 +3,83 @@
 }
 
 .hamburger-menu {
+    position: absolute;
     display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
+label {
+    cursor: pointer;
+}
+label:focus {
+    outline: none;
+}
+
+.hmenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fffe;
+    width: 25em;
+    height: 100%;
+    transform: translate3d(-25em, 0, 0);
+    transition: transform 0.35s;
+    z-index:3
+}
+.hmenu label.hmenu-toggle {
+    transition:all 0.3s ease-in-out;
+    position: absolute;
+    right: -4em;
+    width: 4em;
+    height: 4em;
+    line-height: 0px;
+    display: block;
+    padding: 0;
+    text-indent: -9999px;
+    background: #fff0 url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50%/4em 4em no-repeat;
+}
+#hmenu_checkbox:checked + .hmenu label.hmenu-toggle { right:20em; transition:all 0.3s ease-in-out;}
+
+.hmenu ul {
+    list-style-type: none;
+    font-size:2.5em;
+    text-align: right;
+    padding: 0.5em 0.5em 0.5em 0;
+}
+
+.hmenu ul li a, .hmenu ul li label {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+.hmenu ul li a:hover, .hmenu ul li label:hover {
+    color: #666;
+}
+
+.hmenu ul li.underlined {
+    border-bottom:1px solid grey;
+}
+
+/* hide inputs */
+.hmenu-checkbox {
+    display: none;
+}
+
+/* hide navigation icon for sublabels */
+.hmenu .hmenu label.hmenu-toggle {
+    background: none;
+}
+
+/* fade in checked menu */
+#hmenu_checkbox:checked + .hmenu {
+    transform: translate3d(0, 0, 0);
+}
+
+.hmenu-submenu {
+    display: none;
+}
 
 .announcement-container { }
 

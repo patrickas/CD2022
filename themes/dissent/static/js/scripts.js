@@ -1,6 +1,6 @@
 // The spacing of the submenus for screen (in pixels).
 let menuTopSpacing = 24;
-let menuLeftSpacing = 0;
+let menuLeftSpacing = 90;
 
 const countDownDate = new Date("Aug 20, 2022").getTime();
 

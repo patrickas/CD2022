@@ -121,11 +121,15 @@ button {
 .menu-row .submenus-container {}
 
 .menu-row .submenus-container .submenu {
-    position: absolute;
+    position: fixed;
     display: none;
     padding: 8px 10px;
     text-align: left;
     background-color: RGBA(255, 255, 255, 0.8);
+}
+
+.page-Home .menu-row .submenus-container .submenu {
+    position: absolute;
 }
 
 .menu-row .submenus-container .submenu .submenu-item {
@@ -409,7 +413,6 @@ button.close img {	 width:80% ; filter: opacity(25%); }
 .featured-speaker {     display: inline-block;    width: 24.5vw;    vertical-align: top;	text-align:center;	margin-bottom:1em;}
 .content-Program .featured-speaker {	margin-bottom:0;	cursor:pointer; }
 .content-Program .featured-speaker .locator > img { width:100%}
-.submenus-container {display:none}
 .content-Program .featured-speaker .locator { margin: 0; width:24.8vw;}
 .content-Program .featured-speaker .featured-description { margin-bottom:0;}
 

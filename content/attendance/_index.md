@@ -7,8 +7,8 @@ layout: page
 
 <div class="title">Attendance</div>
 
-<div class="attendance-top ven-bg">
-    <Ximg src="/CD2022_Apply_background.jpg" alt="Background for the last slide of the main page" title="Background Image" />
+<div id="venue_section" class="attendance-top ven-bg">
+<!--    <Ximg src="/CD2022_Apply_background.jpg" alt="Background for the last slide of the main page" title="Background Image" />-->
     <div class="text-container">
         <div class="body">
             <p>
@@ -21,11 +21,11 @@ layout: page
 </div>
 
 <div class="main-column">
-	<div class="buy-ticket bg-purple">
+	<div id="ticket_section" class="buy-ticket bg-purple">
 		<div class="title">Buy Your Ticket Here!</div>
 		<div>Add info</div>
 	</div>
-	<div class="visa-assistance">
+	<div id="visa_section" class="visa-assistance">
 		<div class="title">Visa Assistance</div>
 		<p>
 		If you need any assistance in the visa application, the organizers of <strong>Celebrating Dissent 2022</strong> are here to help.
