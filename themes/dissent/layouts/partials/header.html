@@ -2,42 +2,36 @@
 
     <div class="menu-row">
         <div class="menu-container">
-            <div class="menu-item menu-Home" data-submenu="none"><a href="/">Home</a></div>
-            <div class="menu-item menu-About" data-submenu="submenu_about"><a href="/about">About CD2022</a></div>
-            <div class="menu-item menu-Program" data-submenu="submenu_program"><a href="/program">Program</a></div>
-            <div class="menu-item menu-Attendance" data-submenu="submenu_attendance"><a href="/attendance">Attendance</a></div>
+				<div class="menu-item menu-Home" data-submenu="none"><a href="/">Home</a></div>
+				<div class="menu-item menu-About" data-submenu="submenu_about"><a href="/about">About CD2022</a>
+					<div id="submenu_about" class="submenu">
+						<div class="submenu-item"><a href="/about#background_section">Background</a></div>
+						<div class="submenu-item"><a href="/about#purpose_section">Purpose</a></div>
+						<div class="submenu-item"><a href="/about#organizers_section">Organizers</a></div>
+						<div class="submenu-item"><a href="/about#previous_editions_section">Previous Editions</a></div>
+						<div class="submenu-item"><a href="/about#contact_us_section">Contact Us</a></div>
+					</div>
+				</div>
+            <div class="menu-item menu-Program" data-submenu="submenu_program">
+				<a href="/program">Program</a>
+					<div id="submenu_program" class="submenu">
+						<div class="submenu-item"><a href="/program#speakers_section">Speakers</a></div>
+						<div class="submenu-item"><a href="/program">Discussions</a></div>
+						<div class="submenu-item"><a href="/program">Art</a></div>
+						<div class="submenu-item"><a href="/program">Activities</a></div>
+						<div class="submenu-item"><a href="/program">Miscellaneous</a></div>
+					</div>
+				</div>
+            <div class="menu-item menu-Attendance" data-submenu="submenu_attendance">
+					<a href="/attendance">Attendance</a>
+					<div id="submenu_attendance" class="submenu">
+						<div class="submenu-item"><a href="/attendance#venue_section">Venue</a></div>
+						<div class="submenu-item"><a href="/attendance#ticket_section">Buy Tickets</a></div>
+						<div class="submenu-item"><a href="/attendance#visa_section">Visa Assistance</a></div>
+					</div>
+			</div>
 <!--            <div class="menu-item menu-Sponsorship" data-submenu="submenu_sponsorship">Sponsorship</div> -->
             <div class="menu-item menu-Contact" data-submenu="none"><a href="/contact">Contact</a></div>
-        </div>
-
-        <div class="submenus-container">
-            <div id="submenu_about" class="submenu">
-                <div class="submenu-item"><a href="/about#background_section">Background</a></div>
-                <div class="submenu-item"><a href="/about#purpose_section">Purpose</a></div>
-                <div class="submenu-item"><a href="/about#organizers_section">Organizers</a></div>
-                <div class="submenu-item"><a href="/about#previous_editions_section">Previous Editions</a></div>
-                <div class="submenu-item"><a href="/about#contact_us_section">Contact Us</a></div>
-            </div>
-
-            <div id="submenu_program" class="submenu">
-                <div class="submenu-item"><a href="/program#speakers_section">Speakers</a></div>
-                <div class="submenu-item"><a href="/program">Discussions</a></div>
-                <div class="submenu-item"><a href="/program">Art</a></div>
-                <div class="submenu-item"><a href="/program">Activities</a></div>
-                <div class="submenu-item"><a href="/program">Miscellaneous</a></div>
-            </div>
-
-            <div id="submenu_attendance" class="submenu">
-                <div class="submenu-item"><a href="/attendance#venue_section">Venue</a></div>
-                <div class="submenu-item"><a href="/attendance#ticket_section">Buy Tickets</a></div>
-                <div class="submenu-item"><a href="/attendance#visa_section">Visa Assistance</a></div>
-            </div>
-
-            <div id="submenu_sponsorship" class="submenu">
-                <div class="submenu-item">Sponsors</div>
-                <div class="submenu-item">Become a Sponsor</div>
-                <div class="submenu-item">Donate</div>
-            </div>
         </div>
     </div>
 
