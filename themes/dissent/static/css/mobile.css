@@ -3,7 +3,7 @@
 }
 
 .hamburger-menu {
-    position: absolute;
+    position:;
     display: block;
     width: 100%;
     height: 100%;
@@ -18,7 +18,7 @@ label:focus {
 }
 
 .hmenu {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background: #fffe;
@@ -30,7 +30,8 @@ label:focus {
 }
 .hmenu label.hmenu-toggle {
     transition:all 0.3s ease-in-out;
-    position: absolute;
+    position: fixed;
+	top:0;
     right: -4em;
     width: 4em;
     height: 4em;
@@ -55,10 +56,14 @@ label:focus {
     color: #000;
 }
 .hmenu ul li a:hover, .hmenu ul li label:hover {
-    color: #666;
+    color: #5a3d99;
 }
+.page-Home .hmenu-Home, .page-About .hmenu-About  , .page-Program .hmenu-Program  , .page-Attendance .hmenu-Attendance , .page-Contact .hmenu-Contact{
+	font-weight:bolder;
+;}
 
-.hmenu ul li.underlined {
+
+.hmenu ul li {
     border-bottom:1px solid grey;
 }
 
