@@ -476,6 +476,7 @@ a.barid {color: #5a3d99;}
 .organizer-title {    font-family: LatoBlack, sans-serif; font-weight:bold; font-size:larger;}
 .contained-image.organizer-logo {margin-bottom:2em; width:60%; }
 #organizers_section .aligner .right {text-align:left;}
+#organizers_section .aligner .right .organizer-logo {margin-top:2em;}
 #organizers_section .aligner .right button {margin-left:2em;}
 
 #contact_us_section .title {font-size:2em; padding-left:0;}
