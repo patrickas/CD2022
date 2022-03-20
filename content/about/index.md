@@ -172,7 +172,7 @@ layout: page
         </div>
         <div class="right">
             <img src="CD2022_About5.png" class="organizer-logo contained-image" />
-            <button onclick="location.href='https://www.freethoughtlebanon.net'">VISIT WEBSITE</button>
+            <a class="button" href="https://www.freethoughtlebanon.net">VISIT WEBSITE</a>
         </div>
     </div>
 </div>
@@ -208,10 +208,11 @@ layout: page
         </div>
         <div class="right">
             <img src="CD2022_About4.jpg" class="organizer-logo contained-image" />
-            <button onclick="location.href='https://www.ex-muslim.org.uk'">VISIT WEBSITE</button>
+            <a class="button" href="https://www.ex-muslim.org.uk">VISIT WEBSITE</a>
         </div>
     </div>
 </div>
+
 </div>
 
 <div class="line"></div>
@@ -219,7 +220,7 @@ layout: page
 <!-- Previous Editions. -->
 <div id="previous_editions_section" class="section-container">
     <div class="section-title title">Previous Editions</div>
-</div>
+
 <div class="content-two-columns">
     <div class="aligner">
         <div class="left">
@@ -239,7 +240,7 @@ layout: page
                     fights for universal rights and freedom of speech.
                 </p>
             </div>
-            <button onclick="location.href='https://debalie.nl/artikel/celebrating-dissent-2'">VISIT WEBSITE</button>
+            <a class="button" href="https://debalie.nl/artikel/celebrating-dissent-2">VISIT WEBSITE</a>
         </div>
         <div class="right">
             <img src="CD2022_About7.jpg" class="contained-image" />
@@ -261,6 +262,8 @@ layout: page
             <button onclick="location.href='https://www.secularconference.com/agenda-2017'">VISIT WEBSITE</button>
         </div>
     </div>
+</div>
+
 </div>
 
 <div class="line"></div>

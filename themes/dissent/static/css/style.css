@@ -59,7 +59,10 @@ a { color: inherit; }
     border-top: 1px solid #5a3d99;
 }
 
-button {
+a.button , button {
+	display:inline-block;
+	vertical-align:middle;
+	text-align:center;
     height: 36px;
     padding: 5px 35px;
     border-radius: 10px;
@@ -71,6 +74,7 @@ button {
     border: 0;
     font-family: GothamBold, sans-serif;
 }
+a.button {    height: 26px; 	line-height: 28px;}
 
 .section-container {
     margin: 40px auto 0 auto;
@@ -489,7 +493,7 @@ a.barid {color: #5a3d99;}
 .contained-image.organizer-logo {margin-bottom:2em; width:60%; }
 #organizers_section .aligner .right {text-align:left;}
 #organizers_section .aligner .right .organizer-logo {margin-top:2em;}
-#organizers_section .aligner .right button {margin-left:2em;}
+#organizers_section .aligner .right button , #organizers_section .aligner .right a.button {margin-left:2em;}
 
 #contact_us_section .title {font-size:2em; padding-left:0;}
 #contact_us_section .contained-text p {line-height:1.5em;}
