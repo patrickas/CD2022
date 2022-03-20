@@ -3,7 +3,7 @@
 }
 
 .hamburger-menu {
-    position: absolute;
+    position:;
     display: block;
     width: 100%;
     height: 100%;
@@ -18,7 +18,7 @@ label:focus {
 }
 
 .hmenu {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background: #fffe;
@@ -30,7 +30,8 @@ label:focus {
 }
 .hmenu label.hmenu-toggle {
     transition:all 0.3s ease-in-out;
-    position: absolute;
+    position: fixed;
+	top:0;
     right: -4em;
     width: 4em;
     height: 4em;
@@ -55,10 +56,14 @@ label:focus {
     color: #000;
 }
 .hmenu ul li a:hover, .hmenu ul li label:hover {
-    color: #666;
+    color: #5a3d99;
 }
+.page-Home .hmenu-Home, .page-About .hmenu-About  , .page-Program .hmenu-Program  , .page-Attendance .hmenu-Attendance , .page-Contact .hmenu-Contact{
+	font-weight:bolder;
+;}
 
-.hmenu ul li.underlined {
+
+.hmenu ul li {
     border-bottom:1px solid grey;
 }
 
@@ -106,7 +111,8 @@ label:focus {
 
 
 /* buttons easily clickable on mobile*/
-.button button {width:auto; height:2em;font-size:2em;} 
+.button button , a.button {width:auto; height:2em;font-size:2em;} 
+a.button  {line-height:2em;} 
 .features-banner-container .feature-banner .description {font-weight:bold;font-size:larger;}
 
 /* Bigger speakers on mobile*/
@@ -143,14 +149,15 @@ label:focus {
 .popup img.speaker-img { width:25vw; max-height:unset; }
 .popup .featured-description { font-size:1em; }
 
-button {height:auto;font-size:0.8em;}
+button  {height:auto;font-size:0.8em;}
 .content {	padding-top:120px; }
 
 footer {font-size:1.5em;}
 .content-two-columns .left , .content-two-columns .right { display:block; width:100%; font-size:1em; margin-bottom:3em; margin-right:0;}
 .content-two-columns .left .contained-backgrounded-text , .content-two-columns .right .contained-backgrounded-text {width:90%}
 .content-two-columns .contained-text { text-align:justify; }
-.content-two-columns button { font-size:2em; }
+.content-two-columns button , .content-two-columns a.button { font-size:2em; }
+
 
 .content > .title {position:fixed; top: 0; width:100vw;z-index:1 ; font-size: 3em;}
 

@@ -57,7 +57,7 @@ draft: false
         dissent through talks, poetry, film, music and comedy.
         </p>
     </div>
-    <div class="button"><button onclick="location.href='/about/'">READ MORE</button></div>
+    <a class="button" href="/about/">READ MORE</a>
 </div>
 
 <div class="line"></div>
@@ -102,6 +102,6 @@ draft: false
             </div>
         </div>
     </div>
-    <div class="button"><button><a href="/program">COMPLETE SPEAKERS LINEUP</a></button></div>
+    <a class="button" href="/program">COMPLETE SPEAKERS LINEUP</a></div>
 </div>
 

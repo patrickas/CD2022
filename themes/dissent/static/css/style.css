@@ -38,7 +38,7 @@ body {
 
 a, a:visited, a:hover {    text-decoration: none; }
 a { color: inherit; }
-.menu-container .menu-item a {color:white;}
+.menu-container .menu-item a {color:white; display:block;}
 
 .background-picture-container {
     width: 100%;
@@ -59,7 +59,10 @@ a { color: inherit; }
     border-top: 1px solid #5a3d99;
 }
 
-button {
+a.button , button {
+	display:inline-block;
+	vertical-align:middle;
+	text-align:center;
     height: 36px;
     padding: 5px 35px;
     border-radius: 10px;
@@ -71,6 +74,7 @@ button {
     border: 0;
     font-family: GothamBold, sans-serif;
 }
+a.button {    height: 26px; 	line-height: 28px;}
 
 .section-container {
     margin: 40px auto 0 auto;
@@ -111,7 +115,7 @@ button {
 .menu-item {
     display: inline-block;
     height: 24px;
-    padding: 0 20px;
+    padding: 0;
     margin: 0 0 0 -3px;
     cursor: pointer;
     font-weight: normal;
@@ -121,26 +125,33 @@ button {
 
 .menu-row .submenus-container {}
 
-.menu-row .submenus-container .submenu {
-    position: fixed;
+.menu-row  .submenu {
+    position: absolute;
     display: none;
+	margin-top:5px;
     padding: 8px 0;
     text-align: left;
-    background-color: RGBA(255, 255, 255, 0.8);
+    background-color: RGBA(255, 255, 255, 0.9);
     font-weight: normal;
     font-family: LatoRegular, sans-serif;
+	border:1px solid lightgrey;
+	border-top:none;
+	border-radius:0 0 3px 3px ; 
 }
 
-.page-Home .menu-row .submenus-container .submenu {
-    position: absolute;
+.menu-row .menu-item:hover .submenu {
+	display:block;
 }
 
-.menu-row .submenus-container .submenu .submenu-item {
+.menu-row .submenu .submenu-item {
     cursor: pointer;
-	padding:5px 10px;
+	padding:5px 5px;
+	color:black;
 }
+.menu-row .menu-container .menu-item:hover .submenu-item  a {	color:black;}
 
-.menu-row .submenus-container .submenu .submenu-item:hover {background-color:#fef37f;}
+
+.menu-row .submenu .submenu-item:hover {background-color:#fef37f;}
 
 
 .announcement-container {
@@ -426,15 +437,17 @@ button.close img {	 width:80% ; filter: opacity(25%); }
 .menu-row .menu-container {background-color:white; background-image:url("/header_menu_background.png") }
 
 .menu-row .menu-container { font-weight:bold;}
+.menu-row .menu-container a { margin:0 20px;}
 .menu-row .menu-container a { color:#5a3d99; }
-.page-Home .menu-row .menu-container a { color:white; }
+.page-Home .menu-row .menu-container a { color:white;}
 .menu-row .menu-container .menu-item:hover {    color: #5a3d99;    border-bottom: solid 2px; }
 .menu-row .menu-container .menu-item:hover a {    color: #5a3d99;    }
 .page-Home .menu-row .menu-container {background-image:none; }
 
 .menu-row .menu-container .menu-item:hover {    color: #ffe600;    border-bottom: solid 2px; }
 .menu-container .menu-item a:hover {color:#ffe600;}
-.menu-row .menu-container .menu-item:hover a {    color: #ffe600;    }
+.menu-row .menu-container .menu-item:hover > a {    color: #5a3d99;    }
+.page-Home .menu-row .menu-container .menu-item:hover > a {    color: #ffe600;    }
 .page-Home .menu-Home, .page-About .menu-About  , .page-Program .menu-Program  , .page-Attendance .menu-Attendance , .page-Contact .menu-Contact{
 	font-weight:bolder;
     font-family: LatoBlack, sans-serif;
@@ -480,7 +493,7 @@ a.barid {color: #5a3d99;}
 .contained-image.organizer-logo {margin-bottom:2em; width:60%; }
 #organizers_section .aligner .right {text-align:left;}
 #organizers_section .aligner .right .organizer-logo {margin-top:2em;}
-#organizers_section .aligner .right button {margin-left:2em;}
+#organizers_section .aligner .right button , #organizers_section .aligner .right a.button {margin-left:2em;}
 
 #contact_us_section .title {font-size:2em; padding-left:0;}
 #contact_us_section .contained-text p {line-height:1.5em;}
