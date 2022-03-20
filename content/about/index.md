@@ -259,7 +259,7 @@ layout: page
                     fights for universal rights and freedom of speech.
                 </p>
             </div>
-            <button onclick="location.href='https://www.secularconference.com/agenda-2017'">VISIT WEBSITE</button>
+            <a class="button" href="https://www.secularconference.com/agenda-2017">VISIT WEBSITE</a>
         </div>
     </div>
 </div>
