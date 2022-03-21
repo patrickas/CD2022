@@ -434,7 +434,12 @@ button.close img {	 width:80% ; filter: opacity(25%); }
 .content-Program .featured-speaker {	margin-bottom:0;	cursor:pointer; }
 .content-Program .featured-speaker .locator > img { width:100%}
 .content-Program .featured-speaker .locator { margin: 0; width:24.8vw; max-width:475px; }
-.content-Program .featured-speaker .featured-description { margin-bottom:0;}
+.content-Program .featured-speaker .featured-description { 
+	margin-bottom:0;
+	height: 3.5em;
+	padding-bottom: 0.2em;
+	margin: -5.2em 0 0 0;
+}
 
 .menu-row .menu-container {  color:#5a3d99; height: 24px;padding-top: 62px;}
 .menu-row .menu-container {background-color:white; background-image:url("/header_menu_background.png") }
