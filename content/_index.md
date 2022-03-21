@@ -67,19 +67,19 @@ draft: false
     <div class="list">
         <div class="featured-speaker">
             <div class="locator">
-                <img src="/program/speakers/Speakers_NAMAZIE MARYAM.jpg" />
+            <img src="/program/speakers/Speakers_DAWKINS RICHARD.jpg" />
                 <div class="featured-description">
-                    <div class="name">Maryam Namazie</div>
-                    <div class="text">CO-FOUNDER OF THE<br />COUNCIL OF EX-MUSLIMS OF BRITAIN</div>
+                    <div class="name">Richard Dawkins</div>
+                    <div class="text">EVOLUTIONARY BIOLOGIST<br />AND AUTHOR</div>
                 </div>
             </div>
         </div>
         <div class="featured-speaker">
             <div class="locator">
-            <img src="/program/speakers/Speakers_DAWKINS RICHARD.jpg" />
+                <img src="/program/speakers/Speakers_NAMAZIE MARYAM.jpg" />
                 <div class="featured-description">
-                    <div class="name">Richard Dawkins</div>
-                    <div class="text">EVOLUTIONARY BIOLOGIST<br />AND AUTHOR</div>
+                    <div class="name">Maryam Namazie</div>
+                    <div class="text">CO-FOUNDER OF THE<br />COUNCIL OF EX-MUSLIMS OF BRITAIN</div>
                 </div>
             </div>
         </div>

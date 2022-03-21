@@ -21,7 +21,7 @@
             <p class="much-more">
                 And much more!
             </p>
-            <a class="button" href="/attendance">LEARN MORE</a>
+				{{ if eq .Title "Home" (eq .Title "Contact")  }} <a class="button" href="/program">LEARN MORE</a> {{ end }}
         </div>
     </div>
 </div>
