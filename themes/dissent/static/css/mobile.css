@@ -126,8 +126,14 @@ a.button  {line-height:2em;}
 .featured-speaker  .featured-description .text {font-size:1.2em}
 .featured-speaker , .content-Program .featured-speaker { width: 49vw; position: relative;}
 .content-Program .featured-speaker .locator { width:50vw}
-
 .page-Home .featured-speaker .locator { margin-bottom:2em;}
+
+.content-Program .featured-speaker .featured-description { 
+	height: 6.5em;
+	padding-bottom: 0.2em;
+	margin: -8.2em 0 0 0;
+}
+.content-Program .featured-speaker .locator , .featured-speaker {max-width:unset;}
 
 
 .visa-assistance {width:90%}
@@ -137,7 +143,7 @@ a.button  {line-height:2em;}
 .announcement-container .main {  font-size: 2em !important }
 
 
-.popup {font-size:3rem;}
+.popup {font-size:2em;}
 .popup .speaker-img-container {height:auto;}
 .popup  button.close { right: -15px;top: -15px; }
 .popup > div{
@@ -147,10 +153,10 @@ a.button  {line-height:2em;}
 	height:80%;
 	padding:2vh 2vw 2vh 2vw;
 }
-.popup .bio {	position:absolute ;bottom:0.5em;left: 0.5em;right:0.5em;top:9em;overflow-y: auto; }
+.popup .bio {	position:absolute ;bottom:0.5em;left: 0.5em;right:0.5em;top:9em;overflow-y: auto; font-size:1.3em}
+.popup .featured-description .name {font-size:1em;}
 
 .popup img.speaker-img { width:25vw; max-height:unset; }
-.popup .featured-description { font-size:1em; }
 
 button  {height:auto;font-size:0.8em;}
 .content {	padding-top:120px; }
