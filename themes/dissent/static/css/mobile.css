@@ -178,3 +178,5 @@ footer {font-size:1.5em;}
 #contact_us_section .social-container {width:50px;vertical-align: top;float:right;}
 .ftlb > img , .cemb > img {margin-left:0;}
 #contact_us_section .social .icon { width:2.2em}
+
+.content-Program .featured-speaker .locator .click_indicator {display:block;}
