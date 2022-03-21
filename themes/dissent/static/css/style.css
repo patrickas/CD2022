@@ -236,7 +236,7 @@ a.button {    height: 26px; 	line-height: 28px;}
 	min-width:15vw;
 	min-height:10em;
 }
-.content-Program .featured-speaker .locator .click_indicator {float:right;width:40px;height:40px;padding-top:20px;}
+.content-Program .featured-speaker .locator .click_indicator {float:right;width:40px;height:40px;padding-top:20px;display:none;}
 .content-Program .featured-speaker .locator .click_indicator > img {width:40px;height:40px;}
 .featured-speaker .featured-description { 
 	position:relative;
@@ -255,8 +255,10 @@ a.button {    height: 26px; 	line-height: 28px;}
 .featured-speaker .featured-description .name { 
 	padding-top:0.3em;
 	margin: 0.5em 0.5em 0.3em 20px;
-	font-family:LatoBlack;
+	font-family:GothamBold, sans-serif;
 	font-size:1.2em;
+	overflow: hidden;
+	white-space: nowrap;
 }
 
 .featured-speaker .featured-description .text {
@@ -412,8 +414,11 @@ body , header { max-width: 1920px;margin-right:auto;margin-left:auto;}
 .popup .social img.icon { width: 1.3em; margin-right:0.5em;}
 .popup .social-container {margin-bottom:2em;}
 .popup .social-container .social {display:inline-block;}
-.popup .featured-description { font-size:larger; margin-bottom:1em;}
-.popup .featured-description .name  , .popup .featured-description .text { font-weight:bolder; }
+.popup .featured-description { margin-bottom:1em;}
+.popup .featured-description .name  { font-family:GothamBold, sans-serif;	font-size:1.2em;}
+.popup .featured-description .text {  font-family: GothamLight, sans-serif;    font-size: 0.8em; }
+    
+
 button.close {
 	display:block; float:right; font-size:2em;line-height:1em;
     padding: 0; width:1em;
@@ -434,7 +439,12 @@ button.close img {	 width:80% ; filter: opacity(25%); }
 .content-Program .featured-speaker {	margin-bottom:0;	cursor:pointer; }
 .content-Program .featured-speaker .locator > img { width:100%}
 .content-Program .featured-speaker .locator { margin: 0; width:24.8vw; max-width:475px; }
-.content-Program .featured-speaker .featured-description { margin-bottom:0;}
+.content-Program .featured-speaker .featured-description { 
+	margin-bottom:0;
+	height: 3.5em;
+	padding-bottom: 0.2em;
+	margin: -5.2em 0 0 0;
+}
 
 .menu-row .menu-container {  color:#5a3d99; height: 24px;padding-top: 62px;}
 .menu-row .menu-container {background-color:white; background-image:url("/header_menu_background.png") }
@@ -454,7 +464,7 @@ button.close img {	 width:80% ; filter: opacity(25%); }
 .page-Home .menu-Home, .page-About .menu-About  , .page-Program .menu-Program  , .page-Attendance .menu-Attendance , .page-Contact .menu-Contact{
 	font-weight:bolder;
     font-family: LatoBlack, sans-serif;
-	border-bottom: solid 2px #ffe600;
+	border-bottom: solid 2px #fff;
 ;}
 .menu {width: width:100vw}
 .page-Home .menu-row .menu-container {position:unset; top: 0; width:100vw;z-index:1 ; background-color:transparent;}
@@ -464,7 +474,7 @@ button.close img {	 width:80% ; filter: opacity(25%); }
 .menu-row .menu-container .menu-item.menu-Contact{ margin-right:40px; }
 
 
-.content > .title { padding: 59px 0 30px 10%; font-size:2em;font-weight:bold;color:white;font-family:GothamBlack;}
+.content > .title { padding: 59px 0 30px 10%; font-size:2em;font-weight:bold;color:white;font-family:GothamBold;}
 .content > .title { background:url("/cd2022_page_title_bg.jpg");background-size: cover;background-position-y: center;}
 
 .content-Program .lineup { text-align:center; margin: 40px 25% 40px 25%; font-size:1.3em;}
@@ -474,7 +484,7 @@ button.close img {	 width:80% ; filter: opacity(25%); }
 .main-column {padding: 2em 10% 2em 10%;}
 .visa-assistance {width:40%}
 .visa-assistance .title {font-weight:bold;font-size:1.5em;color: #5a3d99;}
-a.barid {color: #5a3d99;}
+a.barid {color: #5a3d99; font-weight:bold;}
 
 .bg-purple {width:100%; background-color: #5a3d99; padding:2em 0 2em 0; margin-bottom:3em; color: white;}
 .bg-purple .title {font-weight:bold;font-size:1.5em;margin-bottom:1em;color: white;}
@@ -495,7 +505,7 @@ a.barid {color: #5a3d99;}
 .organizer-title {    font-family: LatoBlack, sans-serif; font-weight:bold; font-size:larger;}
 .contained-image.organizer-logo {margin-bottom:2em; width:60%; }
 #organizers_section .aligner .right {text-align:left;}
-#organizers_section .aligner .right .organizer-logo {margin-top:2em;}
+#organizers_section .aligner .right .organizer-logo {margin-top:2em;display:block;}
 #organizers_section .aligner .right button , #organizers_section .aligner .right a.button {margin-left:2em;}
 
 #contact_us_section .title {font-size:2em; padding-left:0;}
