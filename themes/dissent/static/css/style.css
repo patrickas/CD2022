@@ -430,10 +430,10 @@ button.close img {	 width:80% ; filter: opacity(25%); }
 
 .content {	padding-top: 84px; }
 
-.featured-speaker {     display: inline-block;    width: 24.5vw;    vertical-align: top;	text-align:center;	margin-bottom:1em;}
+.featured-speaker {     display: inline-block;    width: 24.5vw;    max-width:470px; vertical-align: top;	text-align:center;	margin-bottom:1em;}
 .content-Program .featured-speaker {	margin-bottom:0;	cursor:pointer; }
 .content-Program .featured-speaker .locator > img { width:100%}
-.content-Program .featured-speaker .locator { margin: 0; width:24.8vw;}
+.content-Program .featured-speaker .locator { margin: 0; width:24.8vw; max-width:475px; }
 .content-Program .featured-speaker .featured-description { margin-bottom:0;}
 
 .menu-row .menu-container {  color:#5a3d99; height: 24px;padding-top: 62px;}
