@@ -1,3 +1,5 @@
+body, header {	width: 105vw; max-width: 105vw; }
+
 .menu-row-background, .menu-row {
     display: none;
 }
@@ -153,7 +155,7 @@ a.button  {line-height:2em;}
 	height:80%;
 	padding:2vh 2vw 2vh 2vw;
 }
-.popup .bio {	position:absolute ;bottom:0.5em;left: 0.5em;right:0.5em;top:9em;overflow-y: auto; font-size:1.3em}
+.popup .bio {	position:absolute ;bottom:0.5em;left: 0.5em;right:0.5em;top:11em;overflow-y: auto; font-size:1em}
 .popup .featured-description .name {font-size:1em;}
 
 .popup img.speaker-img { width:25vw; max-height:unset; }
@@ -176,13 +178,20 @@ footer {font-size:1.5em;}
 #purpose_section {	max-width: 35em; }
 .short-about-section-container .text {	max-width: 45em; }
 .section-title.title { padding-left:0; width: 90%;  margin: 0 auto 0 auto;}
-.page-Home .section-title.title { margin-bottom:1em;}
+.page-Home .section-title.title { margin-bottom:1em; font-size:3.8em;}
 
 #contact_us_section .section-title.title { width: 100%; }
-.contact-right-image {    width: 300px;}
-.ftlb { height:200px;}
-#contact_us_section .social-container {width:50px;vertical-align: top;float:right;}
+.contact-right-image {    width: 330px;}
+.ftlb { height:250px;}
+#contact_us_section .social-container {width:50px;vertical-align: top;float:right; }
 .ftlb > img , .cemb > img {margin-left:0;}
 #contact_us_section .social .icon { width:2.2em}
 
 .content-Program .featured-speaker .locator .click_indicator {display:block;}
+
+#contact_us_section .social-container .social a > img {width:3em;}
+
+.content-Program .lineup { margin-left:0;margin-right:0;}
+.features-banner-container .feature-banner .number {font-size:4em; height:1em;}
+.features-banner-container .feature-banner .description {font-size:3em;}
+.features-banner-container {/* width: 100%; */ margin:40px 0 0 0;}
