@@ -462,7 +462,7 @@ button.close img {	 width:80% ; filter: opacity(25%); }
 .menu-container .menu-item a:hover {color:#ffe600;}
 .menu-row .menu-container .menu-item:hover > a {    color: #5a3d99;    }
 .page-Home .menu-row .menu-container .menu-item:hover > a {    color: #ffe600;    }
-.page-Home .menu-Home, .page-About .menu-About  , .page-Program .menu-Program  , .page-Attendance .menu-Attendance , .page-Contact .menu-Contact{
+.page-Home .menu-Home, .page-About .menu-About  , .page-Program .menu-Program  , .page-Attendance .menu-Attendance , .page-Contact .menu-Contact , .page-Partners .menu-Partners {
 	font-weight:bolder;
     font-family: LatoBlack, sans-serif;
 	border-bottom: solid 2px #fff;
@@ -518,3 +518,18 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .bg-purple.buy-ticket .title {color:#ffe600;}
 .bg-purple.buy-ticket .text {margin-bottom:1em; min-width:400px;  max-width:24vw;font-family:LatoLight;}
 .bg-purple.buy-ticket .fee {float:right;font-weight:bold;}
+
+.partners-blurb {text-align:center; margin:5rem 20vw 5rem 20vw;}
+
+
+.partner-boxes {overflow: hidden; position: relative;margin-bottom:3rem;}
+#become-partner {padding:2rem;margin:0;margin-left:10vw; margin-right:5vw; width:35vw; display:inline-block;position: absolute;    top: 0; bottom:0;}
+#become-partner > div {margin-bottom:1rem; }
+
+.border-purple > div {border:0.5rem solid #5a3d99; padding:2rem;width:100%;}
+.border-purple .title {color:#5a3d99; font-weight: bold; font-size: 1.5em;}
+.border-purple  > div > div {margin-bottom:1rem;}
+
+#donate-box {margin: 0;margin-left:55vw; width:35vw; display:inline-block; }
+.partner-logo {margin:5vw; display:inline-block;text-align:center;padding:10vw;border:1px solid red;}
+.partner-logo {width:15vw;height:5vw;margin:0 10vw 1rem 10vw ; display:inline-block;text-align:center;padding:5vw;border:1px solid red;}
