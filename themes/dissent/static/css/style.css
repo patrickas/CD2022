@@ -517,4 +517,4 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .bg-purple.buy-ticket {padding:2em;}
 .bg-purple.buy-ticket .title {color:#ffe600;}
 .bg-purple.buy-ticket .text {margin-bottom:1em; min-width:400px;  max-width:24vw;font-family:LatoLight;}
-.bg-purple.buy-ticket .fee {float:right;FONT-WEIGHT:BOLD;}
+.bg-purple.buy-ticket .fee {float:right;font-weight:bold;}

@@ -26,7 +26,7 @@ layout: page
 		<div class="text">To access talks, shows, and events of <strong>Celebrating Dissent 2022</strong>, you can select one of the following tickets:</div>
 		<div class="text"><strong>2-day ticket</strong> / Aug 20 and 21 <div class="fee">€50.00+€4.49 Fee</div></div>
 		<div class="text"><strong>1-day ticket</strong> / Aug 20 or 21 <div class="fee">€50.00+€4.49 Fee</div></div>
-		<a class="button" href="https://www.eventbrite.co.uk/e/celebrating-dissent-2022-tickets-270982685507">Buy Ticket</a>
+		<a class="button" href="https://www.eventbrite.co.uk/e/celebrating-dissent-2022-tickets-270982685507">Buy Tickets</a>
 	</div>
 	<div id="visa_section" class="visa-assistance">
 		<div class="title">Visa Assistance</div>
