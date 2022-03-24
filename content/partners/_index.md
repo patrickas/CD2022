@@ -12,16 +12,13 @@ layout: page
 <p>The conference remains open for more partnership opportunities and the list of partners will be regularly updated.</p>
 </div>
 
-<div class="partner-logo">Partner LOGO</div>
-<div class="partner-logo">Partner LOGO</div>
-<div class="partner-logo">Partner LOGO</div>
-<div class="partner-logo">Partner LOGO</div>
-<div class="partner-logo">Partner LOGO</div>
-<div class="partner-logo">Partner LOGO</div>
-<div class="partner-logo">Partner LOGO</div>
-<div class="partner-logo">Partner LOGO</div>
-<div class="partner-logo">Partner LOGO</div>
-
+<div class="partner-logos">
+	<div class="partner-logo partner1"><a href="https://www.giordano-bruno-stiftung.de/en"><img src="/partners/partners_gbs.jpg"></a></div>
+	<div class="partner-logo partner2"><a href="https://ffrf.org/"><img src="/partners/partners_ffrf.jpg"></a></div>
+	<div class="partner-logo partner3"><a href="https://vhs-koeln.de/"><img src="/partners/partners_vhs.jpg"></a></div>
+	<div class="partner-logo partner4"><a href="https://www.secularism.org.uk/"><img src="/partners/partners_nss.jpg"></a></div>
+	<div class="partner-logo partner5"><a href="https://atheist-refugees.com/en/"><img src="/partners/partners_arr.jpg"></a></div>
+</div>
 
 <div class="partner-boxes">
 <div id="become-partner" class="bg-purple">

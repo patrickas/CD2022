@@ -208,4 +208,6 @@ footer {font-size:1.5em;}
 #become-partner {margin:0 10vw 10vw 10vw; width:80vw; display:block;position: unset;}
 #donate-box {margin:0 10vw 10vw 10vw; width:79vw; display:block;position: unset;}
 
-.partner-logo {width:20vw;height:5vw;}
+.partner-logo {width:auto;height:auto;;}
+.partner-logo.partner1 , .partner-logo.partner2 , .partner-logo.partner3 , .partner-logo.partner4  {margin:0 0 4em 0;}
+.partner-logo a img {width:60vw; max-width:100%;}

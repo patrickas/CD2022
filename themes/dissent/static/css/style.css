@@ -535,10 +535,15 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .border-purple .title {color:#5a3d99; font-weight: bold; font-size: 1.5em;}
 .border-purple  > div > div {margin-bottom:1rem;}
 
+.partner-logos {text-align:center;}
+.partner-logo {display:inline-block;text-align:center; margin-bottom:4em;}
+.partner-logo.partner1{margin-left:20vw;}
+.partner-logo.partner2{margin-right:20vw;}
+.partner-logo.partner1 , .partner-logo.partner3 , .partner-logo.partner4{margin-right:2vw;}
+.partner-logo a img { width:20vw; max-width:330px;}
+
 #donate-box {margin: 0;margin-left:55vw; width:35vw; display:inline-block; text-align: center;}
 #donate-box > div > div { text-align: left; }
-.partner-logo {margin:5vw; display:inline-block;text-align:center;padding:10vw;border:1px solid red;}
-.partner-logo {width:15vw;height:5vw;margin:0 10vw 1rem 10vw ; display:inline-block;text-align:center;padding:5vw;border:1px solid red;}
 #donate-box  a.button { margin: 0 auto 0 auto; display:inline-block;}
 
 #venue_section .smaller {font-size:smaller;}
