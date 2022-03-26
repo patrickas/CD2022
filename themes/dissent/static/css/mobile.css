@@ -161,7 +161,7 @@ a.button  {line-height:3rem;}
 .popup img.speaker-img { width:25vw; max-height:unset; }
 
 button  {height:auto;font-size:0.8em;}
-.content {	padding-top:120px; }
+.content {	padding-top: 140px; }
 
 footer {font-size:1.5em;}
 .content-two-columns .left , .content-two-columns .right { display:block; width:100%; font-size:1em; margin-bottom:3em; margin-right:0;}
@@ -195,3 +195,19 @@ footer {font-size:1.5em;}
 .features-banner-container .feature-banner .number {font-size:4em; height:1em;}
 .features-banner-container .feature-banner .description {font-size:3em;}
 .features-banner-container {/* width: 100%; */ margin:40px 0 0 0;}
+
+.bg-purple.buy-ticket .title {font-size:3rem;}
+.bg-purple.buy-ticket > div {min-width:400px;  max-width:100%;}
+.bg-purple.buy-ticket .text {font-size:1.5rem;margin-bottom:1em; font-family:LatoLight;}
+.bg-purple.buy-ticket .fee {font-size:2.3rem;}
+.bg-purple.buy-ticket { display:block;width: 75vw;} 
+.bg-purple.buy-ticket  > div { max-width:100%; margin-bottom:3em;}
+
+.partners-blurb {text-align:justify; margin:5rem;}
+
+#become-partner {margin:0 10vw 10vw 10vw; width:80vw; display:block;position: unset;}
+#donate-box {margin:0 10vw 10vw 10vw; width:79vw; display:block;position: unset;}
+
+.partner-logo {width:auto;height:auto;;}
+.partner-logo.partner1 , .partner-logo.partner2 , .partner-logo.partner3 , .partner-logo.partner4  {margin:0 0 4em 0;}
+.partner-logo a img {width:60vw; max-width:100%;}
