@@ -492,7 +492,7 @@ div {scroll-margin-top: 7em;}
 .visa-assistance .title {font-weight:bold;font-size:1.5em;color: #5a3d99;}
 a.barid {color: #5a3d99; font-weight:bold;}
 
-.bg-purple {width:100%; background-color: #5a3d99; padding:2em 0 2em 0; margin-bottom:3em; color: white;}
+.bg-purple {width:100%; background-color: #7e60bf; padding:2em 0 2em 0; margin-bottom:3em; color: white;}
 .bg-purple .title {font-weight:bold;font-size:1.5em;margin-bottom:1em;color: white;}
 .bg-purple .barid {color:yellow;}
 
@@ -524,10 +524,10 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .bg-purple.buy-ticket  {display :flex }
 .bg-purple.buy-ticket  > div { min-width:400px;  max-width:40vw; display:inline-block; flex:1 ; margin-right:5vw;}
 .bg-purple.buy-ticket  > div.extra-info { margin:0;}
-.bg-purple.buy-ticket .title {color:#ffe600;}
-.bg-purple.buy-ticket .text {margin-bottom:1em; font-family:LatoLight;}
-.bg-purple.buy-ticket .fee {float:right;font-weight:bold;}
-.bg-purple.buy-ticket a.button {color:#5a3d99; background-color:#ffe600;}
+.bg-purple.buy-ticket .title {color:#ffe600; font-family:LatoBlack;}
+.bg-purple.buy-ticket .text {margin-bottom:1em; font-family:LatoRegular;}
+.bg-purple.buy-ticket .fee {float:right;font-weight:bold; font-family:GothamBold;}
+.bg-purple.buy-ticket a.button {color:#5a3d99; background-color:#fde500;}
 
 .partners-blurb {text-align:center; margin:5rem 20vw 5rem 20vw;}
 
