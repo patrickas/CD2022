@@ -206,6 +206,7 @@ a.button {    height: 26px; 	line-height: 28px;}
     font-weight: 600;
     color: #5a3d99;
 	font-family: GothamBlack, sans-serif;
+	margin-bottom:0.5rem;
 }
 
 .features-banner-container .feature-banner .description {}

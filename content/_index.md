@@ -30,7 +30,7 @@ draft: false
     </div>
     <div class="feature-banner">
         <div class="number">30+</div>
-        <div class="description">NATIONALITIES</div>
+        <div class="description">COUNTRIES</div>
     </div>
     <div class="feature-banner">
         <div class="number">8</div>
