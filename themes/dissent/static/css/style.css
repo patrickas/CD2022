@@ -474,7 +474,7 @@ div {scroll-margin-top: 7em;}
 	border-bottom: solid 2px #fff;
 ;}
 .menu {width: width:100vw}
-
+.page-Home .menu-row .menu-container .menu-item:hover , .page-Home .menu-Home {    border-color:#fde500; }
 
 .menu-row .menu-container .menu-item.menu-Contact{ margin-right:40px; }
 
