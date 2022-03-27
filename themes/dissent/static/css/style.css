@@ -533,7 +533,7 @@ a.barid {color: #5a3d99; font-weight:bold;}
 
 
 .border-purple > div {border:0.5rem solid #5a3d99; padding:2rem;/* width:100%; */}
-.border-purple .title {color:#5a3d99; font-weight: bold; font-size: 1.5em;}
+.border-purple .title {color:#5a3d99; font-weight: bold; font-size: 2em; font-family:LatoBlack;}
 .border-purple  > div > div {margin-bottom:1rem;}
 
 .partner-boxes {margin:0 10vw 3rem 10vw; display :flex}
