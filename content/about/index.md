@@ -172,7 +172,7 @@ layout: page
         </div>
         <div class="right">
             <img src="CD2022_About5.png" class="organizer-logo contained-image" />
-            <a class="button" href="https://www.freethoughtlebanon.net">VISIT WEBSITE</a>
+            <a class="button" href="https://www.freethoughtlebanon.net" target="_blank">VISIT WEBSITE</a>
         </div>
     </div>
 </div>
@@ -208,7 +208,7 @@ layout: page
         </div>
         <div class="right">
             <img src="CD2022_About4.jpg" class="organizer-logo contained-image" />
-            <a class="button" href="https://www.ex-muslim.org.uk">VISIT WEBSITE</a>
+            <a class="button" href="https://www.ex-muslim.org.uk"  target="_blank">VISIT WEBSITE</a>
         </div>
     </div>
 </div>
