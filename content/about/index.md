@@ -250,14 +250,9 @@ layout: page
                     <span class="subnotes">Jul. 22 - 24 / London</span>
                 </p>
                 <p>
-                    People from various countries and backgrounds came
-                    together to celebrate freedom through theatre, talks,
-                    poetry, film and stand-up comedy.
+                    The gathering stood out, loud and proud, to remind the world that the freedom of conscience and expression are also for those who reject and criticize religion and that the demand for these freedoms is universal.
                 </p>
-                <p>
-                    Celebrating Dissent is a shout-out to everyone who
-                    fights for universal rights and freedom of speech.
-                </p>
+                <p><br></p>
             </div>
             <a class="button" href="https://www.secularconference.com/agenda-2017">VISIT WEBSITE</a>
         </div>
