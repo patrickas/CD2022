@@ -433,7 +433,7 @@ button.close img {	 width:80% ; filter: opacity(25%); }
 
 
 
-
+div {scroll-margin-top: 7em;}
 .content {	padding-top: 84px; }
 
 .featured-speaker {     display: inline-block;    width: 24.5vw;    max-width:470px; vertical-align: top;	text-align:center;	margin-bottom:1em;}
