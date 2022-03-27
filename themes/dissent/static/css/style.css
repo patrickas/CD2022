@@ -284,13 +284,13 @@ a.button {    height: 26px; 	line-height: 28px;}
 }
 
 .ven-bg .text-container .title {
-    font-family: GothamBold, sans-serif;
+    font-family: LatoBlack, sans-serif;
     font-size: 32px;
     color: #5a3d99;
 }
 
-.ven-bg .text-container .body {    font-family: sans-serif; }
-.ven-bg .text-container .body strong {    font-family: LatoBlack, sans-serif; }
+.ven-bg .text-container .body {    font-family:LatoRegular, sans-serif; }
+.ven-bg .text-container .body strong {    font-family: LatoBold, sans-serif; }
 
 
 .ven-bg .text-container .body p.much-more {
