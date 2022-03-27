@@ -240,7 +240,7 @@ layout: page
                     fights for universal rights and freedom of speech.
                 </p>
             </div>
-            <a class="button" href="https://debalie.nl/artikel/celebrating-dissent-2">VISIT WEBSITE</a>
+            <a class="button" href="https://debalie.nl/artikel/celebrating-dissent-2"  target="_blank">VISIT WEBSITE</a>
         </div>
         <div class="right">
             <img src="CD2022_About7.jpg" class="contained-image" />
@@ -254,7 +254,7 @@ layout: page
                 </p>
                 <p><br></p>
             </div>
-            <a class="button" href="https://www.secularconference.com/agenda-2017">VISIT WEBSITE</a>
+            <a class="button" href="https://www.secularconference.com/agenda-2017"  target="_blank">VISIT WEBSITE</a>
         </div>
     </div>
 </div>
