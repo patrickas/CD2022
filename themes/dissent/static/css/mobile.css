@@ -206,8 +206,12 @@ footer {font-size:1.5em;}
 
 .partners-blurb {text-align:justify; margin:5rem;}
 
-#become-partner {margin:0 10vw 10vw 10vw; width:80vw; display:block;position: unset;}
-#donate-box {margin:0 10vw 10vw 10vw; width:79vw; display:block;position: unset;}
+.partner-boxes {margin:0 10vw 10vw 10vw ; display :block;}
+#become-partner {display:block;position: unset;padding:0; margin-bottom:4rem}
+#become-partner > div {padding:2rem; }
+#donate-box { display:block;position: unset;}
+#donate-box > div {position:unset;}
+
 
 .partner-logo {width:auto;height:auto;;}
 .partner-logo.partner1 , .partner-logo.partner2 , .partner-logo.partner3 , .partner-logo.partner4  {margin:0 0 4em 0;}
