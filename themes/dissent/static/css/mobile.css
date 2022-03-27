@@ -116,8 +116,8 @@ label:focus {
 
 
 /* buttons easily clickable on mobile*/
-.button button , a.button {width:auto; height:3.5rem;font-size:2.5rem;} 
-a.button  {line-height:3rem;} 
+.button button , a.button {width:auto; height:4rem;font-size:1.5rem;} 
+a.button  {line-height:4rem;} 
 .features-banner-container .feature-banner .description {font-weight:bold;font-size:larger;}
 
 /* Bigger speakers on mobile*/
