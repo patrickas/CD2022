@@ -123,6 +123,8 @@ a.button  {line-height:4rem;}
 
 /* Bigger speakers on mobile*/
 .featured-speaker .featured-description {width:100% ;padding-bottom:0.5em;	height: 7em;	margin: -8.4em 0 0 0;}
+.page-Home .featured-speaker .featured-description { margin-top: -8.6em }
+
 	
 
 .featured-speaker  .featured-description .name {font-size:1.7em}
@@ -171,13 +173,15 @@ footer {font-size:1.5em;}
 .content-two-columns button , .content-two-columns a.button { font-size:2em; }
 
 
-.content > .title {position:fixed; top: 0; width:100vw;z-index:1 ; font-size: 3em;}
+.content > .title {position:fixed; top: 0; width:100vw;z-index:1 ; font-size: 3em; line-height:0.5em; height:55px;}
+.content > .title { /*font-size: 4em; */}
+.page-About .content > .title { /*font-size: 3.3em;*/}
 
 .cemb, .ftlb {	width: 60%; margin-left:20%; }
 .footer .links a {    display:inline-block; margin: 0 0.1em 0 0.1em; }
 
 #purpose_section {	max-width: 35em; }
-.short-about-section-container .text {	max-width: 45em; }
+.short-about-section-container .text {	max-width: 90%; }
 .section-title.title { padding-left:0; width: 90%;  margin: 0 auto 0 auto;}
 .page-Home .section-title.title { margin-bottom:1em; font-size:3.8em;}
 

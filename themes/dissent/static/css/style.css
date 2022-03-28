@@ -253,6 +253,8 @@ a.button {    height: 26px; 	line-height: 28px;}
 	bottom:0;
 }
 
+.page-Home .featured-speaker .featured-description { margin-top: -6.3em }
+
 .featured-speaker .featured-description .name { 
 	padding-top:0.3em;
 	margin: 0.5em 0.5em 0.3em 20px;
@@ -499,7 +501,7 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .social .icon { width: 1.3em;}
 
 
-.short-about-section-container .text , #purpose_section { max-width: 25em;}
+.short-about-section-container .text , #purpose_section { max-width: 35em;}
 
 .ftlb > img , .cemb > img {display: inline-block;margin-left:20%;float:left;}
 
