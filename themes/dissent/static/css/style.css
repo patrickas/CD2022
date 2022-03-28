@@ -224,7 +224,7 @@ a.button {    height: 26px; 	line-height: 28px;}
     margin: 0 auto 26px auto;
 }
 
-.featured-speakers-container {margin-bottom:2em;}
+.featured-speakers-container {margin-bottom:4em;}
 
 .featured-speakers-container .title { margin-bottom:1em;}
 .featured-speakers-container .list {  margin-bottom: 2em;
@@ -232,7 +232,7 @@ a.button {    height: 26px; 	line-height: 28px;}
 
 
 
-.featured-speaker .locator { /* box-shadow: 5px 5px 5px lightgrey; */ width:80%; margin:0 10% 0 10%;} 
+.featured-speaker .locator { /* box-shadow: 5px 5px 5px lightgrey; */ width:90%; margin:0 5% 0 5%;} 
 
 .page-Home .featured-speaker .locator > img {width: 100%;}
 
