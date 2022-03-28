@@ -23,7 +23,7 @@ label:focus {
     position: fixed;
     top: 0;
     left: 0;
-    background: #000c;
+    background: #5a3d99ee;
     width: 25em;
     height: 100%;
     transform: translate3d(-25em, 0, 0);
