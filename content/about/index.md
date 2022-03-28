@@ -58,7 +58,8 @@ layout: page
                     right to be free from and criticize Islam and the religious-Right.
                     Also, xenophobia and anti-Muslim bigotry dehumanizes and
                     endangers all those deemed ‘other,’ including ex-Muslims.
-                    <br />
+                </p>
+                <p>
                     More than ever, it is paramount to highlight and
                     strengthen individuals and organizations that protect
                     the rights of Islam’s non-believers, challenge apostasy
@@ -94,8 +95,7 @@ layout: page
 </div>
 
 
-
-<div class="content-two-columns">
+<div id="purpose-boxes" class="content-two-columns">
     <div class="aligner">
     <div class="left">
         <div class="contained-backgrounded-text">
@@ -114,7 +114,7 @@ layout: page
     </div>
 </div>
 
-<div class="content-two-columns">
+<div id="purpose-text" class="content-two-columns">
     <div class="aligner">
         <div class="left">
             <div class="contained-text">

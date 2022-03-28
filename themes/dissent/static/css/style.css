@@ -502,6 +502,8 @@ a.barid {color: #5a3d99; font-weight:bold;}
 
 
 .short-about-section-container .text , #purpose_section { max-width: 35em;}
+#purpose-boxes .contained-backgrounded-text { font-weight:bold; font-size:larger;}
+#purpose-text {margin-top:20px}
 
 .ftlb > img , .cemb > img {display: inline-block;margin-left:20%;float:left;}
 
@@ -510,11 +512,11 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .section-title.title { padding-left:7%; text-align:left;}
 .page-Home .section-title.title { text-align:center;padding-left:0;}
 
-.organizer-title {    font-family: LatoBlack, sans-serif; font-weight:bold; font-size:larger;}
-.contained-image.organizer-logo {margin-bottom:2em; width:60%; }
+.organizer-title {    font-family: LatoBlack, sans-serif; font-weight:bold; font-size:1.7rem;}
+.contained-image.organizer-logo {margin-bottom:3em; width:60%; }
 #organizers_section .aligner .right {text-align:left;}
 #organizers_section .aligner .right .organizer-logo {margin-top:2em;display:block;}
-#organizers_section .aligner .right button , #organizers_section .aligner .right a.button {margin-left:2em;}
+#organizers_section .aligner .right button , #organizers_section .aligner .right a.button {margin-left:0em;}
 
 #contact_us_section .title {font-size:2em; padding-left:0;}
 #contact_us_section .contained-text p {line-height:1.5em;}
