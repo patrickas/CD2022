@@ -12,6 +12,10 @@
     font-family: "LatoLight";
     src: url("/fonts/Lato-Light.ttf")  format("truetype")
 }
+@font-face {
+    font-family: "LatoBold";
+    src: url("/fonts/Lato-Bold.ttf")  format("truetype")
+}
 
 @font-face {
     font-family: "GothamBold";
@@ -495,7 +499,7 @@ div {scroll-margin-top: 7em;}
 a.barid {color: #5a3d99; font-weight:bold;}
 
 .bg-purple {width:100%; background-color: #7e60bf; padding:2em 0 2em 0; margin-bottom:3em; color: white;}
-.bg-purple .title {font-weight:bold;font-size:1.5em;margin-bottom:1em;color: white;font-family:LatoBlack;}
+.bg-purple .title {font-weight:bold;font-size:1.5em;margin-bottom: 1.5rem;color: white;font-family:LatoBlack;}
 .bg-purple .barid {color:yellow;}
 
 .social .icon { width: 1.3em;}
@@ -536,23 +540,25 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .partners-blurb {text-align:center; margin:5rem 20vw 5rem 20vw;}
 
 
-.border-purple > div {border:0.5rem solid #5a3d99; padding:2rem;/* width:100%; */}
+.border-purple > div {border:0.25rem solid #7e60bf; padding:1.75rem;/* width:100%; */}
 .border-purple .title {color:#5a3d99; font-weight: bold; font-size: 2em; font-family:LatoBlack;}
-.border-purple  > div > div {margin-bottom:1rem;}
+.border-purple  > div > div {margin-bottom: 1.3rem;}
 
-.partner-boxes {margin:0 10vw 3rem 10vw; display :flex}
+.partner-boxes {margin:3rem 10vw 3rem 10vw; display :flex}
 .partner-boxes > div { flex:1;}
 
 #become-partner {padding:2rem;margin:0;  margin-right:5vw; }
 #become-partner > div {margin-bottom:1rem; }
 #become-partner .title { font-size:1.9em; }
+#become-partner .barid { color:#fde500; font-family: LatoBold, sans-serif;}
 
 #donate-box {margin: 0; text-align: center; overflow: hidden;    position: relative;    width: 100%;}
 #donate-box > div { position: absolute;    right: 0;    top: 0 ; bottom:0;}
 #donate-box > div > div { text-align: left; }
 #donate-box  a.button { margin: 0 auto 0 auto;}
 
-.partner-logos {text-align:center;}
+#partner-logos {text-align:center;}
+#partner-logos figcaption {margin-top:1rem;font-size:1.2rem;}
 .partner-logo {display:inline-block;text-align:center; margin-bottom:4em;}
 .partner-logo.partner1{margin-left:20vw;}
 .partner-logo.partner2{margin-right:20vw;}
