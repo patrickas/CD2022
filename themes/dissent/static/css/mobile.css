@@ -5,7 +5,6 @@ body, header {	width: 105vw; max-width: 105vw; }
 }
 
 .hamburger-menu {
-    position:;
     display: block;
     width: 100%;
     height: 100%;
@@ -50,7 +49,7 @@ label:focus {
     list-style-type: none;
     font-size:2.5em;
     text-align: right;
-    padding: 0.5em 0.5em 0.5em 0;
+    padding: 0.5em 0.5em 0.5em 0.5em ;
 }
 
 .hmenu ul li a, .hmenu ul li label {
@@ -62,6 +61,15 @@ label:focus {
 .hmenu ul li a:hover, .hmenu ul li label:hover {
     color: #ffe600;
 }
+
+/* START Code to move hamburger menu to the right */
+.hamburger-menu {width:100vw}
+.hmenu { left:unset;right: 0 ; 	transform: translate3d(25em, 0, 0);}
+.hmenu label.hmenu-toggle {right:26em;}
+.hmenu ul {text-align:left;}
+/* END Code to move hamburger menu to the right */
+
+
 .page-Home .hmenu-Home, .page-About .hmenu-About  , .page-Program .hmenu-Program  , .page-Attendance .hmenu-Attendance , .page-Contact .hmenu-Contact{
 	font-weight:bolder;
 	color: #ffe600
