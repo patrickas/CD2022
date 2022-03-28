@@ -13,11 +13,15 @@ layout: page
 </div>
 
 <div id="partner-logos">
-	<div class="partner-logo partner1"><figure><a target="_blank" href="https://www.giordano-bruno-stiftung.de/en"><img src="/partners/partners_gbs.jpg" alt="Giordano Bruno Stiftung"></a><figcaption>Giordano Bruno Stiftung</figcaption></figure></div>
+	<div>
+	<div class="partner-logo partner1"><figure><a target="_blank" href="https://atheist-refugees.com/en/"><img src="/partners/partners_arr.jpg" alt="Atheist Refugee Relief"></a><figcaption>Atheist Refugee Relief</figcaption></figure></div>
 	<div class="partner-logo partner2"><figure><a target="_blank" href="https://ffrf.org/"><img src="/partners/partners_ffrf.jpg" alt="Freedom From Religion Foundation"></a><figcaption>Freedom From Religion Foundation</figcaption></figure></div>
-	<div class="partner-logo partner3"><figure><a target="_blank" href="https://vhs-koeln.de/"><img src="/partners/partners_vhs.jpg" alt="Volkshochschule Köln"></a><figcaption>Volkshochschule Köln</figcaption></figure></div>
+	</div>
+	<div>
+	<div class="partner-logo partner3"><figure><a target="_blank" href="https://www.giordano-bruno-stiftung.de/en"><img src="/partners/partners_gbs.jpg" alt="Giordano Bruno Stiftung"></a><figcaption>Giordano Bruno Stiftung</figcaption></figure></div>
 	<div class="partner-logo partner4"><figure><a target="_blank" href="https://www.secularism.org.uk/"><img src="/partners/partners_nss.jpg" alt="National Secular Society"></a><figcaption>National Secular Society</figcaption></figure></div>
-	<div class="partner-logo partner5"><figure><a target="_blank" href="https://atheist-refugees.com/en/"><img src="/partners/partners_arr.jpg" alt="Atheist Refugee Relief"></a><figcaption>Atheist Refugee Relief</figcaption></figure></div>
+	<div class="partner-logo partner5"><figure><a target="_blank" href="https://vhs-koeln.de/"><img src="/partners/partners_vhs.jpg" alt="Volkshochschule Köln"></a><figcaption>Volkshochschule Köln</figcaption></figure></div>
+	</div>
 </div>
 <div class="line"></div>
 <div class="partner-boxes">

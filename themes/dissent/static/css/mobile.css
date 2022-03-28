@@ -217,9 +217,14 @@ footer {font-size:1.5em;}
 #donate-box > div {position:unset;}
 
 
-.partner-logo {width:auto;height:auto;;}
+.partner-logo {width:auto;height:auto; display:block;}
 .partner-logo.partner1 , .partner-logo.partner2 , .partner-logo.partner3 , .partner-logo.partner4  {margin:0 0 4em 0;}
-.partner-logo a img {width:60vw; max-width:100%;}
+
+.partner-logo a img {width:300px; max-width:unset;}
+.partner-logo.partner1 a img { width:330px; max-width:unset;}
+.partner-logo.partner2 a img { width:414px; max-width:unset;}
+.partner-logo.partner3 a img { width:414px; max-width:unset;}
+
 
 #organizers_section .aligner .right {text-align:center;}
 #organizers_section .contained-image {position:unset; margin-left:auto; margin-right:auto;}
