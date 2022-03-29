@@ -1,10 +1,6 @@
         <div class="featured-speaker" onClick="popup(this)">
-            <div class="locator">
-					{{ if .outer.Scratch.Get "counter" }}
+            <div class="locator"><img width="0" height="0" src="/program/speakers/Speakers_{{ .image }} Y.jpg">
                 <img src="/program/speakers/Speakers_{{ .image }} P.jpg" onmouseover="this.src='/program/speakers/Speakers_{{ .image }} Y.jpg'" onmouseout="this.src='/program/speakers/Speakers_{{ .image }} P.jpg'"/>
-					{{ else }}
-                <img src="/program/speakers/Speakers_{{ .image }} Y.jpg" onmouseover="this.src='/program/speakers/Speakers_{{ .image }} P.jpg'" onmouseout="this.src='/program/speakers/Speakers_{{ .image }} Y.jpg'"/>
-					{{ end }}
                 <div class="featured-description">
                     <div class="click_indicator"><img src="/program/speakers/icon_click.png"></div>
                     <div class="name">{{ .name }}</div>
