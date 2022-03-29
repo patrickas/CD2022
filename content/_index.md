@@ -67,7 +67,7 @@ draft: false
     <div class="list">
         <div class="featured-speaker">
             <div class="locator">
-            <img src="/program/speakers/Speakers_DAWKINS RICHARD.jpg" />
+            <img src="/program/speakers/Speakers_01_DAWKINS RICHARD P.jpg" />
                 <div class="featured-description">
                     <div class="name">Richard Dawkins</div>
                     <div class="text">EVOLUTIONARY BIOLOGIST<br />AND AUTHOR</div>
@@ -76,7 +76,7 @@ draft: false
         </div>
         <div class="featured-speaker">
             <div class="locator">
-                <img src="/program/speakers/Speakers_NAMAZIE MARYAM.jpg" />
+                <img src="/program/speakers/Speakers_02_NAMAZIE MARYAM P.jpg" />
                 <div class="featured-description">
                     <div class="name">Maryam Namazie</div>
                     <div class="text">CO-FOUNDER OF THE<br />COUNCIL OF EX-MUSLIMS OF BRITAIN</div>
@@ -85,7 +85,7 @@ draft: false
         </div>
         <div class="featured-speaker">
             <div class="locator">
-                <img src="/program/speakers/Speakers_AHMED BONYA.jpg" />
+                <img src="/program/speakers/Speakers_03_AHMED BONYA P.jpg" />
                 <div class="featured-description">
                     <div class="name">Bonya Ahmed</div>
                     <div class="text">SCHOLAR AND RESEARCHER</div>
@@ -94,7 +94,7 @@ draft: false
         </div>
         <div class="featured-speaker">
             <div class="locator">
-                <img src="/program/speakers/Speakers_SHEVCHENKO INNA.jpg" />
+                <img src="/program/speakers/Speakers_04_SHEVCHENKO INNA P.jpg" />
                 <div class="featured-description">
                     <div class="name">Inna Shevchenko</div>
                     <div class="text">LEADER – FEMEN</div>
