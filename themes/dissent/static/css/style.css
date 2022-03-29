@@ -241,8 +241,8 @@ a.button {    height: 26px; 	line-height: 28px;}
 	min-width:15vw;
 	min-height:10em;
 }
-.content-Program .featured-speaker .locator .click_indicator {float:right;width:40px;height:40px;padding-top:20px;}
-.content-Program .featured-speaker .locator .click_indicator > img {width:40px;height:40px;}
+.featured-speaker .locator .click_indicator {float:right;width:40px;height:40px;padding-top:20px;}
+.featured-speaker .locator .click_indicator > img {width:40px;height:40px;}
 .featured-speaker .featured-description { 
 	position:relative;
     background: RGBA(90, 61, 153, 0.6);
@@ -443,8 +443,8 @@ button.close img {	 width:80% ; filter: opacity(25%); }
 div {scroll-margin-top: 7em;}
 .content {	padding-top: 84px; }
 
-.featured-speaker {     display: inline-block;    width: 24.5vw;    max-width:470px; vertical-align: top;	text-align:center;	margin-bottom:1em;}
-.content-Program .featured-speaker {	margin-bottom:0;	cursor:pointer; }
+.featured-speaker {     display: inline-block;    width: 24.5vw;    max-width:470px; vertical-align: top;	text-align:center;	margin-bottom:1em; cursor:pointer; }
+.content-Program .featured-speaker {	margin-bottom:0;	}
 .content-Program .featured-speaker .locator > img { width:100%}
 .content-Program .featured-speaker .locator { margin: 0; width:24.8vw; max-width:475px; }
 .content-Program .featured-speaker .featured-description { 

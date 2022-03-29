@@ -59,3 +59,5 @@ function toggleVisibility (element)
     }
 }
 
+function popup ( target) {	document.querySelectorAll('.popup').forEach(function(e){e.style.display='none';});target.nextElementSibling.style.display='block'; setTimeout( function() {window.popup_showing=target.nextElementSibling.firstChild;} , 500); }
+function hideparent( target) { target.parentElement.parentElement.parentElement.style.display='none'; window.popup_showing=null;}
