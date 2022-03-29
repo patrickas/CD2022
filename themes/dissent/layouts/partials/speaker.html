@@ -1,6 +1,6 @@
         <div class="featured-speaker" onClick="popup(this)">
             <div class="locator">
-                <img src="/program/speakers/Speakers_{{ .image }}.jpg" />
+                <img src="/program/speakers/Speakers_{{ .image }} P.jpg" />
                 <div class="featured-description">
                     <div class="click_indicator"><img src="/program/speakers/icon_click.png"></div>
                     <div class="name">{{ .name }}</div>
@@ -10,7 +10,7 @@
         </div>
         <div class="popup"><div><div><button class="close"  onClick="hideparent(this)"><img src="/program/speakers/close-button.svg"></button>
 				<div class="speaker-img-container">
-            		<img class="speaker-img" src="/program/speakers/Speakers_{{ .image }}.jpg">
+            		<img class="speaker-img" src="/program/speakers/Speakers_{{ .image }} P.jpg">
 				</div>
             <div class="featured-description">
                 <div class="name">{{ .name }}</div>
@@ -27,3 +27,4 @@
             {{ .bio }}
 			</div>
         </div></div></div>
+{{ .outer.Scratch.Set "counter" (not (.outer.Scratch.Get "counter") ) }}
