@@ -19,10 +19,6 @@ document.addEventListener("DOMContentLoaded", function(){
         document.getElementById("days_counter").innerHTML = Math.floor(timeDifference / (1000 * 60 * 60 * 24)).toString();
     }
 
-	//Hide the hamburger menu if showing
-	var hmenu_checkbox = document.getElementById('hmenu_checkbox');
-	setTimeout( function() { if (hmenu_checkbox && hmenu_checkbox.checked) { hmenu_checkbox.click(); } } , 100);
-
 	// When the user scrolls the page, execute myFunction
 	window.onscroll = function() {sticky_add_remove()};
 
@@ -41,8 +37,8 @@ const outsideClickListener = event => {
 
 	//Hide the hamburger menu is showing
 	element = document.getElementById('hmenu');
-	if (!element.contains(event.target) && hamburger_showing ) { // or use: event.target.closest(selector) === null
-		hmenu_checkbox.click();
+	if (!element.contains(event.target) ) {
+		hide_menu()
 	}
 
 	//hide the popup if showing
@@ -50,6 +46,11 @@ const outsideClickListener = event => {
 		window.popup_showing.parentElement.style.display='none';
 		window.popup_showing = null;
 	}
+}
+function hide_menu() {
+	//Hide the hamburger menu if showing
+	var hmenu_checkbox = document.getElementById('hmenu_checkbox');
+	if (hmenu_checkbox && hmenu_checkbox.checked) { hmenu_checkbox.click(); } ;
 }
 	
 document.addEventListener('click', outsideClickListener);
