@@ -1,11 +1,11 @@
-        <div class="featured-speaker" onClick="popup(this)">
-            <div class="locator"><img width="0" height="0" src="/program/speakers/Speakers_{{ .image }} Y.jpg">
-                <img src="/program/speakers/Speakers_{{ .image }} P.jpg" onmouseover="this.src='/program/speakers/Speakers_{{ .image }} Y.jpg'" onmouseout="this.src='/program/speakers/Speakers_{{ .image }} P.jpg'"/>
+        <div class="featured-speaker {{ .outer.Scratch.Get "counter" }}" onClick="popup(this)">
+            <div class="locator"><img class="preload" width="0" height="0" src="/program/speakers/Speakers_{{ .image }} Y.jpg">
+                <img class="speaker-main-photo" src="/program/speakers/Speakers_{{ .image }} P.jpg" onmouseover="this.src='/program/speakers/Speakers_{{ .image }} Y.jpg'" onmouseout="this.src='/program/speakers/Speakers_{{ .image }} P.jpg'"/>
                 <div class="featured-description">
                     <div class="click_indicator"><img src="/program/speakers/icon_click.png"></div>
                     <div class="name">{{ .name }}</div>
                     <div class="text">{{ .title }}</div>
-                </div>
+                	</div>
             </div>
         </div>
         <div class="popup"><div><div><button class="close"  onClick="hideparent(this)"><img src="/program/speakers/close-button.svg"></button>
@@ -26,5 +26,6 @@
 			<div class="bio">
             {{ .bio }}
 			</div>
-        </div></div></div>
+        </div></div>
 {{ .outer.Scratch.Set "counter" (not (.outer.Scratch.Get "counter") ) }}
+</div>
