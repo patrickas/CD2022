@@ -14,9 +14,14 @@ function sticky_add_remove() {
   }
 }
 document.addEventListener("DOMContentLoaded", function(){
+	//Set the main page counter
     if (document.getElementById("days_counter")) {
         document.getElementById("days_counter").innerHTML = Math.floor(timeDifference / (1000 * 60 * 60 * 24)).toString();
     }
+
+	//Hide the hamburger menu if showing
+	var hmenu_checkbox = document.getElementById('hmenu_checkbox');
+	setTimeout( function() { if (hmenu_checkbox && hmenu_checkbox.checked) { hmenu_checkbox.click(); } } , 100);
 
 	// When the user scrolls the page, execute myFunction
 	window.onscroll = function() {sticky_add_remove()};
@@ -26,7 +31,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
 	// Get the offset position of the navbar
 	sticky = header.offsetTop;
-
 });
 
 const isVisible = elem => !!elem && !!( elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length ) // source (2018-03-11): https://github.com/jquery/jquery/blob/master/src/css/hiddenVisibleSelectors.j
