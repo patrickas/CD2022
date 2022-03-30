@@ -154,6 +154,9 @@ a.button  {line-height:4rem;}
 .content-Program .featured-speaker .locator > img {display:inline-block;}
 .content-Program .featured-speaker { width: 52vw; height:auto;margin-top:-1.2em;}
 
+.featured-speaker .locator .click_indicator { width:4rem;height:4rem; margin-top:1rem;}
+.featured-speaker .locator .click_indicator > img { width:4rem;height:4rem;}
+
 .visa-assistance {width:90%}
 
 .background-picture-container {max-height:100%; height: 33vh;} /* for landscape*/
