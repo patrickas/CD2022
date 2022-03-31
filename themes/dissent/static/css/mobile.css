@@ -5,7 +5,6 @@ body, header {	width: 105vw; max-width: 105vw; }
 }
 
 .hamburger-menu {
-    position:;
     display: block;
     width: 100%;
     height: 100%;
@@ -23,7 +22,7 @@ label:focus {
     position: fixed;
     top: 0;
     left: 0;
-    background: #000c;
+    background: #5a3d99ee;
     width: 25em;
     height: 100%;
     transform: translate3d(-25em, 0, 0);
@@ -50,7 +49,7 @@ label:focus {
     list-style-type: none;
     font-size:2.5em;
     text-align: right;
-    padding: 0.5em 0.5em 0.5em 0;
+    padding: 0.5em 0.5em 0.5em 0.5em ;
 }
 
 .hmenu ul li a, .hmenu ul li label {
@@ -62,7 +61,16 @@ label:focus {
 .hmenu ul li a:hover, .hmenu ul li label:hover {
     color: #ffe600;
 }
-.page-Home .hmenu-Home, .page-About .hmenu-About  , .page-Program .hmenu-Program  , .page-Attendance .hmenu-Attendance , .page-Contact .hmenu-Contact{
+
+/* START Code to move hamburger menu to the right */
+.hamburger-menu {width:100vw}
+.hmenu { left:unset;right: 0 ; 	transform: translate3d(25em, 0, 0);}
+.hmenu label.hmenu-toggle {right:26em;}
+.hmenu ul {text-align:left;}
+/* END Code to move hamburger menu to the right */
+
+
+.page-Home .hmenu-Home, .page-About .hmenu-About  , .page-Program .hmenu-Program  , .page-Attendance .hmenu-Attendance , .page-Contact .hmenu-Contact , .page-Partners .hmenu-Partners{
 	font-weight:bolder;
 	color: #ffe600
 }
@@ -116,27 +124,38 @@ label:focus {
 
 
 /* buttons easily clickable on mobile*/
-.button button , a.button {width:auto; height:3.5rem;font-size:2.5rem;} 
-a.button  {line-height:3rem;} 
+.button button , a.button {width:auto; height:4rem;font-size:1.5rem;} 
+a.button  {line-height:4rem;} 
+.features-banner-container .feature-banner {margin-bottom:3rem;}
 .features-banner-container .feature-banner .description {font-weight:bold;font-size:larger;}
 
 /* Bigger speakers on mobile*/
 .featured-speaker .featured-description {width:100% ;padding-bottom:0.5em;	height: 7em;	margin: -8.4em 0 0 0;}
+.page-Home .featured-speaker .featured-description { margin-top: -8.6em }
+
 	
 
 .featured-speaker  .featured-description .name {font-size:1.7em}
 .featured-speaker  .featured-description .text {font-size:1.2em}
-.featured-speaker , .content-Program .featured-speaker { width: 49vw; position: relative;}
-.content-Program .featured-speaker .locator { width:50vw}
+.featured-speaker { width: 52vw; height:auto;}
 .page-Home .featured-speaker .locator { margin-bottom:2em;}
 
+
 .content-Program .featured-speaker .featured-description { 
-	height: 6.5em;
+	height: 7em;
 	padding-bottom: 0.2em;
 	margin: -8.2em 0 0 0;
+	width:auto;
+	position:relative;
 }
 .content-Program .featured-speaker .locator , .featured-speaker {max-width:unset;}
+.content-Program .featured-speaker.true {margin-left:-0.5rem;}
+.content-Program .featured-speaker .locator { width: 52vw;height:auto;}
+.content-Program .featured-speaker .locator > img {display:inline-block;}
+.content-Program .featured-speaker { width: 52vw; height:auto;margin-top:-1.2em;}
 
+.featured-speaker .locator .click_indicator { width:4rem;height:4rem; margin-top:1rem;}
+.featured-speaker .locator .click_indicator > img { width:4rem;height:4rem;}
 
 .visa-assistance {width:90%}
 
@@ -149,16 +168,19 @@ a.button  {line-height:3rem;}
 .popup .speaker-img-container {height:auto;}
 .popup  button.close { right: -15px;top: -15px; }
 .popup > div{
-	top:3vh;
-	left:3vw;
-	width:90%;
-	height:80%;
+	top:5vh;
+	left:5vw;
+	width:90vw;
+	height:90vh;
 	padding:2vh 2vw 2vh 2vw;
 }
-.popup .bio {	position:absolute ;bottom:0.5em;left: 0.5em;right:0.5em;top:11em;overflow-y: auto; font-size:1em}
+.popup img.speaker-img { width:25vw; max-width:40vh; max-height:unset; }
+.popup .bio {	position:absolute ;bottom:0.5em;left: 1.2em;right:0.5em;top:38vw;overflow-y: auto; font-size:1em}
+@media screen and (orientation:landscape) {
+   .popup .bio {	top:27vw; font-size: 0.9em;}
+}
 .popup .featured-description .name {font-size:1em;}
 
-.popup img.speaker-img { width:25vw; max-height:unset; }
 
 button  {height:auto;font-size:0.8em;}
 .content {	padding-top: 140px; }
@@ -170,13 +192,15 @@ footer {font-size:1.5em;}
 .content-two-columns button , .content-two-columns a.button { font-size:2em; }
 
 
-.content > .title {position:fixed; top: 0; width:100vw;z-index:1 ; font-size: 3em;}
+.content > .title {position:fixed; top: 0; width:100vw;z-index:1 ; font-size: 3em; line-height:0.5em; height:55px;}
+.content > .title { /*font-size: 4em; */}
+.page-About .content > .title { /*font-size: 3.3em;*/}
 
 .cemb, .ftlb {	width: 60%; margin-left:20%; }
 .footer .links a {    display:inline-block; margin: 0 0.1em 0 0.1em; }
 
 #purpose_section {	max-width: 35em; }
-.short-about-section-container .text {	max-width: 45em; }
+.short-about-section-container .text {	max-width: 90%; }
 .section-title.title { padding-left:0; width: 90%;  margin: 0 auto 0 auto;}
 .page-Home .section-title.title { margin-bottom:1em; font-size:3.8em;}
 
@@ -205,9 +229,21 @@ footer {font-size:1.5em;}
 
 .partners-blurb {text-align:justify; margin:5rem;}
 
-#become-partner {margin:0 10vw 10vw 10vw; width:80vw; display:block;position: unset;}
-#donate-box {margin:0 10vw 10vw 10vw; width:79vw; display:block;position: unset;}
+.partner-boxes {margin:0 10vw 10vw 10vw ; display :block;}
+#become-partner {display:block;position: unset;padding:0; margin-bottom:4rem}
+#become-partner > div {padding:2rem; }
+#donate-box { display:block;position: unset;}
+#donate-box > div {position:unset;}
 
-.partner-logo {width:auto;height:auto;;}
+
+.partner-logo {width:auto;height:auto; display:block;}
 .partner-logo.partner1 , .partner-logo.partner2 , .partner-logo.partner3 , .partner-logo.partner4  {margin:0 0 4em 0;}
-.partner-logo a img {width:60vw; max-width:100%;}
+
+.partner-logo a img {width:300px; max-width:unset;}
+.partner-logo.partner1 a img { width:330px; max-width:unset;}
+.partner-logo.partner2 a img { width:414px; max-width:unset;}
+.partner-logo.partner3 a img { width:414px; max-width:unset;}
+
+
+#organizers_section .aligner .right {text-align:center;}
+#organizers_section .contained-image {position:unset; margin-left:auto; margin-right:auto;}

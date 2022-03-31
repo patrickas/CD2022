@@ -9,7 +9,7 @@ draft: false
 
 <div class="announcement-container">
     <div class="main">AUGUST 20-21, 2022<br />COLOGNE, GERMANY</div>
-    <div class="details">#CELEBRATING_DISSENT_2022<br />#CD22</div>
+    <div class="details">#CelebratingDissent2022<br />#CD22</div>
     <div class="counter-container">
         <span id="days_counter">&nbsp;&nbsp;</span> DAYS LEFT!
     </div>
@@ -30,7 +30,7 @@ draft: false
     </div>
     <div class="feature-banner">
         <div class="number">30+</div>
-        <div class="description">NATIONALITIES</div>
+        <div class="description">COUNTRIES</div>
     </div>
     <div class="feature-banner">
         <div class="number">8</div>
@@ -61,47 +61,4 @@ draft: false
 </div>
 
 <div class="line"></div>
-
-<div class="section-container featured-speakers-container">
-    <div class="section-title title">Featured Speakers</div>
-    <div class="list">
-        <div class="featured-speaker">
-            <div class="locator">
-            <img src="/program/speakers/Speakers_DAWKINS RICHARD.jpg" />
-                <div class="featured-description">
-                    <div class="name">Richard Dawkins</div>
-                    <div class="text">EVOLUTIONARY BIOLOGIST<br />AND AUTHOR</div>
-                </div>
-            </div>
-        </div>
-        <div class="featured-speaker">
-            <div class="locator">
-                <img src="/program/speakers/Speakers_NAMAZIE MARYAM.jpg" />
-                <div class="featured-description">
-                    <div class="name">Maryam Namazie</div>
-                    <div class="text">CO-FOUNDER OF THE<br />COUNCIL OF EX-MUSLIMS OF BRITAIN</div>
-                </div>
-            </div>
-        </div>
-        <div class="featured-speaker">
-            <div class="locator">
-                <img src="/program/speakers/Speakers_AHMED BONYA.jpg" />
-                <div class="featured-description">
-                    <div class="name">Bonya Ahmed</div>
-                    <div class="text">SCHOLAR AND RESEARCHER</div>
-                </div>
-            </div>
-        </div>
-        <div class="featured-speaker">
-            <div class="locator">
-                <img src="/program/speakers/Speakers_SHEVCHENKO INNA.jpg" />
-                <div class="featured-description">
-                    <div class="name">Inna Shevchenko</div>
-                    <div class="text">LEADER – FEMEN</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <a class="button" href="/program">COMPLETE SPEAKERS LINEUP</a></div>
-</div>
 

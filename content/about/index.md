@@ -58,7 +58,8 @@ layout: page
                     right to be free from and criticize Islam and the religious-Right.
                     Also, xenophobia and anti-Muslim bigotry dehumanizes and
                     endangers all those deemed ‘other,’ including ex-Muslims.
-                    <br />
+                </p>
+                <p>
                     More than ever, it is paramount to highlight and
                     strengthen individuals and organizations that protect
                     the rights of Islam’s non-believers, challenge apostasy
@@ -94,8 +95,7 @@ layout: page
 </div>
 
 
-
-<div class="content-two-columns">
+<div id="purpose-boxes" class="content-two-columns">
     <div class="aligner">
     <div class="left">
         <div class="contained-backgrounded-text">
@@ -114,7 +114,7 @@ layout: page
     </div>
 </div>
 
-<div class="content-two-columns">
+<div id="purpose-text" class="content-two-columns">
     <div class="aligner">
         <div class="left">
             <div class="contained-text">
@@ -172,7 +172,7 @@ layout: page
         </div>
         <div class="right">
             <img src="CD2022_About5.png" class="organizer-logo contained-image" />
-            <a class="button" href="https://www.freethoughtlebanon.net">VISIT WEBSITE</a>
+            <a class="button" href="https://www.freethoughtlebanon.net" target="_blank">VISIT WEBSITE</a>
         </div>
     </div>
 </div>
@@ -208,7 +208,7 @@ layout: page
         </div>
         <div class="right">
             <img src="CD2022_About4.jpg" class="organizer-logo contained-image" />
-            <a class="button" href="https://www.ex-muslim.org.uk">VISIT WEBSITE</a>
+            <a class="button" href="https://www.ex-muslim.org.uk"  target="_blank">VISIT WEBSITE</a>
         </div>
     </div>
 </div>
@@ -240,7 +240,7 @@ layout: page
                     fights for universal rights and freedom of speech.
                 </p>
             </div>
-            <a class="button" href="https://debalie.nl/artikel/celebrating-dissent-2">VISIT WEBSITE</a>
+            <a class="button" href="https://debalie.nl/artikel/celebrating-dissent-2"  target="_blank">VISIT WEBSITE</a>
         </div>
         <div class="right">
             <img src="CD2022_About7.jpg" class="contained-image" />
@@ -250,16 +250,11 @@ layout: page
                     <span class="subnotes">Jul. 22 - 24 / London</span>
                 </p>
                 <p>
-                    People from various countries and backgrounds came
-                    together to celebrate freedom through theatre, talks,
-                    poetry, film and stand-up comedy.
+                    The gathering stood out, loud and proud, to remind the world that the freedom of conscience and expression are also for those who reject and criticize religion and that the demand for these freedoms is universal.
                 </p>
-                <p>
-                    Celebrating Dissent is a shout-out to everyone who
-                    fights for universal rights and freedom of speech.
-                </p>
+                <p><br></p>
             </div>
-            <a class="button" href="https://www.secularconference.com/agenda-2017">VISIT WEBSITE</a>
+            <a class="button" href="https://www.secularconference.com/agenda-2017"  target="_blank">VISIT WEBSITE</a>
         </div>
     </div>
 </div>
