@@ -12,20 +12,26 @@ layout: page
 <p>The conference remains open for more partnership opportunities and the list of partners will be regularly updated.</p>
 </div>
 
-<div class="partner-logos">
-	<div class="partner-logo partner1"><a href="https://www.giordano-bruno-stiftung.de/en"><img src="/partners/partners_gbs.jpg"></a></div>
-	<div class="partner-logo partner2"><a href="https://ffrf.org/"><img src="/partners/partners_ffrf.jpg"></a></div>
-	<div class="partner-logo partner3"><a href="https://vhs-koeln.de/"><img src="/partners/partners_vhs.jpg"></a></div>
-	<div class="partner-logo partner4"><a href="https://www.secularism.org.uk/"><img src="/partners/partners_nss.jpg"></a></div>
-	<div class="partner-logo partner5"><a href="https://atheist-refugees.com/en/"><img src="/partners/partners_arr.jpg"></a></div>
+<div id="partner-logos">
+	<div>
+	<div class="partner-logo partner1"><figure><a target="_blank" href="https://atheist-refugees.com/en/"><img src="/partners/partners_arr.jpg" alt="Atheist Refugee Relief"></a><figcaption>Atheist Refugee Relief</figcaption></figure></div>
+	<div class="partner-logo partner2"><figure><a target="_blank" href="https://ffrf.org/"><img src="/partners/partners_ffrf.jpg" alt="Freedom From Religion Foundation"></a><figcaption>Freedom From Religion Foundation</figcaption></figure></div>
+	</div>
+	<div>
+	<div class="partner-logo partner3"><figure><a target="_blank" href="https://www.giordano-bruno-stiftung.de/en"><img src="/partners/partners_gbs.jpg" alt="Giordano Bruno Stiftung"></a><figcaption>Giordano Bruno Stiftung</figcaption></figure></div>
+	<div class="partner-logo partner4"><figure><a target="_blank" href="https://www.secularism.org.uk/"><img src="/partners/partners_nss.jpg" alt="National Secular Society"></a><figcaption>National Secular Society</figcaption></figure></div>
+	<div class="partner-logo partner5"><figure><a target="_blank" href="https://vhs-koeln.de/"><img src="/partners/partners_vhs.jpg" alt="Volkshochschule Köln"></a><figcaption>Volkshochschule Köln</figcaption></figure></div>
+	</div>
 </div>
-
+<div class="line"></div>
 <div class="partner-boxes">
 <div id="become-partner" class="bg-purple">
+	<div>
 	<div class="title">Become a CD2022 Partner!</div>
 	<div class="text">Our partners are given full credit and visibility during the activities of the conference, in all media appearances, and on all Celebrating Dissent 2022 merchandise and branding.</div>
 	<div>For information about partnership options, get in touch with the organizers today.</div>
-	<a class="barid" href="mailto:cd2022@freethoughtlebanon.net">cd2022@freethoughtlebanon.net</a><br>
+	<a class="barid" href="mailto:cd2022@freethoughtlebanon.net">cd2022@freethoughtlebanon.net</a>
+	</div>
 </div>
 
 <div id="donate-box" class="border-purple">
