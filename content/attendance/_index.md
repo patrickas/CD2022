@@ -41,7 +41,7 @@ layout: page
 	<div id="visa_section" class="visa-assistance">
 		<div class="title">Mobility and Accessibility Assistance</div>
 		<p>
-		In case you need any kind of mobility or accessibility assistance (e.g., sign language interpreter), please send us your requirements and we will make sure they are adequately addressed. 
+		In case you need any kind of mobility or accessibility assistance (e.g., sign language interpreter). 
 		</p>
 		<p>
 		Please send us your requirements and we will make sure they are adequately addressed:<br><br>
