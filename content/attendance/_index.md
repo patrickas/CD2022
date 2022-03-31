@@ -5,7 +5,7 @@ draft: false
 layout: page
 ---
 
-<div class="title">Attendance</div>
+<div class="title">Tickets</div>
 
 <div id="venue_section" class="attendance-top ven-bg">
 <!--    <Ximg src="/CD2022_Apply_background.jpg" alt="Background for the last slide of the main page" title="Background Image" />-->
@@ -26,22 +26,26 @@ layout: page
 		<div>
 			<div class="title">Buy Your Ticket Here!</div>
 			<div class="text">To access talks, shows, and events of <strong>Celebrating Dissent 2022</strong>, you can select one of the following tickets:</div>
-			<div class="text"><strong>2-day ticket</strong> / Aug 20 and 21 <div class="fee">€50.00</div></div>
-			<div class="text"><strong>1-day ticket</strong> / Aug 20 or 21 <div class="fee">€30.00</div></div>
+			<div class="text"><strong>2-day ticket</strong> / Aug 20 and 21 <div class="fee">€50.00<sup>*</sup></div></div>
+			<div class="text"><strong>1-day ticket</strong> / Aug 20 or 21 <div class="fee">€30.00<sup>*</sup></div></div>
 			<div class="center-content"><a class="button" href="https://www.eventbrite.co.uk/e/celebrating-dissent-2022-tickets-270982685507">BUY TICKETS</a></div>
 		</div>
 		<div class="extra-info">
-			<div class="text">Your ticket includes access to all discussion panels, talks, live music and performance shows, ceremonies, and exhibitions, taking place on the date(s) you selected for your ticket, as well as snacks and refreshments during breaks between discussions and shows.</div>
+			<div class="text">Your ticket includes access to all discussion panels, talks, live music and performance shows, ceremonies, and exhibitions, taking place on the date(s) you selected for your ticket, as well as snacks and refreshments during breaks between discussions and shows.
+			</div>
 		</div>
 	</div>
 	<div id="visa_section" class="visa-assistance">
 		<div class="title">Mobility and Accessibility Assistance</div>
 		<p>
-		In case you need any kind of mobility or accessibility assistance, we will do our best to make sure you have a positive experience. 
+		In case you need any kind of mobility or accessibility assistance (e.g., sign language interpreter), please send us your requirements and we will make sure they are adequately addressed. 
 		</p>
 		<p>
 		Please send us your requirements and we will make sure they are adequately addressed:<br><br>
 		<a class="barid" href="mailto:cd2022@freethoughtlebanon.net">cd2022@freethoughtlebanon.net</a><br>
 		</p>
+		<br>
+		<br>
+		<sup>*</sup>Ticket prices are subject to a small extra fee by the ticketing service that we are using.
 	</div>
 </div>

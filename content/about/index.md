@@ -19,7 +19,7 @@ layout: page
             <strong>CD2022</strong> is the largest and most prominent
             gathering of ex-Muslims, freethinkers, and
             intellectuals championing freedom of
-            thought, since the beginning the COVID-19
+            thought, since the beginning of the COVID-19
             pandemic.
         </p>
     </div>
@@ -32,12 +32,11 @@ layout: page
         <div class="left">
             <div class="contained-text">
                 <p>
-                    Organized by the “Freethought Lebanon” and 
-                    “Council of Ex-Muslims of Britain”, with the support of 
-                    “VHS Cologne”, this conference will gather nearly 50
-                    speakers from 30 countries worldwide, to celebrate
-                    freethought and dissent through talks, poetry, film,
-                    music, and comedy.
+                    Organized by “Freethought Lebanon” and the 
+                    “Council of Ex-Muslims of Britain”, this conference 
+                    will gather nearly 50 speakers from 30 countries worldwide, 
+                    to celebrate freethought and dissent through talks, poetry, 
+                    film, music, and comedy.
                 </p>
                 <p>
                     Countless atheists, non-believers and ex-Muslims
@@ -79,7 +78,7 @@ layout: page
     <div class="section-title title-centered">Purpose of CD2022</div>
     <div class="text">
         <p>
-            Celebrating Dissent 2022 aims to bring ex-Muslim activists together
+            Celebrating Dissent 2022 aims to bring ex-Muslim (as well as other) activists together
             to strategize, gain strength, and increase visibility.
         </p>
         <p>
@@ -120,7 +119,7 @@ layout: page
             <div class="contained-text">
                 Coming together and sharing expertise is highly important to foster a
                 sense of solidarity and unity among activists and organizations,
-                especially with regards campaigning and protection of atheists at risk.
+                especially with regards to campaigning and protection of atheists at risk.
             </div>
         </div>
         <div class="right">
