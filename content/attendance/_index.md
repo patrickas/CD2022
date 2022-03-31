@@ -8,7 +8,6 @@ layout: page
 <div class="title">Tickets</div>
 
 <div id="venue_section" class="attendance-top ven-bg">
-<!--    <Ximg src="/CD2022_Apply_background.jpg" alt="Background for the last slide of the main page" title="Background Image" />-->
     <div class="text-container">
         <div class="body">
             <p>
