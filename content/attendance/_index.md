@@ -32,6 +32,9 @@ layout: page
 		</div>
 		<div class="extra-info">
 			<div class="text">Your ticket includes access to all discussion panels, talks, live music and performance shows, ceremonies, and exhibitions, taking place on the date(s) you selected for your ticket, as well as snacks and refreshments during breaks between discussions and shows.
+			<br>
+			<br>
+			<sup>*</sup>Ticket prices are subject to a small extra fee by the ticketing service that we are using.
 			</div>
 		</div>
 	</div>
@@ -44,8 +47,5 @@ layout: page
 		Please send us your requirements and we will make sure they are adequately addressed:<br><br>
 		<a class="barid" href="mailto:cd2022@freethoughtlebanon.net">cd2022@freethoughtlebanon.net</a><br>
 		</p>
-		<br>
-		<br>
-		<sup>*</sup>Ticket prices are subject to a small extra fee by the ticketing service that we are using.
 	</div>
 </div>
