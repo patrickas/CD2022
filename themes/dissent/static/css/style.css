@@ -446,7 +446,7 @@ div {scroll-margin-top: 7em;}
 .content {	padding-top: 84px; }
 
 .featured-speaker {     display: inline-block;    width: 24.5vw;    max-width:470px; vertical-align: top;	text-align:center;	margin-bottom:1em; cursor:pointer; }
-.content-Program .featured-speaker {	margin-bottom:0;	}
+.content-Program .featured-speaker {	margin-bottom:0; height:auto; margin-top:-1.2em;}
 .content-Program .featured-speaker .locator > img { width:100%}
 .content-Program .featured-speaker .locator { margin: 0; width:24.8vw; max-width:475px; }
 .content-Program .featured-speaker .featured-description { 

@@ -152,7 +152,7 @@ a.button  {line-height:4rem;}
 .content-Program .featured-speaker.true {margin-left:-0.5rem;}
 .content-Program .featured-speaker .locator { width: 52vw;height:auto;}
 .content-Program .featured-speaker .locator > img {display:inline-block;}
-.content-Program .featured-speaker { width: 52vw; height:auto;margin-top:-1.2em;}
+.content-Program .featured-speaker { width: 52vw; height:auto;}
 
 .featured-speaker .locator .click_indicator { width:4rem;height:4rem; margin-top:1rem;}
 .featured-speaker .locator .click_indicator > img { width:4rem;height:4rem;}
