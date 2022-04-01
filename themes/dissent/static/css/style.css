@@ -473,15 +473,12 @@ div {scroll-margin-top: 7em;}
 
 .menu-row .menu-container .menu-item:hover {    border-bottom: solid 2px; }
 
-.menu-row .menu-container .menu-item:hover {    color: #ffe600;    border-bottom:2px solid white; }
-.menu-container .menu-item a:hover {color:#ffe600;}
-.page-Home .menu-Home a, .page-About .menu-About  a, .page-Program .menu-Program  a , .page-Attendance .menu-Attendance a, .page-Contact .menu-Contact a, .page-Partners .menu-Partners a {
-	color:#fde500;
-}
+.menu-row .menu-container .menu-item:hover {    color: #ffe600;    border-bottom:2px solid  #fde500; }
+
 .page-Home .menu-Home, .page-About .menu-About  , .page-Program .menu-Program  , .page-Attendance .menu-Attendance , .page-Contact .menu-Contact , .page-Partners .menu-Partners {
 	font-weight:bolder;
     font-family: LatoBlack, sans-serif;
-	border-bottom: solid 2px #fff;
+	border-bottom: solid 2px #fde500;
 ;}
 .menu {width: width:100vw}
 .page-Home .menu-row .menu-container .menu-item:hover , .page-Home .menu-Home {    border-color:#fde500; }
