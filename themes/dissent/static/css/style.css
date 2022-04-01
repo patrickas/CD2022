@@ -468,15 +468,16 @@ div {scroll-margin-top: 7em;}
 .page-Home .menu-row .menu-container a { color:white;}
 .menu-row.sticky .menu-container a { color:#5a3d99; }
 
-.menu-row .menu-container .menu-item:hover > a {    color: #5a3d99;    }
 .page-Home .menu-row .menu-container .menu-item:hover > a {    color: #ffe600;    }
 .menu-row.sticky .menu-container .menu-item:hover > a {    color: #5a3d99;    }
 
-.menu-row .menu-container .menu-item:hover {    color: #5a3d99;    border-bottom: solid 2px; }
-.menu-row .menu-container .menu-item:hover a {    color: #5a3d99;    }
+.menu-row .menu-container .menu-item:hover {    border-bottom: solid 2px; }
 
 .menu-row .menu-container .menu-item:hover {    color: #ffe600;    border-bottom:2px solid white; }
 .menu-container .menu-item a:hover {color:#ffe600;}
+.page-Home .menu-Home a, .page-About .menu-About  a, .page-Program .menu-Program  a , .page-Attendance .menu-Attendance a, .page-Contact .menu-Contact a, .page-Partners .menu-Partners a {
+	color:#fde500;
+}
 .page-Home .menu-Home, .page-About .menu-About  , .page-Program .menu-Program  , .page-Attendance .menu-Attendance , .page-Contact .menu-Contact , .page-Partners .menu-Partners {
 	font-weight:bolder;
     font-family: LatoBlack, sans-serif;
