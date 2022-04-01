@@ -38,7 +38,7 @@ layout: page
 	<div>
 	<div class="title">Donate to CD2022</div>
 	<div class="text">If you share with us the same commitment to freedom of thought and expression, human and civil rights, and the appreciation of diversity, you can contribute to the success of the conference through your donation.</div>
-	<a class="button" href="https://www.paypal.com/donate/?hosted_button_id=8K5YV9UHGFUAC">DONATE</a><br>
+	<a class="button" target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=8K5YV9UHGFUAC">DONATE</a><br>
 	</div>
 </div>
 
