@@ -176,10 +176,16 @@ a.button  {line-height:4rem;}
 }
 .popup img.speaker-img { width:25vw; max-width:40vh; max-height:unset; }
 .popup .bio {	position:absolute ;bottom:0.5em;left: 1.2em;right:0.5em;top:38vw;overflow-y: auto; font-size:1em}
-.popup .featured-description .name {font-size:1em;}
+.popup .featured-description .name {font-size:1.5em;}
+.popup .featured-description .text {font-size:1.1em;}
+.popup .social img.icon {width:2em}
+
 @media screen and (orientation:landscape) {
 	.popup > div{ top:2vh; height:96vh; }
 	.popup .bio {	top:27vw; font-size: 0.9em;}
+	.popup .featured-description .name {font-size:1em;}
+	.popup .featured-description .text {font-size:0.7em;}
+	.popup .social img.icon {width:1.3em}
 }
 
 
