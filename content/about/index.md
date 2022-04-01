@@ -102,6 +102,11 @@ layout: page
             among the world’s ex-Muslim and
             atheist activists and organizations
         </div>
+		<div class="contained-text">
+			Coming together and sharing expertise is highly important to foster a
+			sense of solidarity and unity among activists and organizations,
+			especially with regards to campaigning and protection of atheists at risk.
+		</div>
     </div>
     <div class="right">
         <div class="contained-backgrounded-text">
@@ -109,27 +114,13 @@ layout: page
             and legitimize the right to
             apostasy and blasphemy
         </div>
-    </div>
-    </div>
-</div>
-
-<div id="purpose-text" class="content-two-columns">
-    <div class="aligner">
-        <div class="left">
-            <div class="contained-text">
-                Coming together and sharing expertise is highly important to foster a
-                sense of solidarity and unity among activists and organizations,
-                especially with regards to campaigning and protection of atheists at risk.
-            </div>
-        </div>
-        <div class="right">
             <div class="contained-text">
                 To this end, we will seek to secure media coverage of this event and
                 we will make use of this unique assembly of international intellectual
                 figures to bring attention to our cause, to amplify our voice, and to win
                 larger public support.
             </div>
-        </div>
+    </div>
     </div>
 </div>
 

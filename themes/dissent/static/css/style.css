@@ -508,8 +508,8 @@ a.barid {color: #5a3d99; font-weight:bold;}
 
 
 .short-about-section-container .text , #purpose_section { max-width: 35em;}
-#purpose-boxes .contained-backgrounded-text { font-weight:bold; font-size:larger;}
-#purpose-text {margin-top:20px}
+#purpose-boxes .contained-backgrounded-text { font-weight:bold; font-size:larger; margin-bottom:20px}
+#purpose-text {}
 
 .ftlb > img , .cemb > img {display: inline-block;margin-left:20%;float:left;}
 
