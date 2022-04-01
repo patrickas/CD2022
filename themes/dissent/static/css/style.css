@@ -490,7 +490,8 @@ div {scroll-margin-top: 7em;}
 .content > .title { background:url("/cd2022_page_title_bg.jpg");background-size: cover;background-position-y: center;}
 
 .content-Program .lineup { text-align:center; margin: 40px 25% 40px 25%; font-size:1.3em;}
-.content-Program .lineup .title { font-size:2em;font-weight:bold; font-family:GothamBold; color:#5a3d99; margin-bottom:0.5em;}
+.content-Program .lineup .title { font-size:3rem;font-weight:bold; font-family:GothamBold; color:#5a3d99; margin-bottom:0.5em;}
+#artists_section .title { width:100%; text-align:center; margin-top:3rem;font-size:3rem;font-weight:bold; font-family:GothamBold; color:#5a3d99; margin-bottom:0.5em;}
 
 
 .main-column {padding: 2em 10% 2em 10%;}
