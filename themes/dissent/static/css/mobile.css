@@ -185,7 +185,11 @@ a.button  {line-height:4rem;}
 button  {height:auto;font-size:0.8em;}
 .content {	padding-top: 140px; }
 
-footer {font-size:1.5em;}
+footer {font-size:2.7em;}
+footer .footer-section {display:block;}
+footer .footer-separator {display:none;}
+footer .footer {height:4.5em;}
+footer .footer .copyrights {font-size:0.7em;}
 .content-two-columns .left , .content-two-columns .right { display:block; width:100%; font-size:1em; margin-bottom:3em; margin-right:0;}
 .content-two-columns .left .contained-backgrounded-text , .content-two-columns .right .contained-backgrounded-text {width:90%}
 .content-two-columns .contained-text { text-align:justify; }

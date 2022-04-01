@@ -375,6 +375,8 @@ a.button {    height: 26px; 	line-height: 28px;}
     color: #ffffff;
     background-color: #5a3d99;
 }
+footer .footer-section {display:inline;}
+
 
 .footer .links {
     padding-top: 20px;
