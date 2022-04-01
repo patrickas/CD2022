@@ -569,3 +569,5 @@ a.barid {color: #5a3d99; font-weight:bold;}
 
 
 #venue_section .smaller {font-size:smaller;}
+#id-expect-container a.button {margin-right:36px}
+#id-expect-container a.button.buy-ticket-button {background-color:#fde500;color:#5a3d99}
