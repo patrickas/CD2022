@@ -98,7 +98,7 @@ layout: page
     <div class="aligner">
     <div class="left">
         <div class="contained-backgrounded-text">
-            To strength networking efforts
+            To strengthen networking efforts
             among the world’s ex-Muslim and
             atheist activists and organizations
         </div>
@@ -153,7 +153,7 @@ layout: page
                     In addition to its work in Lebanon,
                     the organization has contributed to
                     the rescue efforts of tens of
-                    persecuted atheist in the Arab world
+                    persecuted atheists in the Arab world
                     over the last few years and
                     participated in several international
                     campaigns.
