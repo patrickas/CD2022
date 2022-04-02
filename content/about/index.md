@@ -34,7 +34,7 @@ layout: page
                 <p>
                     Organized by “Freethought Lebanon” and the 
                     “Council of Ex-Muslims of Britain”, this conference 
-                    will gather nearly 50 speakers from 30 countries worldwide, 
+                    will gather nearly 50 speakers and artists from 30 countries worldwide, 
                     to celebrate freethought and dissent through talks, poetry, 
                     film, music, and comedy.
                 </p>
