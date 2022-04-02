@@ -26,7 +26,7 @@ draft: false
     </div>
     <div class="feature-banner">
         <div class="number">50+</div>
-        <div class="description">SPEAKERS</div>
+        <div class="description">SPEAKERS<br>AND&nbsp;ARTISTS</div>
     </div>
     <div class="feature-banner">
         <div class="number">30+</div>
