@@ -241,8 +241,8 @@ a.button {    height: 26px; 	line-height: 28px;}
 	min-width:15vw;
 	min-height:10em;
 }
-.featured-speaker .locator .click_indicator {float:right;width:40px;height:40px;padding-top:20px;}
-.featured-speaker .locator .click_indicator > img {width:40px;height:40px;}
+.featured-speaker .locator .click_indicator {float:right;width:40px;height:40px;margin-top:28px; background-color: transparent;}
+.featured-speaker .locator .click_indicator > img {width:40px;height:40px; }
 .featured-speaker .featured-description { 
 	position:relative;
     background: RGBA(90, 61, 153, 0.6);
@@ -264,7 +264,7 @@ a.button {    height: 26px; 	line-height: 28px;}
 	margin: 0.5em 0.5em 0.3em 20px;
 	font-family:GothamBold, sans-serif;
 	font-size:1.2em;
-	overflow: hidden;
+	Xoverflow: hidden;
 	white-space: nowrap;
 }
 
