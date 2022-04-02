@@ -240,7 +240,7 @@ layout: page
                     <span class="subnotes">Jul. 22 - 24 / London</span>
                 </p>
                 <p>
-                    The gathering stood out, loud and proud, to remind the world that the freedom of conscience and expression are also for those who reject and criticize religion and that the demand for these freedoms is universal.
+                    The gathering stood out, loud and proud, to remind the world that the freedom of conscience and expression is also for those who reject and criticize religion and that the demand for this freedom is universal.
                 </p>
                 <p><br></p>
             </div>
