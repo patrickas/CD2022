@@ -234,8 +234,8 @@ footer .footer .copyrights {font-size:0.7em;}
 
 .bg-purple.buy-ticket .title {font-size:3rem;}
 .bg-purple.buy-ticket > div {min-width:400px;  max-width:100%;}
-.bg-purple.buy-ticket .text {font-size:1.5rem;margin-bottom:1em; font-family:LatoLight;}
-.bg-purple.buy-ticket .fee {font-size:2.3rem;}
+.bg-purple.buy-ticket .text {font-size:1.5rem;margin-bottom:1em;  font-family:LatoLight; line-height:2.3rem;}
+.bg-purple.buy-ticket .fee {font-size:2.3rem;line-height:2.3rem;}
 .bg-purple.buy-ticket { display:block;width: 75vw;} 
 .bg-purple.buy-ticket  > div { max-width:100%; margin-bottom:3em;}
 

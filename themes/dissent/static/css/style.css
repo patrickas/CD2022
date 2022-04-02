@@ -541,6 +541,10 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .bg-purple.buy-ticket .text {margin-bottom:1em; font-family:LatoRegular;}
 .bg-purple.buy-ticket .fee {float:right;font-weight:bold; font-family:GothamBold;}
 .bg-purple.buy-ticket a.button {color:#5a3d99; background-color:#fde500;}
+.bg-purple.buy-ticket .tickets-table td .text {margin-bottom:0;}
+.tickets-table {width:100%;border:0;}
+.tickets-table td {vertical-align:middle; border:0px solid;}
+.tickets-table  {margin-bottom:1rem;;}
 
 .partners-blurb {text-align:center; margin:5rem 20vw 5rem 20vw;}
 
