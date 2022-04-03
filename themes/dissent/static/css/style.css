@@ -568,8 +568,7 @@ a.barid {color: #5a3d99; font-weight:bold;}
 
 #partner-logos {text-align:center;}
 #partner-logos figcaption {margin-top:1rem;font-size:1.2rem;}
-.partner-logo {display:inline-block;text-align:center; margin-bottom:4em;}
-.partner-logo.partner1 , .partner-logo.partner3 , .partner-logo.partner4{margin-right:2vw;}
+.partner-logo {display:inline-block;text-align:center; margin-bottom:4em; width: 330px; vertical-align: top;}
 .partner-logo a img { width:20vw; max-width:200px;}
 .partner-logo.partner1 a img { width:22vw; max-width:220px;}
 .partner-logo.partner2 a img { width:27.6vw; max-width:276px;}
