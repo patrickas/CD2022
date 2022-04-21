@@ -230,7 +230,7 @@ layout: page
                     fights for universal rights and freedom of speech.
                 </p>
             </div>
-            <a class="button" href="https://debalie.nl/artikel/celebrating-dissent-2"  target="_blank">VISIT WEBSITE</a>
+            <a class="button" href="https://www.ex-muslim.org.uk/2019/09/de-balie-celebratingdissent"  target="_blank">VISIT WEBSITE</a>
         </div>
         <div class="right">
             <img src="CD2022_About7.jpg" class="contained-image" />
