@@ -212,7 +212,7 @@ footer .footer .copyrights {font-size:0.7em;}
 .cemb, .ftlb {	width: 60%; margin-left:20%; }
 .footer .links a {    display:inline-block; margin: 0 0.1em 0 0.1em; }
 
-#purpose_section {	max-width: 35em; }
+#purpose_section {	max-width:unset; }
 .short-about-section-container .text {	max-width: 90%; }
 .section-title.title { padding-left:0; width: 90%;  margin: 0 auto 0 auto;}
 .page-Home .section-title.title { margin-bottom:1em; font-size:3.8em;}
