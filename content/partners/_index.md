@@ -32,6 +32,7 @@ layout: page
 	<div class="title">Become a CD2022 Partner!</div>
 	<div class="text">Our partners are given full credit and visibility during the activities of the conference, in all media appearances, and on all Celebrating Dissent 2022 merchandise and branding.</div>
 	<div>For information about partnership options, get in touch with the organizers today.</div>
+	<br/>
 	<a class="barid" href="mailto:cd2022@freethoughtlebanon.net">cd2022@freethoughtlebanon.net</a>
 	</div>
 </div>
