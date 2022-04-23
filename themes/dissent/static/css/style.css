@@ -416,7 +416,7 @@ img.preload {width:0 !important;}
 	text-align:left;
 }
 .popup > div > div { 	padding:20px; }
-.popup .bio {	position:absolute ;bottom:5px;;left:200px;top:130px;overflow-y: auto; }
+.popup .bio {	position:absolute ;bottom:20px;right:20px;left:200px;top:130px;overflow-y: auto; text-align:justify}
 
 .popup .speaker-img-container {float:left; height:100%;}
 .popup img.speaker-img { margin-right:1em; margin-bottom:1em; max-height:200px;}
@@ -434,7 +434,7 @@ button.close {
     background-color: white;
     color: lightgrey;
 	position: relative;
-	right: -20px;
+	right: -10px;
 	top: -10px;
 }
 button.close img {	 width:80% ; filter: opacity(25%); }
