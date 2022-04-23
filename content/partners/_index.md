@@ -14,15 +14,15 @@ layout: page
 
 <div id="partner-logos">
 	<div>
-	<div class="partner-logo partner1"><figure><a target="_blank" href="https://atheist-refugees.com/en/"><img src="/partners/Partners_ARR.jpg" alt="Atheist Refugee Relief"></a><figcaption>Atheist Refugee Relief</figcaption></figure></div>
-	<div class="partner-logo partner2"><figure><a target="_blank" href="https://centerforinquiry.org/"   ><img src="/partners/Partners_CFI.jpg" alt="Center for Inquiry"></a><figcaption>Center for Inquiry</figcaption></figure></div>
-	<div class="partner-logo partner3"><figure><a target="_blank" href="https://ffrf.org/"               ><img src="/partners/Partners_FFRF.jpg" alt="Freedom From Religion Foundation"></a><figcaption>Freedom From Religion Foundation</figcaption></figure></div>
+	<div class="partner-logo partner1"><figure><a target="_blank" href="https://atheist-refugees.com/en/"><img src="/partners/LogoPartners_ARR.jpg" alt="Atheist Refugee Relief"></a><figcaption>Atheist Refugee Relief</figcaption></figure></div>
+	<div class="partner-logo partner2"><figure><a target="_blank" href="https://centerforinquiry.org/"   ><img src="/partners/LogoPartners_CFI.jpg" alt="Center for Inquiry"></a><figcaption>Center for Inquiry</figcaption></figure></div>
+	<div class="partner-logo partner3"><figure><a target="_blank" href="https://ffrf.org/"               ><img src="/partners/LogoPartners_FFRF.jpg" alt="Freedom From Religion Foundation"></a><figcaption>Freedom From Religion Foundation</figcaption></figure></div>
 	</div>
 	<div>
-	<div class="partner-logo partner4"><figure><a target="_blank" href="https://www.giordano-bruno-stiftung.de/en"><img src="/partners/Partners_GBS.jpg" alt="Giordano Bruno Stiftung"></a><figcaption>Giordano Bruno Stiftung</figcaption></figure></div>
-	<div class="partner-logo partner5"><figure><a target="_blank" href="https://www.secularism.org.uk/"           ><img src="/partners/Partners_NSS.jpg" alt="National Secular Society"></a><figcaption>National Secular Society</figcaption></figure></div>
-	<div class="partner-logo partner6"><figure><a target="_blank" href="https://richarddawkins.net/"              ><img src="/partners/Partners_RDF.jpg" alt="Richard Dawkins Foundation"></a><figcaption>Richard Dawkins Foundation</figcaption></figure></div>
-	<div class="partner-logo partner7"><figure><a target="_blank" href="https://vhs-koeln.de/"                    ><img src="/partners/Partners_VHS.jpg" alt="Volkshochschule Köln"></a><figcaption>Volkshochschule Köln</figcaption></figure></div>
+	<div class="partner-logo partner4"><figure><a target="_blank" href="https://www.giordano-bruno-stiftung.de/en"><img src="/partners/LogoPartners_GBS.jpg" alt="Giordano Bruno Stiftung"></a><figcaption>Giordano Bruno Stiftung</figcaption></figure></div>
+	<div class="partner-logo partner5"><figure><a target="_blank" href="https://www.secularism.org.uk/"           ><img src="/partners/LogoPartners_NSS.jpg" alt="National Secular Society"></a><figcaption>National Secular Society</figcaption></figure></div>
+	<div class="partner-logo partner6"><figure><a target="_blank" href="https://richarddawkins.net/"              ><img src="/partners/LogoPartners_RDF.jpg" alt="Richard Dawkins Foundation"></a><figcaption>Richard Dawkins Foundation</figcaption></figure></div>
+	<div class="partner-logo partner7"><figure><a target="_blank" href="https://vhs-koeln.de/"                    ><img src="/partners/LogoPartners_VHS.jpg" alt="Volkshochschule Köln"></a><figcaption>Volkshochschule Köln</figcaption></figure></div>
 	</div>
 </div>
 <div class="line"></div>
