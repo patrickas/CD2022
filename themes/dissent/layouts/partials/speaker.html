@@ -1,32 +1,45 @@
-        <div class="featured-speaker {{ .outer.Scratch.Get "counter" }}" onClick="popup(this)">
-            <div class="locator"><img class="preload" width="0" height="0" src="/program/speakers/Speakers_{{ .image }} Y.jpg">
-                <img class="speaker-main-photo" src="/program/speakers/Speakers_{{ .image }} P.jpg" onmouseover="this.src='/program/speakers/Speakers_{{ .image }} Y.jpg'" onmouseout="this.src='/program/speakers/Speakers_{{ .image }} P.jpg'"/>
-                <div class="featured-description">
-                    <div class="click_indicator"><img src="/program/speakers/icon_click.png"></div>
-                    <div class="name">{{ .name }}</div>
-                    <div class="text">{{ .title }}</div>
-                	</div>
-            </div>
-        </div>
-        <div class="popup"><div><div><button class="close"  onClick="hideparent(this)"><img src="/program/speakers/close-button.svg"></button>
-				<div class="speaker-img-container">
-            		<img class="speaker-img" src="/program/speakers/Speakers_{{ .image }} P.jpg">
+		<div id="speaker-{{ .outer.Scratch.Get "counter" }}" class="featured-speaker" XonClick="popup(this)">
+				<div class="locator"><img class="preload" width="0" height="0" src="/program/speakers/Speakers_{{ .image }} Y.jpg">
+					 <img class="speaker-main-photo" alt="Photo of {{ .name }}" src="/program/speakers/Speakers_{{ .image }} P.jpg"/>
+					 <div class="featured-description">
+						<div class="click_indicator"><img src="/program/speakers/icon_arrow.png"></div>
+						<div class="name">{{ .name }}</div>
+						<div class="text">{{ .title }}</div>
+						<div class="hidden-text">
+							<br>
+							<button onclick="popup(this.parentElement.parentElement.parentElement.parentElement)">SPEAKER'S BIO</button>
+							<br><br>
+							<div class="social-container">
+							{{ if .website }}<div class="social social-website"><a target="_blank" href="{{ .website }}" title="website"><img alt="website icon" class="icon" src="/program/speakers/icon_website_white.png"></a></div>{{end}}
+							{{ if .twitter }}<div class="social social-twitter"><a target="_blank" href="{{ .twitter }}" title="twitter"><img alt="twitter social media icon" class="icon" src="/program/speakers/icon_twitter_white.png"></a></div>{{end}}
+							{{ if .facebook }}<div class="social social-facebook"><a target="_blank" href="{{ .facebook }}" title="facebook"><img alt="facebook social media icon" class="icon" src="/program/speakers/icon_facebook_white.png"></a></div>{{end}}
+							{{ if .instagram }}<div class="social social-instagram"><a target="_blank" href="{{ .instagram }}" title="instagram"><img alt="instagram social media icon" class="icon" src="/program/speakers/icon_instagram_white.png"></a></div>{{end}}
+							{{ if .youtube }}<div class="social social-youtube"><a target="_blank" href="{{ .youtube }}" title="youtube"><img alt="youtube social media icon" class="icon" src="/program/speakers/icon_youtube_white.png"></a></div>{{end}}
+							{{ if .vimeo }}<div class="social social-vimeo"><a target="_blank" href="{{ .vimeo }}" title="vimeo"><img alt="vimeo social media icon" class="icon" src="/program/speakers/icon_vimeo_white.png"></a></div>{{end}}
+							</div>
+						</div>
+					 	</div>
 				</div>
-            <div class="featured-description">
-                <div class="name">{{ .name }}</div>
-                <div class="text">{{ .title }}</div>
-            </div>
-            <div class="social-container">
-            {{ if .website }}<div class="social social-website"><a href="{{ .website }}"><img class="icon" src="/program/speakers/icon_website.png"></a></div>{{end}}
-            {{ if .twitter }}<div class="social social-twitter"><a href="{{ .twitter }}"><img class="icon" src="/program/speakers/icon_twitter.png"></a></div>{{end}}
-            {{ if .facebook }}<div class="social social-facebook"><a href="{{ .facebook }}"><img class="icon" src="/program/speakers/icon_facebook.png"></a></div>{{end}}
-            {{ if .instagram }}<div class="social social-instagram"><a href="{{ .instagram }}"><img class="icon" src="/program/speakers/icon_instagram.png"></a></div>{{end}}
-            {{ if .youtube }}<div class="social social-youtube"><a href="{{ .youtube }}"><img class="icon" src="/program/speakers/icon_youtube.png"></a></div>{{end}}
-            {{ if .vimeo }}<div class="social social-vimeo"><a href="{{ .vimeo }}"><img class="icon" src="/program/speakers/icon_vimeo.png"></a></div>{{end}}
-			</div>
-			<div class="bio">
-            {{ .bio }}
-			</div>
-        </div></div>
-{{ .outer.Scratch.Set "counter" (not (.outer.Scratch.Get "counter") ) }}
-</div>
+		</div>
+		<div class="popup"><div><div><button class="close"  onClick="hideparent(this)"><img src="/program/speakers/close-button.svg"></button>
+				<div class="speaker-img-container">
+						<img class="speaker-img" src="/program/speakers/Speakers_{{ .image }} P.jpg">
+				</div>
+				<div class="featured-description">
+					 <div class="name">{{ .name }}</div>
+					 <div class="text">{{ .title }}</div>
+				</div>
+				<div class="social-container">
+				{{ if .website }}<div class="social social-website"><a target="_blank" href="{{ .website }}" title="website"><img alt="website icon" class="icon" src="/program/speakers/icon_website.png"></a></div>{{end}}
+				{{ if .twitter }}<div class="social social-twitter"><a target="_blank" href="{{ .twitter }}" title="twitter"><img alt="twitter social media icon" class="icon" src="/program/speakers/icon_twitter.png"></a></div>{{end}}
+				{{ if .facebook }}<div class="social social-facebook"><a target="_blank" href="{{ .facebook }}" title="facebook"><img alt="facebook social media icon" class="icon" src="/program/speakers/icon_facebook.png"></a></div>{{end}}
+				{{ if .instagram }}<div class="social social-instagram"><a target="_blank" href="{{ .instagram }}" title="instagram"><img alt="instagram social media icon" class="icon" src="/program/speakers/icon_instagram.png"></a></div>{{end}}
+				{{ if .youtube }}<div class="social social-youtube"><a target="_blank" href="{{ .youtube }}" title="youtube"><img alt="youtube social media icon" class="icon" src="/program/speakers/icon_youtube.png"></a></div>{{end}}
+				{{ if .vimeo }}<div class="social social-vimeo"><a target="_blank" href="{{ .vimeo }}" title="vimeo"><img alt="vimeo social media icon" class="icon" src="/program/speakers/icon_vimeo.png"></a></div>{{end}}
+				</div>
+				<div class="bio">
+					{{ .bio }}
+				</div>
+			</div></div>
+			{{ .outer.Scratch.Set "counter" (add 1 (int (.outer.Scratch.Get "counter")) ) }}
+		</div>

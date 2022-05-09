@@ -401,7 +401,7 @@ body , header { max-width: 1920px;margin-right:auto;margin-left:auto;}
 .counter-container {margin-top:10px; }
 
 
-img.preload {width:0 !important;}
+#avatar_preload , img.preload {width:0 !important; position:absolute;}
 
 .popup { position:fixed; display:none; z-index:998; top:0; left:0; width:100%;  height:100%; background-color:#000c;}
 .popup > div {
@@ -574,3 +574,31 @@ a.barid {color: #5a3d99; font-weight:bold;}
 #venue_section .smaller {font-size:smaller;}
 #id-expect-container a.button {margin-right:36px}
 #id-expect-container a.button.buy-ticket-button {background-color:#fde500;color:#5a3d99}
+
+/********************************************************************************************/
+
+.hidden-text div {display:inline-block;}
+.hidden-text {  position: absolute;  overflow: hidden;  height: 0; }
+.hidden-text {
+  text-align: center;
+  width: 100%;
+}
+.hidden-text img.icon {width: 2rem;}
+.hidden-text .social {margin-right:1rem;}
+
+.locator:hover .hidden-text {
+  height: 45%;
+  max-height: 200px;
+}
+.featured-speaker {cursor:unset;}
+
+.featured-speaker .locator:hover .click_indicator {display:none;}
+.featured-speaker .locator:hover .featured-description .name {padding-top:50%;}
+.featured-speaker .locator .featured-description .name {text-align:center;}
+.featured-speaker .locator .featured-description .text {text-align:center; }
+
+
+.featured-speaker .locator {position:relative; }
+.featured-speaker .locator .featured-description { position: absolute; padding:0; height:unset; bottom: 3px;  left: 0;  right: 0; top: 75%;margin-top:0; transition: .3s ease;}
+.featured-speaker .locator:hover .featured-description {  top:0;  }
+
