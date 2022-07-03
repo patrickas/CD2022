@@ -584,12 +584,16 @@ a.barid {color: #5a3d99; font-weight:bold;}
   width: 100%;
 }
 .hidden-text img.icon {width: 2rem;}
-.hidden-text .social {margin-right:1rem;}
+.hidden-text .social {margin-right:0.8rem;}
 
 .locator:hover .hidden-text {
-  height: 45%;
-  max-height: 200px;
+    /* height: 45%; */
+    /* max-height: 200px; */
+    height: 9rem;
+    bottom: 0;
+    transition: .3s ease;
 }
+
 .featured-speaker {cursor:unset;}
 
 .featured-speaker .locator:hover .click_indicator {display:none;}
