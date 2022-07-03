@@ -416,7 +416,7 @@ body , header { max-width: 1920px;margin-right:auto;margin-left:auto;}
 	text-align:left;
 }
 .popup > div > div { 	padding:20px; }
-.popup .bio {	position:absolute ;bottom:20px;right:20px;left:200px;top:130px;overflow-y: auto; text-align:justify}
+.popup .bio {	position:absolute ;bottom:20px;right:20px;left:200px;top:130px;overflow-y: auto; text-align:left}
 
 .popup .speaker-img-container {float:left; height:100%;}
 .popup img.speaker-img { margin-right:1em; margin-bottom:1em; max-height:200px;}
@@ -521,7 +521,7 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .page-Home .section-title.title { text-align:center;padding-left:0;}
 
 .organizer-title {    font-family: LatoBlack, sans-serif; font-weight:bold; font-size:1.7rem;}
-.contained-image.organizer-logo {margin-bottom:3em; width:60%; }
+.contained-image.organizer-logo {margin-bottom:3em; width:40%; }
 #organizers_section .aligner .right {text-align:left;}
 #organizers_section .aligner .right .organizer-logo {margin-top:2em;display:block;}
 #organizers_section .aligner .right button , #organizers_section .aligner .right a.button {margin-left:0em;}
