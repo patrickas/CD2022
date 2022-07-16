@@ -78,6 +78,7 @@ a.button , button {
     border: 0;
     font-family: GothamBold, sans-serif;
 }
+
 a.button {    height: 26px; 	line-height: 28px;}
 
 .section-container {
@@ -606,3 +607,16 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .featured-speaker .locator .featured-description { position: absolute; padding:0; height:unset; bottom: 3px;  left: 0;  right: 0; top: 75%;margin-top:0; transition: .3s ease;}
 .featured-speaker .locator:hover .featured-description {  top:0;  }
 
+
+.sold-out  {
+	display:inline-block;
+	vertical-align:middle;
+	text-align:center;
+    padding: 5px 35px;
+    border-radius: 10px;
+    background-color: #7e60bf;
+    font-weight: bold;
+    border: 0;
+    font-family: GothamBold, sans-serif;
+    color:#5a3d99; background-color:#fde500;
+}
