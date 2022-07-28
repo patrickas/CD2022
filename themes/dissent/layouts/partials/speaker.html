@@ -1,6 +1,6 @@
 		<div id="speaker-{{ .outer.Scratch.Get "counter" }}" class="featured-speaker" XonClick="popup(this)">
 				<div class="locator">
-					 <img class="speaker-main-photo" alt="Photo of {{ .name }}" src="/program/speakers/Speakers_{{ .image }} P.jpg"/>
+					 <img class="speaker-main-photo" alt="Photo of {{ .name }}" src="/program/speakers/Speakers_{{ .name }}.jpg"/>
 					 <div class="featured-description">
 						<div class="click_indicator"><img src="/program/speakers/icon_arrow.png"></div>
 						<div class="name">{{ .name }}</div>
@@ -23,7 +23,7 @@
 		</div>
 		<div class="popup"><div><div><button class="close"  onClick="hideparent(this)"><img src="/program/speakers/close-button.svg"></button>
 				<div class="speaker-img-container">
-						<img class="speaker-img" src="/program/speakers/Speakers_{{ .image }} P.jpg">
+						<img class="speaker-img" src="/program/speakers/Speakers_{{ .name }}.jpg">
 				</div>
 				<div class="featured-description">
 					 <div class="name">{{ .name }}</div>
