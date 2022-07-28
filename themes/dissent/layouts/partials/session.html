@@ -4,7 +4,7 @@
 
 <div class="session-info">
 	{{ if .title }}<div class="title">{{.title}} {{if .by}} <span class="by">by</span> <span class="person">{{ .by }}</span>{{end}}</div>{{ end }}
-	{{ if .description }}<div class="details">
+	{{ if (or .description  .smallphotos) }}<div class="details">
 		<div class="descripton">{{safeHTML  .description}}</div>
 		{{ if .opening }}<div class="opening"><span class="lead">Opening remarks and personal story:</span> <span class="person">{{.opening}}</span></div>{{ end }}
 		{{ if .chair }}<div class="chair"><span class="lead">Chair:</span> <span class="person">{{.chair}}</span></div>{{ end }}
