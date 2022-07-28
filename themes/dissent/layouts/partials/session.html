@@ -1,0 +1,28 @@
+<div class="session">
+<div class="time">{{.time}}</div>
+<div class="type {{.type}}">{{.type}}</div>
+
+<div class="session-info">
+	{{ if .title }}<div class="title">{{.title}}</div>{{ end }}
+	{{ if .description }}<div class="details">
+		<div class="descripton">{{safeHTML  .description}}</div>
+		{{ if .opening }}<div class="opening"><span class="lead">Opening remarks and personal story:</span> <span class="person">{{.opening}}</span></div>{{ end }}
+		{{ if .chair }}<div class="chair"><span class="lead">Chair:</span> <span class="person">{{.chair}}</span></div>{{ end }}
+		{{ if .panelists }}
+			<div class="panelists"><span class="lead">Panelists:</span> 
+			<span class="person">{{ delimit .panelists ", " ", </span>and <span class=\"person\">" }}</span>
+			</div>
+			
+			<div class="small-photos">
+				{{ range .smallphotos }}<figure><img src="/program/speakers/Speakers_{{.}} P.jpg"> <figcaption>{{.}}</figcaption></figure>{{end}}
+			</div>
+
+		{{ end }}
+	<div class="large-photos">
+		{{ range .largephotos }}<span class="person">{{.}}</span>{{end}}
+	</div>
+	</div>
+	{{ end }}
+</div>
+
+</div>

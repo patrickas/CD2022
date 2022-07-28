@@ -1,0 +1,50 @@
+<div class="detailed_program">
+<div class="days_buttons">
+<a class="button day1">DAY 1</a> 
+<a class="button day2">DAY 2</a>
+<a class="button exhibitions">Exhibitions</a>
+</div>
+<div class="days day1">
+{{ partial "session" (dict "outer" . 
+	"type" "Coffee and registration" 
+	"time" "09:00 - 10:00" 
+	)}}
+
+{{ partial "session" (dict "outer" . 
+	"type" "Opening session" 
+	"time" "10:00 - 10:30" 
+	"description" "Opening with MCs activist <strong>Fariborz Pooya</strong> and YouTuber <strong>Veedu Vidz</strong> Welcome speech on behalf of Volkshochschule Köln by Homaira Mansury Cologne Deputy Mayor Andreas Wolter" 
+	"name" "Richard Dawkins" 
+	)}}
+
+{{ partial "session" (dict "outer" . 
+	"type" "Plenary Panel" 
+	"time" "10:30 - 11:45" 
+	"title" "Blasphemy, Islamophobia and Free Expression "
+	"description" "Why is the right to free expression and conscience important for dissent?<br>How is blasphemy linked to freethought? Are there limits to free expression?" 
+	"opening" "Ibn Warraq" 
+	"chair" "Annie Laurie Gaylor" 
+	"panelists" (slice "Ali Rizvi" "Ibn Warraq" "Halima Salat" "Sami Abdallah" "Susana McIntyre")
+	"smallphotos" (slice "RIZVI ALI" "Ibn Warraq" "Halima Salat" "Sami Abdallah" "Susana McIntyre")
+	)}}
+
+{{ partial "session" (dict "outer" . 
+	"type" "Music" 
+	"time" "13:05 - 13:15" 
+	"title" "Dan Barker on Piano"
+	"description" "Live piano performance by <strong>Dan Barker</strong>" 
+	"panelists" (slice "Dan Barker")
+	)}}
+	
+{{ partial "session" (dict "outer" . 
+	"type" "Lunch break" 
+	"time" "13:15 - 14:40" 
+	)}}
+	
+	
+</div>
+<div class="days day2">
+</div>
+<div class="days day3">
+</div>
+</div>
