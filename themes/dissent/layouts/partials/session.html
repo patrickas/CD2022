@@ -3,7 +3,7 @@
 <div class="type {{.type}}">{{.type}}</div>
 
 <div class="session-info">
-	{{ if .title }}<div class="title">{{.title}}</div>{{ end }}
+	{{ if .title }}<div class="title">{{.title}} {{if .by}} <span class="by">by</span> <span class="person">{{ .by }}</span>{{end}}</div>{{ end }}
 	{{ if .description }}<div class="details">
 		<div class="descripton">{{safeHTML  .description}}</div>
 		{{ if .opening }}<div class="opening"><span class="lead">Opening remarks and personal story:</span> <span class="person">{{.opening}}</span></div>{{ end }}
@@ -12,15 +12,20 @@
 			<div class="panelists"><span class="lead">Panelists:</span> 
 			<span class="person">{{ delimit .panelists ", " ", </span>and <span class=\"person\">" }}</span>
 			</div>
+		{{ end }}
 			
+		{{ if .smallphotos }}
 			<div class="small-photos">
 				{{ range .smallphotos }}<figure><img src="/program/speakers/Speakers_{{.}} P.jpg"> <figcaption>{{.}}</figcaption></figure>{{end}}
 			</div>
-
 		{{ end }}
-	<div class="large-photos">
-		{{ range .largephotos }}<span class="person">{{.}}</span>{{end}}
-	</div>
+			
+		{{ if .largephotos }}
+			<div class="large-photos">
+				{{ range .largephotos }}<span class="person">{{.}}</span>{{end}}
+			</div>
+		{{ end }}
+
 	</div>
 	{{ end }}
 </div>

@@ -665,7 +665,9 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .detailed_program .Music , .detailed_program .Art , .detailed_program .Film , .detailed_program .Dance  , .detailed_program .Poetry  { color: #FF8000}
 .detailed_program .Interview , .detailed_program .Ceremony { color: #000}
 
-.detailed_program .title {    font-size:larger; font-weight:bold}
+.detailed_program .title {    font-size:larger; font-weight:bold; color: #5A3D99;}
+.detailed_program .title .by {    font-size:smaller; font-weight:thin; color: #000;}
+.detailed_program .title .person {    color: #000;}
 .detailed_program .person {    font-weight:bold}
 .detailed_program .lead {    color: #7E60BF; font-style:italic;}
 
