@@ -11,12 +11,15 @@
 		{{ if .panelists }}
 			<div class="panelists"><span class="lead">Panelists:</span> 
 			<span class="person">{{ delimit .panelists ", " ", </span>and <span class=\"person\">" }}</span>
+			<div class="small-photos">
+				{{ range .panelists }}<figure><img src="/program/speakers/Speakers_{{.}}.jpg"> <figcaption>{{.}}</figcaption></figure>{{end}}
+			</div>
 			</div>
 		{{ end }}
 			
 		{{ if .smallphotos }}
 			<div class="small-photos">
-				{{ range .smallphotos }}<figure><img src="/program/speakers/Speakers_{{.}} P.jpg"> <figcaption>{{.}}</figcaption></figure>{{end}}
+				{{ range .smallphotos }}<figure><img src="/program/speakers/Speakers_{{.}}.jpg"> <figcaption>{{.}}</figcaption></figure>{{end}}
 			</div>
 		{{ end }}
 			

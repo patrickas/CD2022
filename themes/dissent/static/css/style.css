@@ -671,5 +671,6 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .detailed_program .person {    font-weight:bold}
 .detailed_program .lead {    color: #7E60BF; font-style:italic;}
 
-.detailed_program .small-photos figure {display:inline-block;margin:0 1rem 0 0;}
-.detailed_program .small-photos img {width:5rem;}
+.detailed_program .small-photos figure {display:inline-block;width:6.5rem;margin:1rem 1rem 0 0; vertical-align: top;}
+.detailed_program .small-photos img {width:6.5rem;}
+.detailed_program .small-photos figcaption {line-height:1rem;font-size:small;}
