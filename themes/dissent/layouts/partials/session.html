@@ -16,13 +16,13 @@
 			
 		{{ if .smallphotos }}
 			<div class="small-photos">
-				{{ range .smallphotos }}<figure><img src="/program/speakers/Speakers_{{.}}.jpg"> <figcaption>{{.}}</figcaption></figure>{{end}}
+				{{ range .smallphotos }}<figure><img src="/program/speakers/Speakers_{{.}}.jpg"  alt="{{ . }}"> <figcaption>{{.}}</figcaption></figure>{{end}}
 			</div>
 		{{ end }}
 			
 		{{ if .largephotos }}
 			<div class="large-photos">
-				{{ range .largephotos }}<figure><img src="/program/speakers/photo_{{.}}.jpg"> <figcaption>{{.}}</figcaption></figure>{{end}}
+				{{ range .largephotos }}<figure><img src="/program/speakers/photo_{{.}}.jpg" alt="{{ . }}"> <figcaption>{{.}}</figcaption></figure>{{end}}
 			</div>
 		{{ end }}
 
