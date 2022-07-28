@@ -634,7 +634,9 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .detailed_program .days_buttons .day1 , .detailed_program .days_buttons .day2 { font-size:1.5rem;}
 
 
-.detailed_program .days {}
+.detailed_program .day-title { margin-bottom:2rem }
+.detailed_program .day-title .day { font-family: GothamBold, sans-serif;font-size:2.5rem; font-weight:bold;color:#5A3D99; }
+.detailed_program .day-title .date { font-family: GothamThin, sans-serif;font-size:1.7rem;}
 
 .detailed_program .session {
     border:0px solid grey;
@@ -650,9 +652,11 @@ a.barid {color: #5a3d99; font-weight:bold;}
 
 .detailed_program .session-info {
     margin-left:9rem;
+    line-height:2rem;
 }
 .detailed_program .session-info div { margin-bottom:0.8rem;}
 
+.detailed_program .cb { font-weight:bold;color:#5A3D99; }
 .detailed_program .type {     }
 
 .detailed_program .registration , .detailed_program .break { color: #878787}
