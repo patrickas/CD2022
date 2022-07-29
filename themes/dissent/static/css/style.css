@@ -495,7 +495,7 @@ div {scroll-margin-top: 7em;}
 .content > .title { background:url("/cd2022_page_title_bg.jpg");background-size: cover;background-position-y: center;}
 
 .content-Program .lineup { text-align:center; margin: 40px 25% 40px 25%; font-size:1.3em;}
-.content-Program .lineup .title {font-size: 2em;font-weight:bold; font-family:GothamBold; color:#5a3d99; margin-bottom:0.5em;}
+.content-Program .lineup .title , .detailed_program .exhibitions .title {font-size: 2em;font-weight:bold; font-family:GothamBold; color:#5a3d99; margin-bottom:0.5em;}
 #artists_section .title { width:100%; text-align:center; margin-top:3rem;font-size:2rem;font-weight:bold; font-family:GothamBold; color:#5a3d99; margin-bottom:0.5em;}
 
 
@@ -687,6 +687,11 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .detailed_program .minititle {display:none; }
 .detailed_program .collapsed .minititle {display:inline; }
 
+.detailed_program .exhibitions .preview {width:45%; margin-bottom:2rem;display:inline-block;vertical-align:top;}
+.detailed_program .exhibitions .preview.exhibition-1{margin-right:5%;}
+.detailed_program .exhibitions img {width:100%; margin-bottom:0.5rem;}
+.detailed_program .exhibitions .preview .title {font-size:2rem;margin-bottom:0.5rem;}
+.detailed_program .exhibitions .preview .description {margin-bottom:2rem;}
 
 /*********************************************************************/
 .exhibition-photo {
@@ -710,8 +715,8 @@ a.barid {color: #5a3d99; font-weight:bold;}
 
 .exhibition-left , .exhibition-right { display:inline-block;font-size:1.5rem; width:40vw; margin-bottom:3rem;}
 .exhibition-left { margin-left:10vw ; margin-right:2vw ; vertical-align: top;}
-.exhibition1 .exhibition-left { width:30vw; }
-.exhibition1 .exhibition-right img { width:45vw;}
+#exhibition1 .exhibition-left { width:30vw; }
+#exhibition1 .exhibition-right img { width:45vw;}
 .exhibition-left p:first-of-type {margin-top:0}
 
 .exhibition-title {font-size: 3em;font-weight:bold; font-family:GothamBold; color:#5a3d99; margin-bottom:0.5em;margin-left:10vw;}

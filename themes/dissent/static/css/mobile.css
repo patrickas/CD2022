@@ -297,3 +297,9 @@ footer .footer .copyrights {font-size:0.7em;}
 .detailed_program .small-photos img {width:20vw;}
 .detailed_program .small-photos figcaption {line-height:2rem;font-size:2rem;}
 
+.detailed_program .exhibitions .preview {width:100%; margin-bottom:2rem;display:inline-block;vertical-align:top;}
+.detailed_program .exhibitions .preview.exhibition-1{margin-right:0%;}
+.detailed_program .exhibitions .preview .title {font-size:3rem;margin-bottom:0.5rem;}
+.detailed_program .exhibitions .preview .description {margin-bottom:2rem;}
+.detailed_program .exhibitions .preview a {margin-bottom:3rem;}
+
