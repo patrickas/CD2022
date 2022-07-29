@@ -686,19 +686,24 @@ a.barid {color: #5a3d99; font-weight:bold;}
     color:#fff;
     font-size:1.5rem; 
     text-align:bottom;
+    margin-bottom:4rem;
     
     display: flex;
     justify-content: flex-end;
     flex-direction: column;    
+    
 }
 .exhibition-photo .title  , .exhibition-photo .description { margin:3vw 20vw 3vw 10vw; vertical-align:bottom;}
 .exhibition-photo .title { font-family: GothamBold, sans-serif;font-size:2.5rem; font-weight:bold; margin-bottom:0;}
 
 
-.exhibition-left , .exhibition-right { display:inline-block;font-size:1.5rem; width:40vw;}
-.exhibition-left { margin-left:10vw ; margin-right:2vw}
-.exhibition-right img { width:39vw;}
+.exhibition-left , .exhibition-right { display:inline-block;font-size:1.5rem; width:40vw; margin-bottom:3rem;}
+.exhibition-left { margin-left:10vw ; margin-right:2vw ; vertical-align: top;}
+.exhibition1 .exhibition-left { width:30vw; }
+.exhibition1 .exhibition-right img { width:45vw;}
+.exhibition-left p:first-of-type {margin-top:0}
 
 .exhibition-title {font-size: 3em;font-weight:bold; font-family:GothamBold; color:#5a3d99; margin-bottom:0.5em;margin-left:10vw;}
-.exhibition-stories {display:inline-block;}
-.exhibition-stories img {width:30vw;margin-right:1vw;margin-bottom:1vw;}
+.exhibition-stories {margin-left:10vw ; margin-right:5vw ;}
+.exhibition-story {display:inline-block;}
+.exhibition-story img {width:26vw;margin-right:1.5vw;margin-bottom:1.5vw;}

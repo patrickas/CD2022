@@ -1,13 +1,13 @@
 <div class="detailed_program">
 <div class="days_buttons">
-<a class="button day1">DAY 1</a> 
-<a class="button day2">DAY 2</a>
+<a class="button day1" href="#day1">DAY 1</a> 
+<a class="button day2" href="#day2">DAY 2</a>
 <a class="button exhibitions">Exhibitions</a>
 </div>
 
 
 
-<div class="days day1">
+<div class="days" id="day1">
 <div class="day-title"><span class="day">DAY 1</span> <span class="date">— AUG. 20, 2022</span></div>
 {{ partial "session" (dict "outer" . 
 	"type" "Coffee and registration" 
@@ -138,7 +138,7 @@
 
 	
 </div>
-<div class="days day2">
+<div class="days" id="day2">
 <div class="day-title"><span class="day">DAY 2</span> <span class="date">— AUG. 21, 2022</span></div>
 {{ partial "session" (dict "outer" . 
 	"type" "Coffee and registration" 
