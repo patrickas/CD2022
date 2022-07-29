@@ -1,7 +1,7 @@
 <div class="session collapsed" id="session-{{ .sessioncounter }}">
 <div class="time {{.type}}">{{.time}}</div>
-<span class="type {{.type}}">{{.type}}</span>
-{{ if .title }}<span class="minititle {{.type}}">{{.title}}</span>{{ end }}
+<span class="type {{.type}}"  onClick="ExpandCollapse(this.parentElement)">{{.type}}</span>
+{{ if .title }}<span class="minititle {{.type}}"  onClick="ExpandCollapse(this.parentElement)">{{.title}}</span>{{ end }}
 {{ if (or .title .description) }}<span class="toggler {{.type}}" onClick="ExpandCollapse(this.parentElement)">⯅</span>{{ end }}
 
 <div class="session-info">

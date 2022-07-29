@@ -684,7 +684,8 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .detailed_program .collapsed .session-info { height :0; visibility: hidden;  opacity: 0; transition: visibility 0s, opacity 0.5s linear;}
 .detailed_program .session-info { height :auto;visibility: visible;  opacity: 1;  transition: visibility 0s, opacity 0.5s linear; }
 
-.detailed_program .toggler {cursor:pointer; transition: transform 0.2s; display: inline-block;}
+.detailed_program .toggler , .detailed_program .type , .detailed_program .toggler , .detailed_program .minititle {cursor:pointer; }
+.detailed_program .toggler {transition: transform 0.2s; display: inline-block;}
 .detailed_program .collapsed .toggler {    transform: rotate(180deg);  }
 .detailed_program  .type::after {content: ' '}
 
