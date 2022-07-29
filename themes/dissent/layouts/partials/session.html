@@ -2,7 +2,7 @@
 <div class="time {{.type}}">{{.time}}</div>
 <span class="type {{.type}}"  onClick="ExpandCollapse(this.parentElement)">{{.type}}</span>
 {{ if .title }}<span class="minititle {{.type}}"  onClick="ExpandCollapse(this.parentElement)">{{.title}}</span>{{ end }}
-{{ if (or .title .description) }}<span class="toggler {{.type}}" onClick="ExpandCollapse(this.parentElement)">⯅</span>{{ end }}
+{{ if (or .title .description) }}<span class="toggler {{.type}}" onClick="ExpandCollapse(this.parentElement)"><svg><svg id="triangle" viewBox="0 0 100 100"><polygon points="50 0, 100 100, 0 100"/>⯅</svg></span>{{ end }}
 
 <div class="session-info">
 	{{ if .title }}<div class="title">{{.title}} {{if .by}} <span class="by">by</span> <span class="person">{{ .by }}</span>{{end}}</div>{{ end }}

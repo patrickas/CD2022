@@ -677,7 +677,10 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .detailed_program .session-info { height :auto;visibility: visible;  opacity: 1;  transition: visibility 0s, opacity 0.5s linear; }
 
 .detailed_program .toggler , .detailed_program .type , .detailed_program .toggler , .detailed_program .minititle {cursor:pointer; }
-.detailed_program .toggler {transition: transform 0.2s; display: inline-block;}
+.detailed_program .toggler {transition: transform 0.2s; display: inline-block; line-height:1rem;}
+.detailed_program .toggler svg {height :0.8rem; width:0.8rem ; }
+
+
 .detailed_program .collapsed .toggler {    transform: rotate(180deg);  }
 .detailed_program  .type::after {content: ' '}
 
