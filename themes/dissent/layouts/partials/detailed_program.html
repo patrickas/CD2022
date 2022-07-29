@@ -5,24 +5,26 @@
 <a class="button exhibitions">Exhibitions</a>
 </div>
 
-
+{{ $sessioncounter := 0 }}
 
 <div class="days" id="day1">
 <div class="day-title"><span class="day">DAY 1</span> <span class="date">— AUG. 20, 2022</span></div>
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Coffee and registration" 
 	"time" "09:00 - 10:00" 
 	)}}
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Opening session" 
 	"time" "10:00 - 10:30" 
 	"description" "Opening with MCs activist <strong>Fariborz Pooya</strong> and YouTuber <strong>Veedu Vidz</strong> Welcome speech on behalf of Volkshochschule Köln by Homaira Mansury Cologne Deputy Mayor Andreas Wolter.<br><span class=\"cb\">Beyond the Barren Land of Dogma:</span> President of Freethought Lebanon <strong>Sami Abdallah</strong> <br><span class=\"cb\">Our Contribution will be Etched in the History of Dissent:</span> : Spokesperson of the Council of Ex-Muslims of Britain <strong>Maryam Namazie</strong><br><span class=\"cb\">Find Our Way to Freedom</span> by singer/songwriter  <strong>Shelley Segal</strong>"
-
-	"panelists" (slice "Faribroz Pooya" "Veedu Vidz" "Sami Abdallah" "Maryam Namazie" "Shelley Segal" )
+	"smallphotos" (slice "Faribroz Pooya" "Veedu Vidz" "Sami Abdallah" "Maryam Namazie" "Shelley Segal" )
 	)}}
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Plenary Panel" 
 	"time" "10:30 - 11:45" 
 	"title" "Blasphemy, Islamophobia and Free Expression"
@@ -33,7 +35,8 @@
 	"smallphotos" (slice "Ibn Warraq" "Annie Laurie Gaylor" "Ali Rizvi" "Halima Salat" "Sami Abdallah" "Susanna McIntyre")
 	)}}
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Music" 
 	"time" "11:45 - 11:50" 
 	"title" "Music is Haram"
@@ -41,7 +44,8 @@
 	"smallphotos" (slice "Veedu Vidz")
 	)}}
 	
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Plenary Panel" 
 	"time" "11:50 - 13:05" 
 	"title" "Atheists and the Human Right to Protection"
@@ -53,7 +57,8 @@
 	)}}
 	
 	
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Music" 
 	"time" "11:45 - 11:50" 
 	"title" "Dan Barker on Piano"
@@ -61,12 +66,14 @@
 	"smallphotos" (slice "Dan Barker")
 	)}}
 	
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Lunch break" 
 	"time" "13:15 - 14:40" 
 	)}}
 	
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Workshop" 
 	"time" "14:00 - 14:40" 
 	"title" "Asylum and Apostasy Workshop"
@@ -76,7 +83,8 @@
 	"smallphotos" (slice "Ana González")
 	)}}
 	
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Plenary Panel" 
 	"time" "14:45 - 16:00" 
 	"title" "Hijab, Bodily Autonomy and Women’s Rights"
@@ -87,7 +95,8 @@
 	"smallphotos" (slice "Rana Ahmad" "Lisa-Marie Taylor" "Annie Laurie Gaylor" "Fauzia Ilyas" "Hazar Kahera Watts" "Houzan Mahmoud" "Sara Nabil")
 	)}}
 	
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Visual Art" 
 	"time" "16:00 - 16:10" 
 	"title" "Bodies in War, My Hair is Free"
@@ -95,7 +104,8 @@
 	"smallphotos" (slice "Sara Nabil")
 	)}}
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Campaign" 
 	"time" "16:10 - 16:30" 
 	"title" "Raise Your Hands for Apostates"
@@ -104,12 +114,14 @@
 	"smallphotos" (slice "Victoria Gugenheim")
 	)}}
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Coffee break" 
 	"time" "16:30 - 17:15" 
 	)}}
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Plenary Panel" 
 	"time" "17:15 - 18:30" 
 	"title" "On Gods and Religious Morality"
@@ -120,14 +132,16 @@
 	"smallphotos" (slice "Sohail Ahmad" "Mimzy Vidz" "Armin Navabi" "Cemal Knudsen Yucel" "Khadija Khan" "Nuriyah Khan" "Wissam Charafeddine")
 	)}}
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Interview" 
 	"time" "18:30 - 19:00" 
 	"title" "Interview with Richard Dawkins"
 	"smallphotos" (slice "Richard Dawkins")
 	)}}
 	
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Ceremony" 
 	"time" "19:00 - 19:30" 
 	"title" "Freethought Champions Awards"
@@ -140,12 +154,14 @@
 </div>
 <div class="days" id="day2">
 <div class="day-title"><span class="day">DAY 2</span> <span class="date">— AUG. 21, 2022</span></div>
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Coffee and registration" 
 	"time" "09:00 - 10:00" 
 	)}}
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Opening session" 
 	"time" "09:50 - 10:00" 
 	"description" "Opening with MCs activist <strong>Fariborz Pooya</strong> and YouTuber <strong>Veedu Vidz</strong>"
@@ -153,7 +169,8 @@
 	)}}
 
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Film" 
 	"time" "10:30 - 10:40" 
 	"title" "No Longer Without You (2018)"
@@ -161,7 +178,8 @@
 	"largephotos" (slice "Nazmiye Oral" )
 	)}}
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Plenary Panel" 
 	"time" "10:40 - 11:45" 
 	"title" "Terror, Trauma and Survival"
@@ -171,7 +189,8 @@
 	"smallphotos" (slice "Helen Nicholls" "Jimmy Bangash" "Mimzy Vidz" "Nazmiye Oral" "Savin Bapir-Tardy" "Milad Resaeimanesh")
 	)}}
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Campaign" 
 	"time" "11:45 - 12:05" 
 	"title" "Raif Badawi and Conference Action for #LiftRaifTravelBan"
@@ -179,7 +198,8 @@
 	"largephotos" (slice "Ensaf Haidar")
 	)}}
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Dance" 
 	"time" "12:05 - 12:10" 
 	"title" "Chosen Haram"
@@ -189,7 +209,8 @@
 
 
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Plenary Panel" 
 	"time" "12:10 - 12:30" 
 	"title" "Ex-Muslim (discussion in German)"
@@ -200,12 +221,14 @@
 	
 	
 	
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Lunch break" 
 	"time" "12:30 - 14:00" 
 	)}}
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Plenary Panel" 
 	"time" "14:00 - 15:15" 
 	"title" "Identity Politics, Racism and Fundamentalism"
@@ -216,7 +239,8 @@
 	"smallphotos" (slice "Marieme Helie Lucas" "Sohail Ahmed" "Mazen Abou Hamdan" "Pragna Patel" "Zara Kay")
 	)}}
 	
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Poetry" 
 	"time" "15:15 - 15:25" 
 	"title" "Poetry reading"
@@ -224,7 +248,8 @@
 	"smallphotos" (slice "Halima Salat")
 	)}}
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Plenary Panel" 
 	"time" "15:25 - 17:30" 
 	"title" "Creativity in Challenging Fundamentalism and Defending Secularism"
@@ -235,7 +260,8 @@
 	"smallphotos" (slice "Ibtissame Betty Lachgar" "Jenny Wenhammar" "Amed Sherwan" "Inna Shevchenko" "Maryam Namazie" "Mohamed Hisham" "Nadia El Fani")
 	)}}
 
-{{ partial "session" (dict "outer" . 
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Closing session" 
 	"time" "17:30 - 18:30" 
 	"title" "Celebrating Dissent 2022 - Resolutions and Declarations"

@@ -676,6 +676,21 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .detailed_program .small-photos figcaption {line-height:1rem;font-size:small;}
 
 
+.detailed_program .minititle {font-weight:bold;}
+.detailed_program .collapsed .type::after {content: ': '}
+.detailed_program .type.Coffee::after  , .detailed_program .type.break::after , .detailed_program .type.Opening::after {content: ''}
+.detailed_program .time {color:black}
+.detailed_program .time.break {font-weight:normal;}
+.detailed_program .collapsed .session-info { height :0; visibility: hidden;  opacity: 0; transition: visibility 0s, opacity 0.5s linear;}
+.detailed_program .session-info { height :auto;visibility: visible;  opacity: 1;  transition: visibility 0s, opacity 0.5s linear; }
+
+.detailed_program .toggler {cursor:pointer; transition: transform 0.2s; display: inline-block;}
+.detailed_program .collapsed .toggler {    transform: rotate(180deg);  }
+.detailed_program  .type::after {content: ' '}
+
+.detailed_program .minititle {display:none; }
+.detailed_program .collapsed .minititle {display:inline; }
+
 
 /*********************************************************************/
 .exhibition-photo {
