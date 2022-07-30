@@ -288,6 +288,7 @@ footer .footer .copyrights {font-size:0.7em;}
 .detailed_program .title , .detailed_program .toggler {    font-size:3.5rem;;    line-height:4rem;}
 .detailed_program  { font-size:3rem ; }
 .detailed_program  .session-info .details { margin-bottom:6rem;}
+.detailed_program  .session-info .details .descripton { line-height:4rem;}
 .detailed_program .toggler {margin-bottom:1.5rem; margin-top:-1.5rem;}
 .detailed_program .toggler svg {height :2rem; width:2rem ;}
 
