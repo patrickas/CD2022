@@ -666,6 +666,8 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .detailed_program .small-photos figure {display:inline-block;width:6.5rem;margin:1rem 1rem 0 0; vertical-align: top;}
 .detailed_program .small-photos img {width:6.5rem;}
 .detailed_program .small-photos figcaption {line-height:1rem;font-size:small;}
+.detailed_program .large-photos figure  {margin-left:0; display:inline-block;}
+.detailed_program .large-photos img {width:40vw;}
 
 
 .detailed_program .minititle {font-weight:bold;}
