@@ -31,7 +31,7 @@ layout: page
 			<tr><td><div class="text"><strong>1-day ticket</strong> / Aug 20 or 21</div></td><td><div class="fee">€30.00<sup>*</sup></div></td></tr>
 			</table>
 <!-- 			<div class="center-content"><a class="button" href="https://www.eventbrite.co.uk/e/celebrating-dissent-2022-tickets-270982685507">BUY TICKETS</a></div> -->
-			<div class="center-content"><span class="sold-out">Celebrating Dissent tickets are sold out!<br>We are trying our best to increase the capacity in the venue.</span></div>
+			<div class="center-content"><span class="sold-out">Celebrating Dissent tickets are sold out!<br> For press accreditation, please contact us via email.</span></div>
 		</div>
 		<div class="extra-info">
 			<div class="text">Your ticket includes access to all discussion panels, talks, live music and performance shows, ceremonies, and exhibitions, taking place on the date(s) you selected for your ticket, as well as snacks and refreshments during breaks between discussions and shows.
