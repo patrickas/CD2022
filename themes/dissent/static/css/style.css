@@ -189,7 +189,7 @@ a.button {    height: 26px; 	line-height: 28px;}
     font-family: LatoLight, sans-serif;
 }
 
-.counter-container #days_counter {}
+.counter-container  { display:none;}
 
 .features-banner-container {
     position: relative;
