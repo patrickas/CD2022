@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>{{ partial "head.html" . }}</head>
+
+<body class="page-{{.Title}}">
+<header>{{ partial "header.html" . }}</header>
+<div class="content content-Program">
+
+    <div class="title">Participants</div>
+
+
+    <div class="photos-header">
+        <div class="title">Photos</div>
+        {{ partial "media_header_links" (dict "participants" "1") }}
+    </div>
+
+    <div class="line"></div><br><br>
+
+    <div class="media-pictures-container">
+
+        {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_1488_chadiwehbe") }}
+        {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_1496_chadiwehbe") }}
+        {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_1717_chadiwehbe") }}
+        {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_2082_chadiwehbe") }}
+        {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_2557_chadiwehbe") }}
+        {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_2558_chadiwehbe") }}
+        {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_2584_chadiwehbe") }}
+        {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_2613_chadiwehbe") }}
+        {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "Z72_1394_chadiwehbe") }}
+        {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "Z72_1395_chadiwehbe") }}
+        {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "Z72_1431_chadiwehbe") }}
+        {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "Z72_1446_chadiwehbe") }}
+        {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "Z72_1455_chadiwehbe") }}
+        {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "Z72_1464_chadiwehbe") }}
+
+    </div>
+
+    <div class="videos"></div>
+</div>
+
+
+</body>
+
+</html>

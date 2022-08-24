@@ -498,7 +498,6 @@ div {scroll-margin-top: 7em;}
 .content-Program .lineup .title , .detailed_program .exhibitions .title {font-size: 2em;font-weight:bold; font-family:GothamBold; color:#5a3d99; margin-bottom:0.5em;}
 #artists_section .title { width:100%; text-align:center; margin-top:3rem;font-size:2rem;font-weight:bold; font-family:GothamBold; color:#5a3d99; margin-bottom:0.5em;}
 
-
 .main-column {padding: 2em 10% 2em 10%;}
 .visa-assistance .title {font-weight:bold;font-size: 2em;color: #5a3d99;}
 a.barid {color: #5a3d99; font-weight:bold;}
@@ -725,3 +724,49 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .exhibition-stories {margin-left:10vw ; margin-right:5vw ;}
 .exhibition-story {display:inline-block;}
 .exhibition-story img {width:26vw;margin-right:1.5vw;margin-bottom:1.5vw;}
+
+.photos-header .lineup { text-align:center; margin: 40px 25% 40px 25%; font-size:1.3em;}
+.photos-header .lineup .title , .detailed_program .exhibitions .title {font-size: 2em;font-weight:bold; font-family:GothamBold; color:#5a3d99; margin-bottom:0.5em;}
+
+.photos-header .title {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: GothamBold;
+    color: #5a3d99;
+    margin-bottom: 0.5em;
+}
+
+.media-header-links {
+    text-align: center;
+}
+
+.media-header-links .media-header-link {
+    display: inline-block;
+    margin-left: 40px;
+    cursor: pointer;
+    font-weight: normal;
+    font-family: LatoRegular, sans-serif;
+    color: #5a3d99;
+}
+
+.media-header-links .media-header-link.first-element {
+    margin-left: 0;
+}
+
+.media-header-links .media-header-link.selected {
+    font-weight: bolder;
+}
+
+.media-pictures-container {
+    text-align: center;
+}
+
+.media-pictures-container .media-picture {
+    display: inline-block;
+    width: 420px;
+    text-align: center;
+}
+
+.media-pictures-container .media-picture img {
+    height: 270px;
+}
