@@ -6,15 +6,7 @@
 <header>{{ partial "header.html" . }}</header>
 <div class="content content-Program">
 
-    <div class="title">Protests</div>
-
-
-    <div class="photos-header">
-        <div class="title">Photos</div>
-        {{ partial "media_header_links" (dict "protests" "1") }}
-    </div>
-
-    <div class="line"></div><br><br>
+    {{ partial "media_header_links" (dict "protests" "1") }}
 
     <div class="media-pictures-container">
 
@@ -41,7 +33,6 @@
         {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_2158_chadiwehbe") }}
         {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_2159_chadiwehbe") }}
         {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_2163_chadiwehbe") }}
-        {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_2172_chadiwehbe") }}
         {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "Z72_1577_chadiwehbe") }}
         {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "Z72_1616_chadiwehbe") }}
         {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "Z72_1619_chadiwehbe") }}

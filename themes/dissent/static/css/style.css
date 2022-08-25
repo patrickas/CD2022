@@ -728,7 +728,16 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .photos-header .lineup { text-align:center; margin: 40px 25% 40px 25%; font-size:1.3em;}
 .photos-header .lineup .title , .detailed_program .exhibitions .title {font-size: 2em;font-weight:bold; font-family:GothamBold; color:#5a3d99; margin-bottom:0.5em;}
 
-.photos-header .title {
+.media-header-links {
+    display: inline-table;
+    width: 80%;
+    margin: 60px 0 40px 90px;
+    border-bottom: 1px solid #5a3d99;
+}
+
+.media-header-links .title {
+    display: table-cell;
+    vertical-align: middle;
     font-size: 2em;
     font-weight: bold;
     font-family: GothamBold;
@@ -736,13 +745,11 @@ a.barid {color: #5a3d99; font-weight:bold;}
     margin-bottom: 0.5em;
 }
 
-.media-header-links {
-    text-align: center;
-}
-
 .media-header-links .media-header-link {
-    display: inline-block;
-    margin-left: 40px;
+    display: table-cell;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
     cursor: pointer;
     font-weight: normal;
     font-family: LatoRegular, sans-serif;
@@ -755,6 +762,7 @@ a.barid {color: #5a3d99; font-weight:bold;}
 
 .media-header-links .media-header-link.selected {
     font-weight: bolder;
+    border-bottom: 2px solid #5a3d99;
 }
 
 .media-pictures-container {

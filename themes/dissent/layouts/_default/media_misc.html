@@ -6,15 +6,7 @@
 <header>{{ partial "header.html" . }}</header>
 <div class="content content-Program">
 
-    <div class="title">Misc</div>
-
-
-    <div class="photos-header">
-        <div class="title">Photos</div>
-        {{ partial "media_header_links" (dict "misc" "1") }}
-    </div>
-
-    <div class="line"></div><br><br>
+    {{ partial "media_header_links" (dict "misc" "1") }}
 
     <div class="media-pictures-container">
 
