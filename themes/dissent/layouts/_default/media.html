@@ -9,6 +9,7 @@
 	<div class="title">Photos</div>
 		<div class="media-pictures-container">
 		<div class="media-header-links-and-button">
+			<div class="button_jump"><a class="button" href="/gallery/_videos">VIDEOS</a></div>
 			<div class="media-header-links">
 				<div class="title"><a href="/gallery">Photos&nbsp;&nbsp;&nbsp;</a></div>
 				<div class="media-header-link {{ if (eq .Params.subpage "media_panels") }}selected{{ end }}"><a href="/gallery/_gallery_panels">Panels</a></div>
@@ -18,7 +19,6 @@
 				<div class="media-header-link {{ if (eq .Params.subpage "media_awards") }}selected{{ end }}"><a href="/gallery/_gallery_awards">Awards</a></div>
 				<div class="media-header-link {{ if (eq .Params.subpage "media_misc") }}selected{{ end }}"><a href="/gallery/_gallery_misc">Misc</a></div>
 			</div>
-			<div class="button_jump"><a class="button" href="/gallery/_videos">VIDEOS</a></div>
 		</div>
 		<div class="media-pictures-content"> 
 			{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_main" "alt" "Participants at CD2022" "src" "DSC_1717_chadiwehbe") }}

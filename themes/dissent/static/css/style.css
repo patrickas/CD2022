@@ -757,6 +757,10 @@ a.barid {color: #5a3d99; font-weight:bold;}
     text-align:left;
 }
 
+.content-Videos .media-header-links .title {
+    width:80vw;
+}
+
 .media-header-links .button_jump {
     display: table-cell;
     padding-left:20px;  
@@ -769,7 +773,7 @@ a.barid {color: #5a3d99; font-weight:bold;}
     width:150px;
     padding:0.08rem;
     margin-top:4rem;
-    margin-left:2rem;
+    margin-right:2rem;
 }
 
 .media-header-links .media-header-link {
