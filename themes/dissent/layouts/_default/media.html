@@ -10,15 +10,15 @@
 		<div class="media-pictures-container">
 		<div class="media-header-links-and-button">
 			<div class="media-header-links">
-				<div class="title"><a href="/media">Photos&nbsp;&nbsp;&nbsp;</a></div>
-				<div class="media-header-link {{ if (eq .Params.subpage "media_panels") }}selected{{ end }}"><a href="/media/_media_panels">Panels</a></div>
-				<div class="media-header-link {{ if (eq .Params.subpage "media_performances") }}selected{{ end }}"><a href="/media/_media_performances">Performances</a></div>
-				<div class="media-header-link {{ if (eq .Params.subpage "media_speeches") }}selected{{ end }} first-element"><a href="/media/_media_speeches">Speeches</a></div>
-				<div class="media-header-link {{ if (eq .Params.subpage "media_protests") }}selected{{ end }}"><a href="/media/_media_protests">Protests</a></div>
-				<div class="media-header-link {{ if (eq .Params.subpage "media_awards") }}selected{{ end }}"><a href="/media/_media_awards">Awards</a></div>
-				<div class="media-header-link {{ if (eq .Params.subpage "media_misc") }}selected{{ end }}"><a href="/media/_media_misc">Misc</a></div>
+				<div class="title"><a href="/gallery">Photos&nbsp;&nbsp;&nbsp;</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_panels") }}selected{{ end }}"><a href="/gallery/_gallery_panels">Panels</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_performances") }}selected{{ end }}"><a href="/gallery/_gallery_performances">Performances</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_speeches") }}selected{{ end }} first-element"><a href="/gallery/_gallery_speeches">Speeches</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_protests") }}selected{{ end }}"><a href="/gallery/_gallery_protests">Protests</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_awards") }}selected{{ end }}"><a href="/gallery/_gallery_awards">Awards</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_misc") }}selected{{ end }}"><a href="/gallery/_gallery_misc">Misc</a></div>
 			</div>
-			<div class="button_jump"><a class="button" href="/media/_videos">VIDEOS</a></div>
+			<div class="button_jump"><a class="button" href="/gallery/_videos">VIDEOS</a></div>
 		</div>
 		<div class="media-pictures-content"> 
 			{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_main" "alt" "Participants at CD2022" "src" "DSC_1717_chadiwehbe") }}

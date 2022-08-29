@@ -1,11 +1,11 @@
 {{ if (eq .current .category) }}
 <div class="media-picture">
-	<a onclick="popup(this.parentElement)"><span class="blank-image" style='background-image:url("/media/{{ .src }}_thumbnail.jpg")'></span></a>
+	<a onclick="popup(this.parentElement)"><span class="blank-image" style='background-image:url("/gallery/{{ .src }}_thumbnail.jpg")'></span></a>
 </div>
 <!-- <img src="{{ .src }}.jpg"> -->
 <div class="mediapopup"><div><div><button class="close"  onClick="hideparent(this)"><img src="/program/speakers/close-button.svg"></button>
 		<figure class="media-img-container">
-		<img class="media-img" loading="lazy" src="/media/{{ .src }}.jpg">
+		<img class="media-img" loading="lazy" src="/gallery/{{ .src }}.jpg">
 		 <figcaption>{{ .description }} <span class="credit"><br>{{ .credits}}</span></figcaption>
 		</figure>
 	</div></div>
