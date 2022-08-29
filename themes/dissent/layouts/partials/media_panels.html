@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>{{ partial "head.html" . }}</head>
-
-<body class="page-{{.Title}}">
-<header>{{ partial "header.html" . }}</header>
-<div class="content content-Program">
-
-    {{ partial "media_header_links" (dict "panels" "1") }}
-
-    <div class="media-pictures-container">
-
         {{ partial "media_photo" (dict "alt" "Panel at CD2022" "src" "DSC_1561_chadiwehbe") }}
         {{ partial "media_photo" (dict "alt" "Panel at CD2022" "src" "DSC_1998_chadiwehbe") }}
         {{ partial "media_photo" (dict "alt" "Panel at CD2022" "src" "Z72_1393_chadiwehbe") }}
@@ -17,13 +5,3 @@
         {{ partial "media_photo" (dict "alt" "Panel at CD2022" "src" "Z72_1718_chadiwehbe") }}
         {{ partial "media_photo" (dict "alt" "Panel at CD2022" "src" "Z72_1775_chadiwehbe") }}
         {{ partial "media_photo" (dict "alt" "Panel at CD2022" "src" "Z72_1817_chadiwehbe") }}
-
-    </div>
-
-    <div class="videos"></div>
-</div>
-
-
-</body>
-
-</html>

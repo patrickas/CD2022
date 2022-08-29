@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>{{ partial "head.html" . }}</head>
-
-<body class="page-{{.Title}}">
-<header>{{ partial "header.html" . }}</header>
-<div class="content content-Program">
-
-    {{ partial "media_header_links" (dict "awards" "1") }}
-
-    <div class="media-pictures-container">
-
         {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_2015_chadiwehbe") }}
         {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_2023_chadiwehbe") }}
         {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_2031_chadiwehbe") }}
@@ -24,13 +12,3 @@
         {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_2067_chadiwehbe") }}
         {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_2068_chadiwehbe") }}
         {{ partial "media_photo" (dict "alt" "Participants at CD2022" "src" "DSC_2074_chadiwehbe") }}
-
-    </div>
-
-    <div class="videos"></div>
-</div>
-
-
-</body>
-
-</html>

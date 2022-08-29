@@ -305,3 +305,9 @@ footer .footer .copyrights {font-size:0.7em;}
 .detailed_program .exhibitions .preview .description {margin-bottom:2rem;}
 .detailed_program .exhibitions .preview a {margin-bottom:3rem;}
 
+
+.button_jump a.button {
+    font-size: 1rem;
+    line-height: 2rem;
+    height: 2rem;
+}

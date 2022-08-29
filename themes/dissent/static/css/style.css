@@ -728,10 +728,21 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .photos-header .lineup { text-align:center; margin: 40px 25% 40px 25%; font-size:1.3em;}
 .photos-header .lineup .title , .detailed_program .exhibitions .title {font-size: 2em;font-weight:bold; font-family:GothamBold; color:#5a3d99; margin-bottom:0.5em;}
 
+
+.media-pictures-container {
+    text-align: center;
+    width:80vw;
+    margin:0 150px 0 150px;
+}
+
+
+.media-header-links-and-button {
+    display: flex;
+    width: 100%;
+}
 .media-header-links {
     display: inline-table;
-    width: 80%;
-    margin: 60px 0 40px 90px;
+    margin: 60px 0 40px 0;
     border-bottom: 1px solid #5a3d99;
 }
 
@@ -743,6 +754,22 @@ a.barid {color: #5a3d99; font-weight:bold;}
     font-family: GothamBold;
     color: #5a3d99;
     margin-bottom: 0.5em;
+    text-align:left;
+}
+
+.media-header-links .button_jump {
+    display: table-cell;
+    padding-left:20px;  
+}
+
+.button_jump a.button {
+    border: 1px solid #5a3d99;
+    background-color:white;
+    color:#5a3d99;
+    width:150px;
+    padding:0.08rem;
+    margin-top:4rem;
+    margin-left:2rem;
 }
 
 .media-header-links .media-header-link {
@@ -765,16 +792,21 @@ a.barid {color: #5a3d99; font-weight:bold;}
     border-bottom: 2px solid #5a3d99;
 }
 
-.media-pictures-container {
+.media-pictures-content { margin:0; padding:0; text-align:left;}
+
+.media-pictures-content .media-picture {
+    display: inline-block;
     text-align: center;
+    
 }
 
-.media-pictures-container .media-picture {
-    display: inline-block;
-    width: 420px;
-    text-align: center;
+.media-pictures-content .blank-image {
+    width: 19.7vw;
+    height: 12vw;
+    display:inline-block;
+    background:#eee;
+    background-size: cover;
 }
 
 .media-pictures-container .media-picture img {
-    height: 270px;
 }
