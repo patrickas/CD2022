@@ -806,6 +806,7 @@ a.barid {color: #5a3d99; font-weight:bold;}
     display:inline-block;
     background:#eee;
     background-size: cover;
+    cursor:pointer;
 }
 
 .media-pictures-container .media-picture img {
@@ -850,3 +851,7 @@ a.barid {color: #5a3d99; font-weight:bold;}
     margin:0 10%;
 }
 
+.content-Videos .media-pictures-container  figcaption {
+    margin:0;
+    width:1120px;
+}

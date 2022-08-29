@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>{{ partial "head.html" . }}</head>
+
+<body class="page-{{.Title}}">
+    <header>{{ partial "header.html" . }}</header>
+
+	<div class="content content-Media content-Videos">
+		<div class="media-pictures-container">
+		<div class="media-header-links-and-button">
+			<div class="media-header-links">
+				<div class="title"><a href="/media/_videos">Videos&nbsp;&nbsp;&nbsp;</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_panels") }}selected{{ end }}"><a href="/media/_videos_panels">Panels</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_performances") }}selected{{ end }}"><a href="/media/_videos_performances">Performances</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_speeches") }}selected{{ end }} first-element"><a href="/media/_videos_speeches">Speeches</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_protests") }}selected{{ end }}"><a href="/media/_videos_protests">Protests</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_awards") }}selected{{ end }}"><a href="/media/_videos_awards">Awards</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_misc") }}selected{{ end }}"><a href="/media/_videos_misc">Misc</a></div>
+			</div>
+			<div class="button_jump"><a class="button" href="/media/">Photos</a></div>
+		</div>
+		<div class="media-pictures-content"> 
+
+
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "x4anEb4AcrI" "title" "Opening Speech by Sami Abdallah (Freethought Lebanon)" "description" "Opening Speech by Sami Abdallah (Freethought Lebanon)") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "aHeBpdzu5GM" "title" "Opening Speech by Maryam Namazie (Council of Ex-Muslims of Britain)" "description" "Opening Speech by Maryam Namazie (Council of Ex-Muslims of Britain)") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "QwLKRlsGZXk" "title" "Resolution in Support of Salman Rushdie" "description" "Resolution in Support of Salman Rushdie") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "VwZ7E6aWKLA" "title" "Welcome Speech by Homaira Mansury (VHS Köln)" "description" "Welcome Speech by Homaira Mansury (VHS Köln)") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "I7ZxyqUEXV4" "title" "A word by Cologne Deputy Mayor Andreas Wolter" "description" "A word by Cologne Deputy Mayor Andreas Wolter") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_performances" "id" "4aSg9wK0v_Y" "title" "Find Our Way To Freedom by Shelley Segal" "description" "Find Our Way To Freedom by Shelley Segal") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "4L9Mq9UOMa0" "title" "Plenary Panel: Blasphemy, Islamophobia and Free Expression" "description" "Plenary Panel: Blasphemy, Islamophobia and Free Expression") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "xHZQFC3nf1g" "title" "Music Is Haram by Veedu Vidz" "description" "Music Is Haram by Veedu Vidz") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "xyZRuALnPRY" "title" "Plenary Panel: Atheists and the Human Right to Protection" "description" "Plenary Panel: Atheists and the Human Right to Protection") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_performances" "id" "uD50GIueI5I" "title" "Dan Barker on Piano" "description" "Dan Barker on Piano") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "POjWHpd-qpI" "title" "Plenary Panel: Hijab, Bodily Autonomy and Women’s Rights" "description" "Plenary Panel: Hijab, Bodily Autonomy and Women’s Rights") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "BJ5hKP9zvtQ" "title" "Plenary Panel: On Gods and Religious Morality" "description" "Plenary Panel: On Gods and Religious Morality") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "8w_LUPIhiDI" "title" "Maryam Namazie Interviews Richard Dawkins" "description" "Maryam Namazie Interviews Richard Dawkins") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "nLWJc8mdvT8" "title" "Freethought Champions Awards: Sohail Arabi" "description" "Freethought Champions Awards: Sohail Arabi") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "eotPv_YtL3k" "title" "Freethought Champions Award: Marieme Hellie Lucas" "description" "Freethought Champions Award: Marieme Hellie Lucas") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "bGcZ8zYV6b0" "title" "Freethought Champions Awards: Richard Dawkins" "description" "Freethought Champions Awards: Richard Dawkins") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "0IG5YEsLIoo" "title" "Protest Action in Defense of Salman Rushdie" "description" "Protest Action in Defense of Salman Rushdie") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "kZ1xMZWAA7U" "title" "Plenary Panel: Terror, Trauma and Survival" "description" "Plenary Panel: Terror, Trauma and Survival") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "jJjn9Jyla8Y" "title" "Updates About Raif Badawi by Ensaf Haidar" "description" "Updates About Raif Badawi by Ensaf Haidar") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "7jGmqRhHtTw" "title" "The Ex-Muslim Movement" "description" "The Ex-Muslim Movement") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "DeTSNlFnn3A" "title" "Declaration: Code 166" "description" "Declaration: Code 166") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "cODp-rN1PX0" "title" "Plenary Panel: Identity Politics, Racism and Fundamentalism" "description" "Plenary Panel: Identity Politics, Racism and Fundamentalism") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "j-ka2HxWE3Y" "title" "Declaration of International Secularism Day" "description" "Declaration of International Secularism Day") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "p7cUpbk-Py8" "title" "Poetry Reading by Halima Salat" "description" "Poetry Reading by Halima Salat") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "L_GqEzk36xU" "title" "Plenary Panel: Creativity in Challenging Fundamentalism and Defending Secularism" "description" "Plenary Panel: Creativity in Challenging Fundamentalism and Defending Secularism") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_performances" "id" "CgWWEeoZW1M" "title" "Scream of Freedom by Sara Nabil" "description" "Scream of Freedom by Sara Nabil") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_main" "id" "Yh1o_BvIooE" "title" "Celebrating Dissent Resolutions" "description" "Celebrating Dissent Resolutions") }} 
+{{ partial "media_video" (dict "current" .Params.subpage "category" "media_performances" "id" "0Ccmv_-IJcM" "title" "Musical Performance by Shelley Segal" "description" "Musical Performance by Shelley Segal") }} 
+
+
+
+		</div>
+	</div>
+
+	<div class="videos">
+	</div>
+</div>
+
+</body>
+
+</html>
