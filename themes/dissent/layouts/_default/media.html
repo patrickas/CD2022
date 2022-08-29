@@ -10,18 +10,29 @@
 		<div class="media-header-links-and-button">
 			<div class="media-header-links">
 				<div class="title"><a href="/media">Photos</a></div>
-				<div class="media-header-link {{ if (eq .Params.subpage "media_participants") }}selected{{ end }} first-element"><a href="/media/media_participants">Participants</a></div>
-				<div class="media-header-link {{ if (eq .Params.subpage "media_panels") }}selected{{ end }}"><a href="/media/media_panels">Panels</a></div>
-				<div class="media-header-link {{ if (eq .Params.subpage "media_performances") }}selected{{ end }}"><a href="/media/media_performances">Performances</a></div>
-				<div class="media-header-link {{ if (eq .Params.subpage "media_protests") }}selected{{ end }}"><a href="/media/media_protests">Protests</a></div>
-				<div class="media-header-link {{ if (eq .Params.subpage "media_awards") }}selected{{ end }}"><a href="/media/media_awards">Awards</a></div>
-				<div class="media-header-link {{ if (eq .Params.subpage "media_misc") }}selected{{ end }}"><a href="/media/media_misc">Misc</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_participants") }}selected{{ end }} first-element"><a href="/media/_media_participants">Participants</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_panels") }}selected{{ end }}"><a href="/media/_media_panels">Panels</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_performances") }}selected{{ end }}"><a href="/media/_media_performances">Performances</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_protests") }}selected{{ end }}"><a href="/media/_media_protests">Protests</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_awards") }}selected{{ end }}"><a href="/media/_media_awards">Awards</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_misc") }}selected{{ end }}"><a href="/media/_media_misc">Misc</a></div>
 			</div>
 			<div class="button_jump"><a class="button" href="/media/media_misc">VIDEOS</a></div>
 		</div>
+		<div class="media-pictures-content"> 
+			{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_main" "alt" "Participants at CD2022" "src" "DSC_1717_chadiwehbe") }}
+			{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_main" "alt" "Participants at CD2022" "src" "DSC_2031_chadiwehbe") }}
+			{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_main" "alt" "Participants at CD2022" "src" "DSC_2089_chadiwehbe") }}
+			{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_main" "alt" "Participants at CD2022" "src" "Z72_1312_chadiwehbe") }}
+			{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_main" "alt" "Participants at CD2022" "src" "Z72_1455_chadiwehbe") }}
+			{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_main" "alt" "Participants at CD2022" "src" "Z72_1478_chadiwehbe") }}
+			{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_main" "alt" "Participants at CD2022" "src" "Z72_1893_chadiwehbe") }}
+		
+			{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_protests" "alt" "Participants at CD2022" "src" "DSC_1717_chadiwehbe") }}
+			{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_protests" "alt" "Participants at CD2022" "src" "DSC_2031_chadiwehbe") }}
+			{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_panels" "alt" "Participants at CD2022" "src" "DSC_2089_chadiwehbe") }}
+			{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_panels" "alt" "Participants at CD2022" "src" "Z72_1312_chadiwehbe") }}
 
-		<div class="media-pictures-content">
-			{{ partial .Params.subpage }}
 		</div>
 	</div>
 
