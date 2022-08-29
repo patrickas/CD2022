@@ -65,7 +65,13 @@ function toggleVisibility (element)
 }
 
 function popup ( target) {	document.querySelectorAll('.popup').forEach(function(e){e.style.display='none';});target.nextElementSibling.style.display='block'; setTimeout( function() {window.popup_showing=target.nextElementSibling.firstChild;} , 500); }
-function hideparent( target) { target.parentElement.parentElement.parentElement.style.display='none'; window.popup_showing=null;}
+function hideparent( target , id) { 
+	target.parentElement.parentElement.parentElement.style.display='none'; window.popup_showing=null;
+	if (id) {
+		//document.getElementById(id).src='';
+		document.getElementById(id).contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')
+	}
+}
 
 function ExpandCollapse (element) {
     if (element.classList.contains("collapsed")) {
@@ -75,3 +81,10 @@ function ExpandCollapse (element) {
     }
 }
 
+
+function popupvideo ( target , id ) {	
+	document.querySelectorAll('.mediapopup').forEach(function(e){e.style.display='none'; });
+	//document.getElementById(id).src='https://www.youtube.com/embed/'+id;
+	target.nextElementSibling.style.display='block'; 
+	setTimeout( function() {window.popup_showing=target.nextElementSibling.firstChild;} , 500); 
+}
