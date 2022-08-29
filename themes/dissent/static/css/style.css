@@ -728,7 +728,7 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .photos-header .lineup { text-align:center; margin: 40px 25% 40px 25%; font-size:1.3em;}
 .photos-header .lineup .title , .detailed_program .exhibitions .title {font-size: 2em;font-weight:bold; font-family:GothamBold; color:#5a3d99; margin-bottom:0.5em;}
 
-
+.content-Media .title { display:none;}
 .media-pictures-container {
     text-align: center;
     width:80vw;

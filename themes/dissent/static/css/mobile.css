@@ -311,3 +311,26 @@ footer .footer .copyrights {font-size:0.7em;}
     line-height: 2rem;
     height: 2rem;
 }
+
+.content-Media .title { display:block;}
+
+.media-pictures-container {
+    width:98%;
+    margin-left:1vw;;
+}
+
+.media-pictures-content .blank-image {
+    width:51vw;
+    height:30vw;
+}
+
+.mediapopup figure , .mediapopup img , .mediapopup > div{
+      margin: auto;
+    display: block;
+    width: 100%;
+}
+.media-pictures-container  figcaption {
+    margin:0;
+    font-size:2rem;
+}
+
