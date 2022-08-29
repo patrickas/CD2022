@@ -1,6 +1,6 @@
 {{ if (eq .current .category) }}
 <div class="media-picture">
-	<a onclick="popupvideo(this.parentElement , 'iframe-{{ .id }}')"><span title="{{ .title }}" class="blank-image" style='background-image:url("https://i.ytimg.com/vi/{{ .id }}/hqdefault.jpg")'></span></a>
+	<a onclick="popupvideo(this.parentElement , 'iframe-{{ .id }}')"><span title="{{ .title }}" class="blank-image" style='background-image:url("https://i.ytimg.com/vi/{{ .id }}/hqdefault.jpg")'><img class="play-icon" src="/gallery/youtube-play-icon.png"></span></a>
 </div>
 <div class="mediapopup"><div><div><button class="close"  onClick="hideparent(this , 'iframe-{{ .id }}')"><img src="/program/speakers/close-button.svg"></button>
 		<figure class="media-img-container">

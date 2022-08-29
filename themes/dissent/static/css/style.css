@@ -800,6 +800,7 @@ a.barid {color: #5a3d99; font-weight:bold;}
     
 }
 
+
 .media-pictures-content .blank-image {
     width: 19.7vw;
     height: 12vw;
@@ -850,8 +851,12 @@ a.barid {color: #5a3d99; font-weight:bold;}
     color:#fff;
     margin:0 10%;
 }
+.content-Videos .media-header-links {
+}
 
 .content-Videos .media-pictures-container  figcaption {
     margin:0;
     width:1120px;
 }
+
+.play-icon {width:4vw;margin-top:5vw; opacity: 0.9;}
