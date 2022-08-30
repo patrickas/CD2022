@@ -27,6 +27,24 @@ document.addEventListener("DOMContentLoaded", function(){
 
 	// Get the offset position of the navbar
 	sticky = header.offsetTop;
+	
+	
+	
+	document.addEventListener('keydown', function(e) {
+		//console.log( e.keyCode )
+		switch (e.keyCode) {
+			case 27:
+				closeall();
+				break;
+			case 37:
+				prev();
+				break;
+			case 39:
+				next();
+				break;
+		}
+	});	
+	
 });
 
 const isVisible = elem => !!elem && !!( elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length ) // source (2018-03-11): https://github.com/jquery/jquery/blob/master/src/css/hiddenVisibleSelectors.j
@@ -82,9 +100,48 @@ function ExpandCollapse (element) {
 }
 
 
-function popupvideo ( target , id ) {	
+function popupvideo ( target , id ) {
 	document.querySelectorAll('.mediapopup').forEach(function(e){e.style.display='none'; });
 	//document.getElementById(id).src='https://www.youtube.com/embed/'+id;
 	target.nextElementSibling.style.display='block'; 
 	setTimeout( function() {window.popup_showing=target.nextElementSibling.firstChild;} , 500); 
+}
+
+function select_adjacent( f ) {
+	var currently_selected;
+	var to_select;
+	var done;
+	f ( document.querySelectorAll('.mediapopup') ).forEach(function(e){
+		if (done) return;
+		if (currently_selected) {
+			to_select = done = e;
+			return;
+		}
+		if (e.style.display == 'block' ) {
+			currently_selected = e;
+			e.style.display='none';
+			return;
+		}
+	});
+	if (currently_selected && to_select) {
+		//console.log(currently_selected , to_select);
+		to_select.style.display='block';
+	}
+}
+
+function next () {
+	return select_adjacent( function(a){ return a} );
+}
+function prev() {
+	return select_adjacent( function(a){ 
+			var elements = [...a];
+			return elements.reverse();
+		} );
+}
+
+function closeall() {
+		document.querySelectorAll('.close') .forEach(function(e){
+			e.click();
+	});
+
 }
