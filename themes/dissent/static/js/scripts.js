@@ -104,7 +104,13 @@ function popupvideo ( target , id ) {
 	document.querySelectorAll('.mediapopup').forEach(function(e){e.style.display='none'; });
 	//document.getElementById(id).src='https://www.youtube.com/embed/'+id;
 	target.nextElementSibling.style.display='block'; 
-	setTimeout( function() {window.popup_showing=target.nextElementSibling.firstChild;} , 500); 
+	setTimeout( function() {
+		window.popup_showing=target.nextElementSibling.firstChild;
+		if (id) document.getElementById(id).contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*')
+	} , 500); 
+	setTimeout( function() {
+		if (id) document.getElementById(id).contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*')
+	} , 1000); 
 }
 
 function select_adjacent( f ) {
