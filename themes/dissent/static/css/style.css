@@ -812,6 +812,25 @@ a.barid {color: #5a3d99; font-weight:bold;}
     background:#eee;
     background-size: cover;
     cursor:pointer;
+    margin-top:1px;
+}
+
+.video-thumb-title {
+    width: 19vw;
+    height: 1.7vw;
+    margin-top:2vw;
+    text-align:left;
+    display:block;
+    background:#000;
+    color:white;
+    opacity:0.8;
+    padding:0.1vw 0.35vw;
+    background-size: cover;
+    cursor:pointer;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .media-pictures-container .media-picture img {
