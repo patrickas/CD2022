@@ -883,3 +883,19 @@ a.barid {color: #5a3d99; font-weight:bold;}
 }
 
 .play-icon {width:4vw;margin-top:5vw; opacity: 0.6; filter: saturate(50%);}
+
+.photo-and-buttons {
+    display:flex;
+    flex-flow: row;
+}
+.beforephoto , .afterphoto {
+    Xbackground-color:#000;
+    color:#666;
+    vertical-align:middle;
+    text-align:center;
+    width:10vw;
+    opacity:0.3;
+    line-height:33vw;
+    font-size:10vw;
+    cursor:pointer;
+}
