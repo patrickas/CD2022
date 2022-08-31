@@ -63,6 +63,11 @@ const outsideClickListener = event => {
 	if (window.popup_showing && !window.popup_showing.contains(event.target) ) { // or use: event.target.closest(selector) === null
 		window.popup_showing.parentElement.style.display='none';
 		window.popup_showing = null;
+		if (window.popup_showing_id) {
+			//document.getElementById(id).src='';
+			document.getElementById(window.popup_showing_id).contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')
+			window.popup_showing_id=null;
+		}
 	}
 }
 function hide_menu() {
@@ -83,7 +88,7 @@ function toggleVisibility (element)
 }
 
 function popup ( target) {	document.querySelectorAll('.popup').forEach(function(e){e.style.display='none';});target.nextElementSibling.style.display='block'; setTimeout( function() {window.popup_showing=target.nextElementSibling.firstChild;} , 500); }
-function hideparent( target , id) { 
+function hideparent( target , id) {
 	target.parentElement.parentElement.parentElement.style.display='none'; window.popup_showing=null;
 	if (id) {
 		//document.getElementById(id).src='';
@@ -106,6 +111,7 @@ function popupvideo ( target , id ) {
 	target.nextElementSibling.style.display='block'; 
 	setTimeout( function() {
 		window.popup_showing=target.nextElementSibling.firstChild;
+		window.popup_showing_id=id;
 		if (id) document.getElementById(id).contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*')
 	} , 500); 
 	setTimeout( function() {
