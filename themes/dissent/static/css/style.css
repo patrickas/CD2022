@@ -480,7 +480,7 @@ div {scroll-margin-top: 7em;}
 
 .menu-row .menu-container .menu-item:hover {    color: #ffe600;    border-bottom:2px solid  #fde500; }
 
-.page-Home .menu-Home, .page-About .menu-About  , .page-Program .menu-Program  , .page-Attendance .menu-Attendance , .page-Contact .menu-Contact , .page-Partners .menu-Partners {
+.page-Home .menu-Home, .page-About .menu-About  , .page-Program .menu-Program  , .page-Attendance .menu-Attendance , .page-Photos .menu-Gallery, .page-Videos .menu-Gallery , .page-Contact .menu-Contact , .page-Partners .menu-Partners {
 	font-weight:bolder;
     font-family: LatoBlack, sans-serif;
 	border-bottom: solid 2px #fde500;

@@ -70,7 +70,7 @@ label:focus {
 /* END Code to move hamburger menu to the right */
 
 
-.page-Home .hmenu-Home, .page-About .hmenu-About  , .page-Program .hmenu-Program  , .page-Attendance .hmenu-Attendance , .page-Contact .hmenu-Contact , .page-Partners .hmenu-Partners{
+.page-Home .hmenu-Home, .page-About .hmenu-About  , .page-Program .hmenu-Program  , .page-Attendance .hmenu-Attendance , .page-Photos .hmenu-Gallery, .page-Videos .hmenu-Gallery, .page-Contact .hmenu-Contact , .page-Partners .hmenu-Partners{
 	font-weight:bolder;
 	color: #ffe600
 }
