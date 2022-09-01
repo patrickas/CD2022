@@ -813,6 +813,7 @@ a.barid {color: #5a3d99; font-weight:bold;}
     background-size: cover;
     cursor:pointer;
     margin-top:1px;
+    background-position: center;
 }
 
 .video-thumb-title {
