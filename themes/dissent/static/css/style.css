@@ -866,6 +866,7 @@ a.barid {color: #5a3d99; font-weight:bold;}
     max-width: 80vw;
     max-height: 78vh;
 }
+.mediapopup figure { display:table;}
 
 .mediapopup .credit{
     font-size:smaller;
@@ -878,7 +879,9 @@ a.barid {color: #5a3d99; font-weight:bold;}
     padding:1em;
     background-color:#5a3d99;
     color:#fff;
-    margin:0 10%;
+    display: table-caption;
+    caption-side: bottom;
+}
 }
 .content-Videos .media-header-links {
 }
