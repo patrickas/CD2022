@@ -854,12 +854,17 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .mediapopup button.close {
     position:fixed;
     right:20px;
-    top:20px;
+    top:40px;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+
+
 }
 .mediapopup figure , .mediapopup img , .mediapopup > div{
       margin: auto;
     display: block;
-    width: 80%;
+    max-width: 80%;
+    max-height: 78vh;
 }
 
 .mediapopup .credit{
