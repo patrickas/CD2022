@@ -1,12 +1,12 @@
 {{ if (eq .current .category) }}
 <div class="media-picture">
-	<a onclick="popup(this.parentElement)"><span class="blank-image" style='background-image:url("/gallery/{{ .src }}_thumbnail.jpg")'></span></a>
+	<a onclick="popup(this.parentElement)"><span class="blank-image" style='background-image:url("https://www.freethoughtlebanon.net/wp-content/uploads/2022/09/cd2022/thumbnails/{{ .src }}.jpg")'></span></a>
 </div>
 <!-- <img src="{{ .src }}.jpg"> -->
 <div class="mediapopup"><div><div class="photo-and-buttons"><button class="close"  onClick="hideparent(this)"><img src="/program/speakers/close-button.svg"></button>
 		<div class="beforephoto" onClick="prev()"> &lt; </div>
 		<figure class="media-img-container">
-		<img class="media-img" loading="lazy" src="/gallery/{{ .src }}.jpg">
+		<img class="media-img" loading="lazy" src="https://www.freethoughtlebanon.net/wp-content/uploads/2022/09/cd2022/gallery/{{ .src }}.jpg">
 		 <figcaption>{{ .description }} <span class="credit"><br>{{ .credits}}</span></figcaption>
 		</figure>
 		<div class="afterphoto" onClick="next()"> &gt; </div>
