@@ -358,3 +358,6 @@ footer .footer .copyrights {font-size:0.7em;}
     right:2.5em;
     width:2em;
 }
+
+.mediapopup figure , .mediapopup img , .mediapopup > div{ max-width: 100vw;} .beforephoto , .afterphoto { display:none;} .mediapopup button.close { right:-1em} 
+
