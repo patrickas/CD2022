@@ -17,6 +17,7 @@
 				<div class="media-header-link {{ if (eq .Params.subpage "media_speeches") }}selected{{ end }} first-element"><a href="/gallery/_gallery_speeches">Speeches</a></div>
 				<div class="media-header-link {{ if (eq .Params.subpage "media_protest") }}selected{{ end }}"><a href="/gallery/_gallery_protest">Protest</a></div>
 				<div class="media-header-link {{ if (eq .Params.subpage "media_awards") }}selected{{ end }}"><a href="/gallery/_gallery_awards">Awards</a></div>
+				<div class="media-header-link {{ if (eq .Params.subpage "media_misc") }}selected{{ end }}"><a href="/gallery/_gallery_misc">Misc</a></div>
 			</div>
 		</div>
 		<div class="media-pictures-content"> 
@@ -359,12 +360,12 @@
 {{ partial "media_photo" (dict "current" .Params.subpage "category" "media_speeches" "src" "DSC_2576" "credits" "Photo Credit: Chadi Wehbe / Freethought Lebanon." "description" "Closing Session - speech by Sami Abdallah (Freethought Lebanon) / Celebrating Dissent 2022.") }} 
 {{ partial "media_photo" (dict "current" .Params.subpage "category" "media_speeches" "src" "DSC_2582" "credits" "Photo Credit: Chadi Wehbe / Freethought Lebanon." "description" "Closing Session - speech by Maryam Namazie (Council of Ex-Muslims of Britain) / Celebrating Dissent 2022.") }} 
 {{ partial "media_photo" (dict "current" .Params.subpage "category" "media_speeches" "src" "Z72_1893" "credits" "Photo Credit: Chadi Wehbe / Freethought Lebanon." "description" "Closing Session - (left to right) Veedu Vidz, Fariborz Pooya, Maryam Namazie and Sami Abdallah / Celebrating Dissent 2022 - closing session.") }} 
-{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_misc." "src" "fullsizeoutput_9957" "credits" "Photo Credit: Ayman Ghoujal." "description" "Opening Session - MC Fariborz Pooya / Celebrating Dissent 2022.") }} 
-{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_misc." "src" "fullsizeoutput_9c94" "credits" "Photo Credit: Ayman Ghoujal." "description" "Opening Session - Richard Dawkins / Celebrating Dissent 2022.") }} 
-{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_misc." "src" "fullsizeoutput_9ca3" "credits" "Photo Credit: Ayman Ghoujal." "description" "Celebrating Dissent 2022 - Marc Bou Fadel (Freethought Lebanon).") }} 
-{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_misc." "src" "fullsizeoutput_9ca2" "credits" "Photo Credit: Ayman Ghoujal." "description" "Celebrating Dissent 2022 - Halima Salat.") }} 
-{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_misc." "src" "fullsizeoutput_9c59" "credits" "Photo Credit: Ayman Ghoujal." "description" "Celebrating Dissent 2022 - Milad Resaeimanesh (Committee of Ex-Muslims of Scandinavia) and others.") }} 
-{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_misc." "src" "fullsizeoutput_9caf" "credits" "Photo Credit: Ayman Ghoujal." "description" "Celebrating Dissent 2022 - (left to right) Richard Dawkins and Halima Salat.") }} 
+{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_misc" "src" "fullsizeoutput_9957" "credits" "Photo Credit: Ayman Ghoujal." "description" "Opening Session - MC Fariborz Pooya / Celebrating Dissent 2022.") }} 
+{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_misc" "src" "fullsizeoutput_9c94" "credits" "Photo Credit: Ayman Ghoujal." "description" "Opening Session - Richard Dawkins / Celebrating Dissent 2022.") }} 
+{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_misc" "src" "fullsizeoutput_9ca3" "credits" "Photo Credit: Ayman Ghoujal." "description" "Celebrating Dissent 2022 - Marc Bou Fadel (Freethought Lebanon).") }} 
+{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_misc" "src" "fullsizeoutput_9ca2" "credits" "Photo Credit: Ayman Ghoujal." "description" "Celebrating Dissent 2022 - Halima Salat.") }} 
+{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_misc" "src" "fullsizeoutput_9c59" "credits" "Photo Credit: Ayman Ghoujal." "description" "Celebrating Dissent 2022 - Milad Resaeimanesh (Committee of Ex-Muslims of Scandinavia) and others.") }} 
+{{ partial "media_photo" (dict "current" .Params.subpage "category" "media_misc" "src" "fullsizeoutput_9caf" "credits" "Photo Credit: Ayman Ghoujal." "description" "Celebrating Dissent 2022 - (left to right) Richard Dawkins and Halima Salat.") }} 
 {{ partial "media_photo" (dict "current" .Params.subpage "category" "media_main" "src" "fullsizeoutput_9ca0" "credits" "Photo Credit: Ayman Ghoujal." "description" "“Find Our Way to Freedom“ song by Shelley Segal / Celebrating Dissent 2022 opening session.") }} 
 {{ partial "media_photo" (dict "current" .Params.subpage "category" "media_main" "src" "CD2022_Eva_Witten_030" "credits" "Photo Credit: Eva Witten." "description" "“Music is Haram“ song by Veedu Vidz / Celebrating Dissent 2022.") }} 
 {{ partial "media_photo" (dict "current" .Params.subpage "category" "media_main" "src" "CD2022_Eva_Witten_031" "credits" "Photo Credit: Eva Witten." "description" "“Music is Haram“ song by Veedu Vidz / Celebrating Dissent 2022.") }} 
@@ -417,6 +418,7 @@
 {{ partial "media_photo" (dict "current" .Params.subpage "category" "media_main" "src" "DSC_2272" "credits" "Photo Credit: Chadi Wehbe / Freethought Lebanon." "description" "Raif Badawi latest situation updates - Ensaf Haidar (Raif Badawi Foundation) / Celebrating Dissent 2022.") }} 
 {{ partial "media_photo" (dict "current" .Params.subpage "category" "media_main" "src" "DSC_2326" "credits" "Photo Credit: Chadi Wehbe / Freethought Lebanon." "description" "Resolutions and Declarations - (left to right) Sami Abdallah and Maryam Namazie / Celebrating Dissent 2022 - closing session.") }} 
 {{ partial "media_photo" (dict "current" .Params.subpage "category" "media_main" "src" "DSC_2555" "credits" "Photo Credit: Chadi Wehbe / Freethought Lebanon." "description" "Resolutions and Declarations - (left to right) Sami Abdallah and Maryam Namazie / Celebrating Dissent 2022 - closing session.") }} 
+
 
 
 		</div>
