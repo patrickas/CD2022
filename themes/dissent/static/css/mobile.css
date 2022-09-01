@@ -334,7 +334,7 @@ footer .footer .copyrights {font-size:0.7em;}
 .mediapopup figure , .mediapopup img , .mediapopup > div{
       margin: auto;
     display: block;
-    max-width: 80vw;
+    max-height: 70vh;
 }
 .media-pictures-container  figcaption {
     margin:0;

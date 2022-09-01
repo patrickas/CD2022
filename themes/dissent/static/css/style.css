@@ -863,7 +863,7 @@ a.barid {color: #5a3d99; font-weight:bold;}
 .mediapopup figure , .mediapopup img , .mediapopup > div{
       margin: auto;
     display: block;
-    max-width: 80%;
+    max-width: 80vw;
     max-height: 78vh;
 }
 
