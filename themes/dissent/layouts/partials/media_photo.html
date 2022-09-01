@@ -1,4 +1,5 @@
 {{ if (eq .current .category) }}
+{{ if (not (eq .category "media_main")) }}{{ if (eq .first "1") }}<!-- <div class="gallery-separator"><br><hr><br></div> -->{{ end }}{{ end }}
 <div class="media-picture">
 	<a onclick="popup(this.parentElement)"><span class="blank-image" style='background-image:url("https://www.freethoughtlebanon.net/wp-content/uploads/2022/09/cd2022/thumbnails/{{ .src }}.jpg")'></span></a>
 </div>
