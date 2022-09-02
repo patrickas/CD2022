@@ -5,6 +5,14 @@ let timeDifference = countDownDate - now;
 var sticky;
 var header ;
 
+let touchstartX = 0
+let touchendX = 0
+    
+function checkDirection() {
+  if ( touchstartX - touchendX > 10)  next();
+  if (touchendX - touchstartX > 10 ) prev()
+}
+
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function sticky_add_remove() {
   if (window.pageYOffset > sticky) {
@@ -44,7 +52,16 @@ document.addEventListener("DOMContentLoaded", function(){
 				break;
 		}
 	});	
-	
+
+	document.addEventListener('touchstart', e => {
+		touchstartX = e.changedTouches[0].screenX
+	})
+
+	document.addEventListener('touchend', e => {
+  		touchendX = e.changedTouches[0].screenX
+  		checkDirection()
+	})
+
 });
 
 const isVisible = elem => !!elem && !!( elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length ) // source (2018-03-11): https://github.com/jquery/jquery/blob/master/src/css/hiddenVisibleSelectors.j
