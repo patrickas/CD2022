@@ -12,12 +12,14 @@
 			<div class="button_jump"><a class="button" href="/gallery/_videos">VIDEOS</a></div>
 			<div class="media-header-links">
 				<div class="title"><a href="/gallery">Photos&nbsp;&nbsp;&nbsp;</a></div>
+				<div class="media-header-links-no-title">
 				<div class="media-header-link {{ if (eq .Params.subpage "media_panels") }}selected{{ end }}"><a href="/gallery/_gallery_panels">Panels</a></div>
 				<div class="media-header-link {{ if (eq .Params.subpage "media_performances") }}selected{{ end }}"><a href="/gallery/_gallery_performances">Performances</a></div>
 				<div class="media-header-link {{ if (eq .Params.subpage "media_speeches") }}selected{{ end }} first-element"><a href="/gallery/_gallery_speeches">Speeches</a></div>
 				<div class="media-header-link {{ if (eq .Params.subpage "media_protest") }}selected{{ end }}"><a href="/gallery/_gallery_protest">Protest</a></div>
 				<div class="media-header-link {{ if (eq .Params.subpage "media_awards") }}selected{{ end }}"><a href="/gallery/_gallery_awards">Awards</a></div>
 				<div class="media-header-link {{ if (eq .Params.subpage "media_misc") }}selected{{ end }}"><a href="/gallery/_gallery_misc">Misc</a></div>
+			</div>
 			</div>
 		</div>
 		<div class="media-pictures-content"> 

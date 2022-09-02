@@ -341,7 +341,25 @@ footer .footer .copyrights {font-size:0.7em;}
 }
 
 .media-header-links .media-header-link {
-    font-size:1.5rem;
+    font-size:2.2rem;
+}
+
+
+.content-Media .media-header-links-no-title { 
+    display: block; width:100vw; left:0; position:absolute;
+    margin:1em 0;
+}
+
+.content-Media .media-header-links {
+     margin-bottom:90px;
+}
+.content-Media .media-header-links .title {
+    width:80vw;
+}
+.content-Media .media-header-links .media-header-link {
+    display:inline-block;
+    width:auto;
+    padding:0.25em 0.3em;
 }
 
 .play-icon {width:10vw;margin-top:11vw; opacity: 0.9;}

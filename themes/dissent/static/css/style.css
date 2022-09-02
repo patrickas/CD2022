@@ -908,3 +908,5 @@ a.barid {color: #5a3d99; font-weight:bold;}
     font-size:10vw;
     cursor:pointer;
 }
+
+.media-header-links-no-title { display: contents; }
