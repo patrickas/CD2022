@@ -170,11 +170,8 @@ a.button {    height: 26px; 	line-height: 28px;}
 }
 
 .announcement-media-gallery {
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
     width:17em;
-    margin: 32% auto auto 40%;
+    margin: 32% auto auto 7%;
     color: #ffffff;
     z-index: 1;
     background-color:rgba(256,256,256,.85);
@@ -286,6 +283,14 @@ a.button {    height: 26px; 	line-height: 28px;}
 	margin:0 0.5em 0.5em 20px;
     font-family: GothamLight, sans-serif;
     font-size: 0.8em;
+}
+
+.gal-bg {
+	background-image:url("/CD2022_site_landing_after.jpg"); 
+	background-position-y: center;
+	background-size: cover;
+	padding: 50px 10% 50px 7.5%;
+	min-height:17em;
 }
 
 .ven-bg {

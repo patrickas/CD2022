@@ -15,12 +15,6 @@ draft: false
     </div>
 </div>
 
-<div class="announcement-media-gallery">
-    <div class="main">Media Gallery</div>
-    <div class="details">Photos and videos of all discussion panels, art performances, speeches and all other features and activities are published in the Gallery</div>
-    <div class=""><a class="button" href="/gallery">GO TO GALLERY</a></div>    
-
-</div>
 
 </div>
 
