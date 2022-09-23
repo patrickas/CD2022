@@ -169,6 +169,20 @@ a.button {    height: 26px; 	line-height: 28px;}
     z-index: 1;
 }
 
+.announcement-media-gallery {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width:17em;
+    margin: 32% auto auto 40%;
+    color: #ffffff;
+    z-index: 1;
+    background-color:rgba(256,256,256,.85);
+    padding:2em 2em 1em 2em;
+}
+.announcement-media-gallery .main { font-size:1.6rem;; font-weight:bold; font-family: GothamBold, sans-serif; color:#5A3D99;}
+.announcement-media-gallery .details { color:#000; margin:1em 0 2em 0; font-size:smaller;}
+
 
 .announcement-container .main {
     font-size: 22px;
