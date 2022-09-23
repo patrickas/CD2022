@@ -628,6 +628,7 @@ a.barid {color: #5a3d99; font-weight:bold;}
     margin:2rem; 
 }
 
+#day2 {margin-top:4em;}
 .detailed_program .days_buttons { margin-bottom:1em; }
 .detailed_program .days_buttons a { font-size:1rem;}
 .detailed_program .days_buttons .day1 , .detailed_program .days_buttons .day2 { font-size:1.5rem;}
@@ -652,7 +653,7 @@ a.barid {color: #5a3d99; font-weight:bold;}
 
 .detailed_program .registration , .detailed_program .break { color: #878787}
 .detailed_program .Opening , .detailed_program .Workshop , .detailed_program .Campaign { color: #7E60BF}
-.detailed_program .Panel { color: #5A3D99}
+.detailed_program .Panel , .detailed_program .Resolutions{ color: #5A3D99}
 .detailed_program .Music , .detailed_program .Art , .detailed_program .Film , .detailed_program .Dance  , .detailed_program .Poetry  { color: #FF8000}
 .detailed_program .Interview , .detailed_program .Ceremony { color: #000}
 

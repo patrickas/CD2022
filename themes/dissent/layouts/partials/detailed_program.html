@@ -19,20 +19,29 @@
 {{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Opening session" 
 	"time" "10:00 - 10:30" 
-	"description" "<p>Opening with MCs activist <strong>Fariborz Pooya</strong> and YouTuber <strong>Veedu Vidz</strong></p><p>Welcome speech on behalf of Volkshochschule Köln by Homaira Mansury</p><p>A word by Cologne Deputy Mayor Andreas Wolter.</p><p><span class=\"cb\">Beyond the Barren Land of Dogma:</span> President of Freethought Lebanon <strong>Sami Abdallah</strong></p><p><span class=\"cb\">Our Contribution will be Etched in the History of Dissent:</span> Spokesperson of the Council of Ex-Muslims of Britain <strong>Maryam Namazie</strong></p><p><span class=\"cb\">Find Our Way to Freedom</span> by singer/songwriter  <strong>Shelley Segal</strong></p>"
+	"description" "<p>Opening with MCs activist <strong>Fariborz Pooya</strong> and YouTuber <strong>Veedu Vidz</strong></p><p>Welcome speech on behalf of Volkshochschule Köln by Homaira Mansury</p><p>A word by Cologne Deputy Mayor Andreas Wolter.</p><p><span class=\"cb\">Beyond the Barren Land of Dogma:</span> President of Freethought Lebanon <strong>Sami Abdallah</strong></p><p><span class=\"cb\">Our Contribution will be Etched in the History of Dissent:</span> Spokesperson of the Council of Ex-Muslims of Britain <strong>Maryam Namazie</strong></p><p><span class=\"cb\">Celebrating Dissent 2022 in solidarity with Salman Rushdie</span></p><p><span class=\"cb\">Find Our Way to Freedom</span> by singer/songwriter  <strong>Shelley Segal</strong></p>"
 	"smallphotos" (slice "Faribroz Pooya" "Veedu Vidz" "Sami Abdallah" "Maryam Namazie" "Shelley Segal" )
 	)}}
 
 {{ $sessioncounter := (add 1 ($sessioncounter) ) }}
 {{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Plenary Panel" 
-	"time" "10:30 - 11:45" 
+	"time" "10:30 - 11:42" 
 	"title" "Blasphemy, Islamophobia and Free Expression"
 	"description" "<p>Why is the right to free expression and conscience important for dissent?</p><p>How is blasphemy linked to freethought? Are there limits to free expression?</p>" 
-	"opening" "Ibn Warraq" 
+	"opening" "Jimmy Bangash" 
 	"chair" "Annie Laurie Gaylor" 
-	"panelists" (slice "Ibn Warraq" "Ali Rizvi" "Halima Salat" "Jimmy Bangash" "Sami Abdallah" "Susanna McIntyre")
-	"smallphotos" (slice "Ibn Warraq" "Annie Laurie Gaylor" "Ali Rizvi" "Halima Salat" "Jimmy Bangash" "Sami Abdallah" "Susanna McIntyre")
+	"panelists" (slice "Jimmy Bangash" "Halima Salat" "Jimmy Bangash" "Sami Abdallah" "Susanna McIntyre")
+	"smallphotos" (slice "Jimmy Bangash" "Annie Laurie Gaylor" "Halima Salat" "Jimmy Bangash" "Sami Abdallah" "Susanna McIntyre")
+	)}}
+
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
+	"type" "Performance Art" 
+	"time" "10:42 - 11:45" 
+	"title" "Can We Talk About This?"
+	"description" "DV8 Physical Theater by Lloyd Newson"
+	"largephotos" (slice "can we talk about this") 
 	)}}
 
 {{ $sessioncounter := (add 1 ($sessioncounter) ) }}
@@ -90,8 +99,8 @@
 	"description" "<p>What are contradictions between women’s rights and religions?</p><p> What is the purpose of the hijab and burqa?</p><p>How do women challenge these and attain bodily autonomy and rights? How do we address feminists who ally with the Religious-Right or Far-Right agendas?</p>" 
 	"opening" "Rana Ahmad" 
 	"chair" "Lisa-Marie Taylor" 
-	"panelists" (slice "Annie Laurie Gaylor" "Fauzia Ilyas" "Houzan Mahmoud" "Rana Ahmad" "Sara Nabil")
-	"smallphotos" (slice "Rana Ahmad" "Lisa-Marie Taylor" "Annie Laurie Gaylor" "Fauzia Ilyas" "Houzan Mahmoud" "Sara Nabil")
+	"panelists" (slice "Annie Laurie Gaylor" "Fauzia Ilyas" "Rana Ahmad" "Sara Nabil")
+	"smallphotos" (slice "Rana Ahmad" "Lisa-Marie Taylor" "Annie Laurie Gaylor" "Fauzia Ilyas" "Sara Nabil")
 	)}}
 	
 {{ $sessioncounter := (add 1 ($sessioncounter) ) }}
@@ -141,13 +150,28 @@
 	
 {{ $sessioncounter := (add 1 ($sessioncounter) ) }}
 {{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
+	"type" "Interview" 
+	"time" "19:00 - 19:15" 
+	"title" "Interview with Sohail Arabi"
+	"smallphotos" (slice "Sohail Arabi")
+	)}}
+	
+	
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Ceremony" 
-	"time" "19:00 - 19:30" 
+	"time" "19:15 - 19:30" 
 	"title" "Freethought Champions Awards"
 	"description" " <span class='cb'>Live music performance:</span> <span class='person'>Shelley Segal</span></p><p><span class='cb'>Award created by Sodabeh Gashtasebi.</span></p>"
 	)}}
 	
-
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+	{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
+		"type" "Campaign" 
+		"time" "19:30 - 20:15" 
+		"title" "Protest in solidarity with Salman Rushdie"
+		)}}
+	
 
 </div>
 <div class="days" id="day2">
@@ -217,12 +241,19 @@
 	"smallphotos" (slice "Mina Ahadi" "Michael Schmidt-Salomon")
 	)}}
 	
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+	{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
+		"type" "Resolutions" 
+		"title" "Celebrating Dissent 2022 Resolution Against Code 166" 
+		"time" "12:30 - 12:35" 
+		)}}
 	
+		
 	
 {{ $sessioncounter := (add 1 ($sessioncounter) ) }}
 {{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Lunch break" 
-	"time" "12:30 - 14:00" 
+	"time" "12:35 - 14:00" 
 	)}}
 
 {{ $sessioncounter := (add 1 ($sessioncounter) ) }}
@@ -261,14 +292,23 @@
 	"description" "<p>What are the forms of resistance? Why is creativity key? What is its impact?</p><p>Why is defense of secularism important for creativity? Does secularism have to mean anti-religion?</p>" 
 	"opening" "Ibtissame Betty Lachgar" 
 	"chair" "Jenny Wenhammar" 
-	"panelists" (slice "Amed Sherwan" "Ibtissame Betty Lachgar" "Inna Shevchenko" "Maryam Namazie" "Mohamed Hisham" "Nadia El Fani")
-	"smallphotos" (slice "Ibtissame Betty Lachgar" "Jenny Wenhammar" "Amed Sherwan" "Inna Shevchenko" "Maryam Namazie" "Mohamed Hisham" "Nadia El Fani")
+	"panelists" (slice "Amed Sherwan" "Ibtissame Betty Lachgar" "Maryam Namazie" "Mohamed Hisham" "Nadia El Fani")
+	"smallphotos" (slice "Ibtissame Betty Lachgar" "Jenny Wenhammar" "Amed Sherwan" "Maryam Namazie" "Mohamed Hisham" "Nadia El Fani")
 	)}}
 
 {{ $sessioncounter := (add 1 ($sessioncounter) ) }}
 {{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
+	"time" "17:45 - 17:50"
+	"type" "Resolutions" 
+	"title" "International Secularism Day" 
+	)}}
+	
+
+
+{{ $sessioncounter := (add 1 ($sessioncounter) ) }}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
 	"type" "Closing session" 
-	"time" "18:00 - 18:30" 
+	"time" "17:50 - 18:45" 
 	"description" "<p><span class='title'>Celebrating Dissent 2022 - Resolutions and Declarations</span></p><p><span class='title'>Scream for Freedom</span> perfomance art protest by <strong>Sara Nabil</strong>, in which the artist screams for the freedom of women and calls on women delegates to join her in the live performance.</p><p> <strong>Shelley Segal</strong> performing her new song, co-opting religious musical and liturgical elements to convey a message of defiance and strength especially for women and apostates.</p>"
 	"largephotos" (slice "Sara Nabil" "Shelley Segal")
 	)}}
