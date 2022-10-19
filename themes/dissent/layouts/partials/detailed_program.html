@@ -10,10 +10,7 @@
 <div class="days" id="day1">
 <div class="day-title"><span class="day">DAY 1</span> <span class="date">— AUG. 20, 2022</span></div>
 {{ $sessioncounter := (add 1 ($sessioncounter) ) }}
-{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
-	"type" "Coffee and registration" 
-	"time" "09:00 - 10:00" 
-	)}}
+{{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter "type" "Coffee and registration" "time" "09:00 - 10:00" )}}
 
 {{ $sessioncounter := (add 1 ($sessioncounter) ) }}
 {{ partial "session" (dict "outer" . "sessioncounter" $sessioncounter
